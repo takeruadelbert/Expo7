@@ -1,0 +1,144 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 14, 2016, 1:05:54 PM
+    Author     : Arif
+*/
+
+.backgroundContent{
+    background-color: #F5F5F5;
+}
+
+.container-padding {
+    padding-top: 60px;
+}
+
+.background-container{
+    background-color: white;
+    padding-top: 130px;
+    padding-bottom: 73px;
+    padding-left: 170px;
+    padding-right: 170px;
+    //background-image: url('../../img/icon/shadow-bottom.png');
+    background-size: 100% auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.boxOut-shadowPayment{
+    background-color: white;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(204,204,204,1);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(204,204,204,1);
+    box-shadow: 0px 0px 30px 0px rgba(204,204,204,1);
+}
+
+.img-ceklis{
+    height: 115px;
+    width: 115px;
+    margin-top: -55px;
+}
+
+.boxOut-paddingTextShadow{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+}
+
+.boxOut-paddingTextShadowBottom{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.boxOut-terimakasih{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.boxOut-terimakasih img{
+    width: 260px;
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+.boxOut-paddingTextRed{
+    margin-bottom: 40px;
+    color: #E62129;
+    font-size: 24px;
+}
+
+.boxOut-paddingOut{
+    padding-top: 80px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+@media (max-width:1366px) {
+
+    container-padding{
+        padding-top: 0px;
+    }
+
+    .background-container {
+        padding-top: 90px;
+        padding-bottom: 50px;
+        margin-top: 30px;
+    }
+
+    .boxOut-paddingOut {
+        padding-top: 50px;
+    }
+
+    .boxOut-terimakasih img {
+        width: 240px;
+    }
+
+    .boxOut-paddingTextShadow {
+        margin-top: 30px;
+    }
+
+}
+
+
+@media (max-width:1200px) {
+
+
+
+}
+
+@media (max-width:992px) {
+
+    .background-container {
+        background-color: white;
+        padding-top: 90px;
+        padding-bottom: 60px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+
+}
+
+@media (max-width:768px) {
+    .background-container {
+        background-color: white;
+        padding-top: 90px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+
+

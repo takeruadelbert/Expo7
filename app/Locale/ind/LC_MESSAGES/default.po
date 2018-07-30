@@ -1,0 +1,377 @@
+msgid "Add"
+msgstr "Tambah"
+
+msgid "Edit"
+msgstr "Ubah"
+
+msgid "Delete"
+msgstr "Hapus"
+
+msgid "View"
+msgstr "Lihat"
+
+msgid "First Name"
+msgstr "Nama Depan"
+
+msgid "Last Name"
+msgstr "Nama Belakang"
+
+msgid "Username"
+msgstr "Nama Pengguna"
+
+msgid "- All -"
+msgstr "- Semua -"
+
+msgid "%s %s ago"
+msgstr "sekitar %s %s lalu"
+
+msgid "year"
+msgstr "tahun"
+
+msgid "month"
+msgstr "bulan"
+
+msgid "day"
+msgstr "hari"
+
+msgid "hour"
+msgstr "jam"
+
+msgid "minute"
+msgstr "menit"
+
+msgid "second"
+msgstr "detik"
+
+msgid "Notification"
+msgstr "Notifikasi"
+
+msgid "No Notification"
+msgstr "Tidak Ada Notifikasi"
+
+msgid "locale0001"
+msgstr "Menampilkan {:start} sampai {:end} dari {:count} data. Halaman {:page} dari {:pages}."
+
+msgid "locale0002"
+msgstr "Mohon diisi dengan benar"
+
+msgid "locale0003"
+msgstr "Harap mengecek kembali kesalahan dibawah."
+
+msgid "ABOUT US"
+msgstr "TENTANG KAMI"
+
+msgid "HOW TO"
+msgstr "CARA/METODE"
+
+msgid "NEWS"
+msgstr "BERITA"
+
+msgid "TESTIMONIES"
+msgstr "TESTIMONI"
+
+msgid "CONTACT"
+msgstr "KONTAK"
+
+msgid "Term & Conditions"
+msgstr "Syarat & Ketentuan"
+
+msgid "Term and Conditions"
+msgstr "Syarat dan Ketentuan"
+
+msgid "Privacy Policies"
+msgstr "Kebijakan"
+
+msgid "VISION"
+msgstr "VISI"
+
+msgid "MISSION"
+msgstr "MISI"
+
+msgid "CATEGORIES"
+msgstr "KATEGORI"
+
+msgid "CONTACT US"
+msgstr "KONTAK KAMI"
+
+msgid "Contact Us"
+msgstr "Kontak Kami"
+
+msgid "Terms of Service"
+msgstr "Syarat dan Ketentuan"
+
+msgid "REGISTER"
+msgstr "DAFTAR"
+
+msgid "I agree to the Terms of Service and have acknowledged all parts of the Privacy Policy."
+msgstr "Saya menyetujui Persyaratan Layanan dan telah mengakui semua bagian Kebijakan Privasi."
+
+msgid "CONFIRM PASSWORD"
+msgstr "KONFIRMASI PASSWORD"
+
+msgid "REFERRAL CODE"
+msgstr "KODE RUJUKAN"
+
+msgid "SEND"
+msgstr "KIRIM"
+
+msgid "Type your email"
+msgstr "Masukkan email anda"
+
+msgid "HOWDY !"
+msgstr "HALO !"
+
+msgid "WELCOME TO EXPO 7"
+msgstr "SELAMAT DATANG DI EXPO 7"
+
+msgid "TESTIMONIAL"
+msgstr "TESTIMONI"
+
+msgid "EDIT PROFILE"
+msgstr "UBAH PROFIL"
+
+msgid "MESSAGES"
+msgstr "PESAN"
+
+msgid "TICKETING SYSTEM"
+msgstr "SISTEM TIKET"
+
+msgid "e-WALLET"
+msgstr "e-DOMPET"
+
+msgid "NEW MESSAGE"
+msgstr "BUAT PESAN"
+
+msgid "INBOX"
+msgstr "KOTAK MASUK"
+
+msgid "SENT ITEM"
+msgstr "PESAN TERKIRIM"
+
+msgid "NEW TICKET"
+msgstr "BUAT TIKET"
+
+msgid "ALL TICKET"
+msgstr "SEMUA TIKET"
+
+msgid "OPEN"
+msgstr "BUKA"
+
+msgid "IN PROGRESS"
+msgstr "SEDANG DALAM PROSES"
+
+msgid "SOLVED"
+msgstr "SELESAI"
+
+msgid "UPLOAD"
+msgstr "MENGUNGGAH"
+
+msgid "WITHDRAW"
+msgstr "PENARIKAN"
+
+msgid "Find Us :"
+msgstr "Temui Kami :"
+
+msgid "Edit Bank Account"
+msgstr "Ubah Akun Bank"
+
+msgid "Edit Personal Profile"
+msgstr "Ubah Profil Pribadi"
+
+msgid "First Name"
+msgstr "Nama Depan"
+
+msgid "Last Name"
+msgstr "Nama Belakang"
+
+msgid "Birth Date"
+msgstr "Tanggal Lahir"
+
+msgid "Gender"
+msgstr "Jenis Kelamin"
+
+msgid "Address"
+msgstr "Alamat"
+
+msgid "Postal Code"
+msgstr "Kode Pos"
+
+msgid "Country"
+msgstr "Negara"
+
+msgid "States"
+msgstr "Provinsi"
+
+msgid "City"
+msgstr "Kota"
+
+msgid "Moble Phone"
+msgstr "Nomor Handphone"
+
+msgid "Phone"
+msgstr "Nomor Telepon"
+
+msgid "Edit Contact"
+msgstr "Ubah Kontak"
+
+msgid "Change Password"
+msgstr "Ubah Password"
+
+msgid "Current Password"
+msgstr "Password Sekarang"
+
+msgid "New Password"
+msgstr "Password Baru"
+
+msgid "Confirm Password"
+msgid "Konfirmasi Password"
+
+msgid "SAVE CHANGE"
+msgstr "SIMPAN PERUBAHAN"
+
+msgid "Change Pictures"
+msgstr "Ubah Foto"
+
+msgid "Title"
+msgstr "Judul"
+
+msgid "Messages"
+msgstr "Pesan"
+
+msgid "Cancel"
+msgstr "Batal"
+
+msgid "Send Testimonial"
+msgstr "Kirim Testimoni"
+
+msgid "Name / Referral Code"
+msgstr "Nama / Kode Rujukan"
+
+msgid "Send"
+msgstr "Kirim"
+
+msgid "Enter name / referral code ..."
+msgstr "Masukkan nama / kode rujukan"
+
+msgid "No messages has been selected"
+msgstr "Tidak ada pesan yang dipilih"
+
+msgid "News tickets"
+msgstr "Buat Tiket"
+
+msgid "Select Department"
+msgstr "Pilih Departemen"
+
+msgid "Choose File"
+msgstr "Pilih File"
+
+msgid "CONFIRM YOUR IDENTITY"
+msgstr "KONFIRMASI IDENTITAS ANDA"
+
+msgid "VERIFY OTP"
+msgstr "VERIFIKASI OTP"
+
+msgid "NOTICE"
+msgstr "PEMBERITAHUAN"
+
+msgid "COMPLETED"
+msgstr "SELESAI"
+
+msgid "Confirm"
+msgstr "Konfirmasi"
+
+msgid "Obtain code from OTP or email"
+msgstr "Terima kode lewat OTP atau email"
+
+msgid "IDENTITY VERIFIED"
+msgstr "IDENTITAS TELAH DIVERIFIKASI"
+
+msgid "NEXT"
+msgstr "LANJUT"
+
+msgid "SUCCESS !!!"
+msgstr "BERHASIL !!!"
+
+msgid "Transaction ID"
+msgstr "ID Transaksi"
+
+msgid "Transaction Type"
+msgstr "Tipe Transaksi"
+
+msgid "Date"
+msgstr "Tanggal"
+
+msgid "Amount ($)"
+msgstr "Jumlah ($)"
+
+msgid "Forgot Password ?"
+msgstr "Lupa Password ?"
+
+msgid "It’s more fun on your phone"
+msgstr "Lebih menyenangkan di handphone anda"
+
+msgid "SIMILAR GAMES"
+msgstr "GAME LAINNYA"
+
+msgid "Player Name"
+msgstr "Nama Player"
+
+msgid "Score"
+msgstr "Skor"
+
+msgid "Available on"
+msgstr "Tersedia di"
+
+msgid "Play Now"
+msgstr "Main"
+
+msgid "Category"
+msgstr "Kategori"
+
+msgid "Name"
+msgstr "Nama"
+
+msgid "Phone Number"
+msgstr "Nomor Telepon"
+
+msgid "Company / Merk"
+msgstr "Perusahaan / Merk"
+
+msgid "Message"
+msgstr "Pesan"
+
+msgid "MORE TESTIMONIES"
+msgstr "TESTIMONI LAINNYA"
+
+msgid "Or"
+msgstr "Atau"
+
+msgid "Game can only be accessed with an ExpoSeven account."
+msgstr "Game dapat diakses dengan menggunakan akun ExpoSeven."
+
+msgid "No Account yet? Register"
+msgstr "Belum punya akun? Daftar di"
+
+msgid "here"
+msgstr "sini"
+
+msgid "No Testimony yet."
+msgstr "Belum Ada Testimoni."
+
+msgid "All"
+msgstr "Semua"
+
+msgid "SUBMIT"
+msgstr "SIMPAN"
+
+msgid "Code"
+msgstr "Kode"
+
+msgid "Action"
+msgstr "Aksi"
+
+msgid "Description"
+msgstr "Deskripsi"
+
+msgid "Description of the Game ..."
+msgstr "Deskripsi Game ..."

@@ -1,0 +1,1166 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 25, 2016, 2:24:42 PM
+    Author     : Arif
+*/
+
+.boxOut-selectHeader{
+    display: none;
+}
+
+.boxOut-content{
+    margin-top: 70px;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-bottom: 60px;
+}
+
+.box-content{
+    height: 620px;
+    border-left: 3px solid #1A64B8;
+    background-color: #FAFAFA;
+    //background-image: url('../../../img/icon/message-borderRight.png');
+    background-repeat: no-repeat;
+    background-size: 5px 100%;
+    background-position: right;
+}
+
+.boxOut-subTitleDashboard{
+    font-size: 15px;
+    color: #666666;
+}
+
+.boxOut-titleDashboard {
+    padding-top: 32px;
+}
+
+.box-content{
+    padding-left: 0px;
+    padding-right: 0px;
+    //padding-top: 100px;
+}
+
+/*.parallax {
+     The image used 
+    background-image: url('../../img/icon/content-background.png');
+
+     Full height 
+    height: 100%; 
+
+     Create the parallax scrolling effect 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}*/
+
+.parallax-item{
+    background-size: 100% auto;
+    background-position: bottom;
+}
+
+.boxOut-banner{
+    //height: 380px;
+    background-repeat: no-repeat;
+}
+
+.boxOut-banner{
+    //height: 380px;
+    background-repeat: no-repeat;
+}
+
+.box-banner{
+    width: 100%;
+}
+
+
+
+.box-gameImg{
+    height: 265px;
+    width: 265px;
+    position: absolute;
+    border: 10px solid white;
+    border-radius: 20px;
+    background-color: white;
+
+    margin-top: 15%;
+    margin-left: 40px;
+    z-index: 1;
+    left: 0;
+}
+
+.boxOut-contentGame{
+    background-color: #F7F7F8;
+}
+
+.box-contentGame{
+    width: 935px;
+    float: left;
+    position: relative;
+    min-height: 1px;
+
+    float: none;
+    background-color: white;
+}
+
+.boxOut-contentTop{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+
+.boxOut-gameTitle{
+    font-size: 42px;
+}
+
+.boxOut-gameCategory{
+    text-align: right;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+
+
+
+
+/*-- BX Slider --*/
+/*--==================================================--*/
+
+.bx-wrapper{
+    min-width: 100% !important;
+}
+
+.bx-wrapper .bx-viewport {
+    left: 0px !important;
+    height: inherit !important;
+}
+
+.bx-wrapper .bx-controls-direction > .bx-prev {
+    width: 37px;
+    height: 34px;
+    margin-left: -11px;
+    margin-top: 145px;
+    background-size: cover;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    background: url(../../../img/icon/bx-left.png) no-repeat;
+}
+
+.bx-wrapper .bx-controls-direction > .bx-next {
+    width: 37px;
+    height: 34px;
+    margin-right: 0px;
+    margin-top: 145px;
+    background-size:cover;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    background: url(../../../img/icon/bx-right.png) no-repeat;
+}
+
+/*.edit-bxslider-index .bx-controls-direction > .bx-prev {
+    width: 24px;
+    height: 29px;
+    margin-left: -45px;
+    //margin-top: 130px;
+    background-size: cover;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    background: url(../../../img/icon/bx-left.png) no-repeat;
+}
+
+.edit-bxslider-index .bx-controls-direction > .bx-next {
+    width: 24px;
+    height: 29px;
+    margin-right: -35px;
+    //margin-top: 130px;
+    background-size:cover;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    background: url(../../../img/icon/bx-right.png) no-repeat;
+}*/
+
+
+
+.bx-wrapper .bx-viewport {
+    box-shadow: 0px 0px 0px white;
+    border: 0px none;
+    background: 0%;
+    padding: 0px 0px;
+}
+
+
+.bx-wrapper {
+    margin: 0px auto 0px;
+}
+
+.bxslider-index{
+    //overflow: hidden;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.bxSlide-edit{
+    margin-right: 20px !important;
+    margin-left: 0px !important;
+    width: 615px !important;
+    height: 345px;
+    overflow: hidden;
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.bxSlide-edit > *{
+    width: 100%;
+    height: 100%;
+}
+
+
+.button-circle{
+    margin: 0px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    width: 88px;
+    height: 88px;
+    font-size: 20px;
+    padding: 0px;
+    padding-top: 0px;
+
+    border-radius: 100%;
+    text-align: center;
+
+    transition: all 0.25s linear 0s;
+    float: none;
+
+    margin-left: 270px;
+    margin-top: 120px;
+}
+
+.button-circle:hover, .button-circle:focus{
+    transition: all 0.25s linear 0s;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.play-img{
+    width: 34px;
+    height: 39px;
+    margin-left: 30px;
+}
+
+.boxOut-keteranganGame{
+    margin-top: 15px;
+    text-align: justify;
+}
+
+.boxOut-playStore{
+    float: none;
+    width: 505px;
+    margin-top: 10px;
+}
+
+.button-play{
+    margin: 0px;
+    background-color: #00A859;
+    color: white;
+    width: 94px;
+    font-size: 14px;
+    height: 27px;
+    border-radius: 100px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20px;
+
+    transition: all 0.25s linear 0s;
+    float: left;
+}
+
+.button-play:hover, .button-play:focus{
+    transition: all 0.25s linear 0s;
+    background-color: #0E7849;
+}
+
+
+
+.or-div{
+    float: left;
+    padding-left: 20px;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.boxAvailable-left{
+    float: left;
+    font-size: 18px;
+    padding-right: 20px;
+
+    padding-top: 10px;
+}
+
+.boxAvailable-middle{
+    float: left;
+
+}
+
+.boxAvailable-right{
+    float: left;
+}
+
+.google-play{
+    float: left;
+    margin-right: 15px;
+    width: 117px;
+    height: 48px;
+}
+
+.apple-store{
+    float: left;
+    width: 109px;
+    height: 37px;
+    margin-top: 6px;
+}
+
+.boxOut-morePadding{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.box-morePadding{
+    text-align: center;
+    font-size: 26px;
+    color: #999999;
+    border-top: 1px dotted #B3B3B3;
+
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.boxOut-gamesAccount{
+    background-color: #0D9CD4;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.boxOut-changeUsername{
+    background-color: #E4F4FD;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.boxOut-confirm{
+    background-color: #E4F4FD;
+}
+
+.box-gamesAccount{
+    margin-bottom: 10px;
+}
+
+.button-gameAccount{
+    margin: 0px;
+    background-color: transparent;
+    color: white;
+    width: 74px;
+    font-size: 14px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 100px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+
+    transition: all 0.25s linear 0s;
+    float: right;
+}
+
+.button-gameAccount:hover, .button-gameAccount:focus{
+    transition: all 0.25s linear 0s;
+    background-color: white;
+    color: #0D9CD4;
+}
+
+.button-gameAccount-2{
+    margin: 0px;
+    background-color: transparent;
+    color: #114F94;
+    width: 74px;
+    font-size: 14px;
+    height: 25px;
+    border: 1px solid #114F94;
+    border-radius: 100px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+
+    transition: all 0.25s linear 0s;
+    float: right;
+}
+
+.button-gameAccount-2:hover, .button-gameAccount-2:focus{
+    transition: all 0.25s linear 0s;
+    background-color: #114F94;
+    color: white;
+}
+
+.boxOut-titleMiddle{
+    font-size: 16px;
+    color: white;
+}
+
+.boxOut-titleField{
+    font-size: 14px;
+    color: white;
+    padding-top: 5px;
+}
+
+
+
+.input-fieldKomfirmasi{
+    height: 35px;
+    border-radius: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: white !important;
+    border: none !important;
+    box-shadow: none !important;
+    font-size: 13px;
+    color: #332C2B !important;
+    margin: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    padding-left: 10px;
+
+    float: left;
+}
+
+.input-logo{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.input-user{
+    background-size: 10px 15px;
+}
+
+.input-password{
+    background-size: 10px 15px;
+}
+
+.edit-input-group{
+    margin-bottom: 0px;
+}
+
+.boxOut-contentMiddle{
+    background-color: #E4F4FD;
+}
+
+.boxOut-change-left{
+    padding-right: 20px;
+}
+
+.boxOut-change-right{
+    padding-left: 20px;
+}
+
+.boxOut-titleMiddle-2 {
+    font-size: 16px;
+    color: #114F94;
+}
+
+.boxOut-titleField-2 {
+    font-size: 14px;
+    color: #114F94;
+    padding-top: 5px;
+}
+
+
+.boxOut-status{
+    padding-right: 20px;
+}
+
+.boxOut-yellow{
+    height: 55px;
+    background-color: #F9A569;
+    padding-top: 10px;
+    padding-left: 30%;
+}
+
+.boxOut-red{
+    height: 55px;
+    background-color: #F27078;
+    padding-top: 10px;
+    padding-left: 30%;
+}
+
+.boxOut-green{
+    height: 55px;
+    background-color: #6BC185;
+    padding-top: 10px;
+    padding-left: 30%;
+}
+
+.status-img{
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+
+.status-text{
+    float: left;
+    color: white;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+.button-confirm{
+    margin: 0px;
+    background-color: #0D9CD4;
+    color: white;
+    width: 130px;
+    font-size: 18px;
+    height: 40px;
+    border: none;
+    border-radius: 100px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 40px;
+
+    transition: all 0.25s linear 0s;
+    float: right;
+}
+
+.button-confirm:hover, .button-confirm:focus{
+    transition: all 0.25s linear 0s;
+    background-color: #1079A6;
+    color: white;
+}
+
+.boxOut-similarGame{
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 65px;
+}
+
+.boxOut-titleSimilar{
+    color: #666666;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.boxOut-similarLeft{
+    padding-right: 40px;
+}
+
+.boxOut-similarRight{
+    padding-left: 40px;
+}
+
+.boxOut-imgSimilar{
+    padding-right: 20px;
+}
+
+.boxOut-imgSimilar img{
+    width: 100%;
+}
+
+.boxOut-gameTitleSimilar{
+    font-size: 18px;
+    color: #666666;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.boxOut-gameTextSimilar{
+    text-align: justify;
+    height: 65px;
+    overflow: hidden;
+}
+
+.boxOut-gameButtonSimilar > .button-play{
+    margin: 0px;
+    margin-top: 8px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:1366px) {
+
+    .boxOut-content {
+        margin-top: 30px;
+        padding-left: 35px;
+        padding-right: 35px;
+        margin-bottom: 60px;
+    }
+
+    .box-content {
+        height: 530px;
+    }
+
+
+
+
+
+    .box-content {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .box-gameImg {
+        height: 188px;
+        width: 188px;
+        border: 9px solid white;
+        border-radius: 20px;
+        margin-top: 15%;
+        margin-left: 40px;
+    }
+
+    .box-contentGame{
+        width: 665px;
+    }
+
+
+
+
+    .bxSlide-edit{
+        margin-right: 15px !important;
+        width: 438px !important;
+        height: 246px;
+    }
+
+    .button-circle{
+        width: 62px;
+        height: 62px;
+
+        margin-left: 195px;
+        margin-top: 95px;
+    }
+
+    .play-img{
+        width: 24px;
+        height: 28px;
+        margin-left: 22px;
+    }
+
+
+
+
+    .bx-wrapper .bx-controls-direction > .bx-prev {
+        width: 26px;
+        height: 24px;
+        margin-left: -11px;
+        margin-top: 115px;
+        background: url(../../../img/icon/bx-left-2.png) no-repeat;
+    }
+
+    .bx-wrapper .bx-controls-direction > .bx-next {
+        width: 26px;
+        height: 24px;
+        margin-right: 0px;
+        margin-top: 115px;
+        background: url(../../../img/icon/bx-right-2.png) no-repeat;
+    }
+
+    .boxOut-gameTitle {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .boxOut-gameCategory {
+        font-size: 12px;
+        padding-top: 10px;
+    }
+
+    .boxOut-contentTop {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 15px;
+    }
+
+
+    .boxOut-gamesAccount{
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 20px;
+        padding-top: 15px;
+    }
+
+    .boxOut-changeUsername {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 20px;
+        padding-top: 15px;
+    }
+
+    .button-gameAccount{
+        width: 50px;
+        font-size: 11px;
+        height: 20px;
+    }
+
+    .button-gameAccount:hover, .button-gameAccount:focus{
+        transition: all 0.25s linear 0s;
+        background-color: white;
+        color: #0D9CD4;
+    }
+
+    .button-gameAccount-2{
+        width: 50px;
+        font-size: 11px;
+        height: 20px;
+    }
+
+    .boxOut-titleMiddle{
+        font-size: 13px;
+        color: white;
+    }
+
+    .boxOut-titleMiddle-2 {
+        font-size: 13px;
+    }
+
+
+
+    .boxOut-change-left {
+        padding-right: 15px;
+    }
+
+    .boxOut-change-right {
+        padding-left: 15px;
+    }
+
+    .input-fieldKomfirmasi {
+        height: 25px;
+    }
+
+    .input-logo {
+        width: 25px;
+        height: 25px;
+    }
+
+    .input-user {
+        background-size: 7px 11px;
+    }
+
+    .input-password{
+        background-size: 7px 11px;
+    }
+
+    .box-morePadding {
+        font-size: 18px;
+    }
+
+    .google-play {
+        margin-right: 10px;
+        width: 83px;
+        height: 34px;
+    }
+
+    .apple-store {
+        width: 77px;
+        height: 26px;
+        margin-top: 5px;
+    }
+
+    .boxOut-playStore {
+        width: 375px;
+    }
+
+    .button-play {
+        width: 67px;
+        font-size: 11px;
+        height: 20px;
+        margin-top: 8px;
+        margin-left: 15px;
+    }
+
+    .or-div {
+        padding-left: 15px;
+        font-size: 16px;
+        padding-top: 7px;
+    }
+
+    .boxAvailable-left {
+        font-size: 16px;
+        padding-right: 15px;
+        padding-top: 5px;
+    }
+
+    .status-img{
+        width: 22px;
+        height: 22px;
+    }
+
+    .status-text {
+        font-size: 14px;
+        padding-left: 15px;
+        padding-top: 2px;
+    }
+
+    .boxOut-yellow {
+        height: 40px;
+        padding-top: 8px;
+        padding-left: 30%;
+    }
+
+    .boxOut-red {
+        height: 40px;
+        padding-top: 8px;
+        padding-left: 30%;
+    }
+
+    .boxOut-green {
+        height: 40px;
+        padding-top: 8px;
+        padding-left: 30%;
+    }
+
+    .boxOut-status {
+        padding-right: 15px;
+    }
+
+    .button-confirm{
+        width: 92px;
+        font-size: 14px;
+        height: 27px;
+        margin-right: 25px;
+    }
+
+    .boxOut-titleField {
+        font-size: 12px;
+    }
+
+    .boxOut-titleField-2 {
+        font-size: 12px;
+    }
+
+
+    .boxOut-similarGame {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 45px;
+    }
+
+    .boxOut-titleSimilar {
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .boxOut-imgSimilar {
+        padding-right: 15px;
+    }
+
+    .boxOut-gameTitleSimilar {
+        font-size: 14px;
+        padding-bottom: 0px;
+    }
+
+    .boxOut-gameTextSimilar {
+        text-align: justify;
+        height: 45px;
+        overflow: hidden;
+        font-size: 10px;
+    }
+
+    .boxOut-gameButtonSimilar > .button-play {
+        margin: 0px;
+        margin-top: 5px;
+    }
+
+
+
+
+
+}
+
+
+@media (max-width:992px) {
+
+
+    .box-content {
+        height: auto;
+    }
+
+
+    .box-content {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+
+    .box-content {
+        padding-bottom: 50px;
+    }
+
+    .boxOut-subTitleDashboard{
+        font-size: 13px;
+    }
+
+    .boxOut-titleDashboard {
+        padding-top: 2px;
+    }
+
+
+
+    .box-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .box-contentGame{
+        width: 100%;
+        float: left;
+        position: relative;
+        min-height: 1px;
+
+        float: none;
+        background-color: white;
+    }
+
+    .bxSlide-edit{
+        margin-right: 10px !important;
+        width: 318px !important;
+        height: 179px;
+    }
+
+
+
+
+    .button-circle{
+        width: 45px;
+        height: 45px;
+
+        margin-left: 140px;
+        margin-top: 70px;
+    }
+
+    .play-img{
+        width: 18px;
+        height: 20px;
+        margin-left: 15px;
+    }
+
+
+    .bx-wrapper .bx-controls-direction > .bx-prev {
+        width: 19px;
+        height: 18px;
+        margin-left: -11px;
+        margin-top: 85px;
+        background: url(../../../img/icon/bx-sm-left.png) no-repeat;
+    }
+
+    .bx-wrapper .bx-controls-direction > .bx-next {
+        width: 19px;
+        height: 18px;
+        margin-right: 0px;
+        margin-top: 85px;
+        background: url(../../../img/icon/bx-sm-right.png) no-repeat;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+@media (max-width:768px) {
+
+    .boxOut-textArea .editor.btn-toolbar {
+        overflow-y: scroll;
+    }
+
+    .boxOut-titleDashboard {
+        margin-top: 20px;
+    }
+
+    .boxOut-content {
+        margin-top: 0px;
+    }
+
+    .boxOut-content {
+        margin-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 30px;
+    }
+
+    .boxOut-subTitleDashboard{
+        font-size: 10px;
+    }
+
+    .boxOut-titleDashboard {
+        margin-top: 13px;
+    }
+
+
+
+
+    .bxSlide-edit{
+        margin-right: 8px !important;
+        width: 246px !important;
+        height: 138px;
+    }
+
+
+    .button-circle{
+        width: 35px;
+        height: 35px;
+
+        margin-left: 105px;
+        margin-top: 55px;;
+    }
+
+    .play-img{
+        width: 14px;
+        height: 16px;
+        margin-left: 12px;
+    }
+
+
+    .bx-wrapper .bx-controls-direction > .bx-prev {
+/*        width: 15px;
+        height: 14px;
+        margin-left: -11px;
+        background: url(../../../img/icon/bx-xs-left.png) no-repeat;*/
+        margin-top: 65px;
+    }
+
+    .bx-wrapper .bx-controls-direction > .bx-next {
+/*        width: 15px;
+        height: 14px;
+        margin-right: 0px;
+        background: url(../../../img/icon/bx-xs-right.png) no-repeat;*/
+        margin-top: 65px;
+    }
+
+
+
+    .boxOut-playStore{
+        width: 100%;
+    }
+
+    .boxAvailable-left{
+        width: 100%;
+    }
+
+    .boxAvailable-middle{
+        width: 100%;
+
+    }
+
+    .boxAvailable-right{
+        width: 100%;
+    }
+
+
+    .button-play{
+        margin-left: 0px;
+    }
+
+    .boxOut-morePadding {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .boxOut-content {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .boxOut-change-left {
+        padding-right: 0px;
+    }
+
+    .boxOut-change-right {
+        padding-left: 0px;
+    }
+
+    .boxOut-status {
+        padding-right: 0px;
+    }
+
+    .boxOut-yellow, .boxOut-red, .boxOut-green {
+        padding-left: 25px;
+    }
+
+    .button-confirm{
+        margin-right: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        float: none !important;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .boxOut-imgSimilar img {
+        width: 100%;
+        max-width: 100px;
+    }
+
+    .boxOut-similarLeft {
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .boxOut-similarRight {
+        padding-left: 0px;
+    }
+
+    .boxOut-titleSimilar {
+        margin-top: 20px;
+    }
+
+    .boxOut-gameCategory {
+        padding-top: 0px;
+        text-align: left;
+        padding-bottom: 20px;
+    }
+    
+    .boxOut-gameTitle {
+    font-size: 24px;
+}
+
+
+
+
+
+}

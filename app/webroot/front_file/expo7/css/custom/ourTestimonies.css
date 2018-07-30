@@ -1,0 +1,308 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 14, 2016, 1:05:54 PM
+    Author     : Arif
+*/
+
+.backgroundContent{
+    background-image: url('../../img/icon/testimonial-background-2.png');
+    background-size: 100% auto;
+    background-color: #F5F5F5;
+    background-repeat: no-repeat;
+}
+
+.container-padding{
+    padding-top: 80px;
+}
+
+.boxOut-topText{
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: white;
+    font-size: 12.5px;
+}
+
+.boxOut-carouselBackground{
+    background-image: url('../../img/icon/testimoni-slider.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.circle-carouselPhoto{
+    width: 150px;
+    height: 150px;
+    border: 10px solid white;
+    border-radius: 100%;
+    overflow: hidden;
+
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.boxOut-paddingCarousel{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.boxOut-carouselName{
+    color: white;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.boxOut-carouselPosition{
+    color: white;
+    font-size: 15px;
+}
+
+.boxOut-carouselText{
+    color: white;
+    font-size: 14px;
+    padding-left: 270px;
+    padding-right: 270px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.indicators-edit-indexBottom li {
+    width: 10px;
+    height: 10px;
+    margin: 0px;
+    margin-right: 5px;
+    background-color: #cccccc;
+    border: none;
+}
+
+.indicators-edit-indexBottom .active {
+    width: 10px;
+    height: 10px;
+    margin: 0;
+    margin-right: 5px;
+    background-color: #999999;
+}
+
+.boxOut-contentBacground{
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-bottom: 40px;
+}
+
+.boxOut-contentTitle{
+    color: #0096bf;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+.boxOut-pagination{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.box-pagination span{
+
+    background-color: #94D9F8;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+span a:hover, span a:focus, span a.active {
+    color: white;
+    background-color: #0098DA;
+    border-radius: 4px;
+
+}
+
+span a {
+    height: 27px;
+    width: 27px;
+    font-size: 14px;
+    color: white !important;
+    padding: 0 0px;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-top: 3px;
+}
+
+.boxOut-page{
+    width: 230px;
+    float: none;
+    position: relative;
+    min-height: 1px;
+
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.box-pagination {
+    text-align: center;
+    color: #94D9F8;
+}
+
+
+
+.pagelist{
+    min-height: 150px;
+}
+
+
+
+
+/*PAGING*/
+.pagelist {
+    display: none;
+}
+
+.pagelist.active {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+.boxOut-listTestimonial{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 50px;
+}
+
+.circle-testiPhoto{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    overflow: hidden;
+
+    background-size: 100% 100%;
+}
+
+.boxOut-textTestimonial{
+    text-align: justify;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.boxOut-testimonialName{
+    font-size: 12px;
+}
+
+.testi-name{
+    color: #0096bf;
+}
+
+.testi-position{
+    color: #9a9a9a;
+}
+
+
+
+
+
+
+
+@media (max-width:1366px) {
+
+    .container-padding{
+        padding-top: 60px;
+    }
+
+}
+
+
+@media (max-width:1200px) {
+
+
+}
+
+@media (max-width:992px) {
+
+    .boxOut-topText {
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 12px;
+    }
+
+    .boxOut-carouselText {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .boxOut-contentBacground {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .boxOut-textTestimonial {
+        font-size: 11px;
+    }
+
+    .boxOut-testimonialName {
+        font-size: 11px;
+    }
+
+
+
+
+
+}
+
+@media (max-width:768px) {
+
+    .boxOut-topText {
+        background-image: url('../../img/icon/testimonial-background-2.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .boxOut-topText {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .boxOut-carouselText {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .boxOut-carouselPosition {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .boxOut-textTestimonial {
+        margin-bottom: 15px;
+    }
+
+
+}
+
+

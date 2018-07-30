@@ -1,0 +1,954 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 14, 2016, 1:05:54 PM
+    Author     : Arif
+*/
+
+.backgroundContent{
+    background-color: #F5F5F5;
+}
+
+.container-padding{
+    padding-top: 40px;
+}
+
+.background-container{
+    background-color: transparent;
+    padding-top: 60px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 20px;
+    /*    background-image: url('../../img/icon/shadow-bottom.png');
+        background-size: contain;
+        background-position: bottom;
+        background-repeat: no-repeat;*/
+}
+
+.boxOut-instruction{
+    /*    border-left: 3px solid #FFBE7E;*/
+}
+
+.boxOut-listNews{
+    margin-bottom: 30px;
+}
+
+.circle-instruction{
+    width: 70px;
+    height: 70px;
+    background-color: #FFCC97;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: -35px;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat:no-repeat;
+    z-index: 1;
+}
+
+.img-instruction-1{
+    background-size: 24px 38px;
+}
+
+.img-instruction-2{
+    background-size: 35px 38px;
+}
+
+.img-instruction-3{
+    background-size: 35px 35px;
+}
+
+
+.box-instruction{
+    padding-left: 75px;
+    padding-bottom: 30px;
+    border-left: 3px solid #FFBE7E;
+}
+
+.boxOut-instruction > .row:last-child .box-instruction{
+    border-left: none;
+}
+
+.boxOut-instructionTitle{
+    color: #114F94;
+    padding-top: 15px;
+    font-size: 24px;
+}
+
+.boxOut-textTitle{
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.boxOut-titlePage{
+    color: #114F94;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+.boxOut-kalenderBerita{
+    height: 730px;
+}
+
+.boxOut-kalender{
+    width: 34%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+
+    background-color: #4ABDED;
+}
+
+.boxOut-berita{
+    width: 66%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+
+    background-color: #F4F5F6;
+    padding: 40px 100px;
+}
+
+.box-kalender{
+    height: 83%;
+    background-color: #666666;
+
+    padding-left: 100px;
+}
+
+.box-unduh{
+    height: 17%;
+    background-color: #114F94;
+}
+
+
+
+
+.boxOut-unduhTitle{
+    color: white;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.boxOut-unduhText{
+    color: white;
+    font-size: 16px;
+}
+
+.boxOut-buttonUnduh{
+    width: 155px;
+    height: 32px;
+    float: none;
+    margin-top: 10px;
+}
+
+.button-unduh{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: transparent;
+    color: white !important;
+    font-size: 12px;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+
+    transition-duration:0.1s;
+    border: 1px solid white;
+}
+
+.button-unduh:hover, .button-unduh:focus{
+    background-color: white;
+    color: #114F94 !important;
+    transition-duration:0.1s;
+}
+
+.boxOut-kalenderPrimaryTitle{
+    color: white;
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.boxOut-kalenderMonthTitle{
+    color: white;
+    font-size: 26px;
+    margin-top: 0px;
+}
+
+.boxOut-buttonKalender{
+    padding-right: 90px;
+}
+
+.button-kalender{
+    width: 155px;
+    height: 32px;
+    margin: 0px;
+    background-color: #A9ABAE;
+    color: white !important;
+    font-size: 12px;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 5px;
+    transition-duration:0.1s;
+    float: right;
+    margin-top: 30px;
+}
+
+.button-kalender:hover, .button-kalender:focus{
+    background-color: #8C8C8C !important;
+    transition-duration:0.1s;
+}
+
+
+
+.edit-tableEvent{
+    margin-bottom: 0px;
+    width: 100%;
+    color: white;
+    font-size: 24px;
+}
+
+.edit-tableResponsive{
+    margin-top: 20px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+
+.edit-tableResponsive .mCSB_outside + .mCSB_scrollTools {
+    right: 0px;
+}
+
+.edit-tableResponsive .mCS-light-3.mCSB_scrollTools .mCSB_draggerRail, .edit-tableResponsive .mCS-dark-3.mCSB_scrollTools .mCSB_draggerRail {
+    width: 12px;
+    background-color: #606062 !important;
+    border-radius: 0px !important;
+}
+
+.edit-tableResponsive .mCS-light-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .edit-tableResponsive .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 12px;
+}
+
+.edit-tableResponsive .mCSB_scrollTools {
+    width: 12px;
+}
+
+.edit-tableResponsive .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #96989A !important;
+}
+
+.edit-tableResponsive .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.mCS-autoHide > .mCustomScrollBox > .mCSB_scrollTools, .mCS-autoHide > .mCustomScrollBox ~ .mCSB_scrollTools {
+    opacity: 1;
+}
+
+
+
+.td-tanggal{
+    color: white;
+    border-right: 2px solid #96989A;
+    width: 50px;
+    text-align: right;
+    padding-right: 10px !important;
+
+    font-size: 38px;
+}
+
+.td-title{
+    padding-left: 15px !important;
+    padding-right: 90px !important;
+    padding-top: 5px !important;
+}
+
+.td-title a{
+    color: white;
+    font-size: 18px;
+}
+
+.td-title a:hover{
+    color: #D9D9D9;
+}
+
+.td-text{
+    color: white;
+    padding-left: 15px !important;
+    padding-right: 90px !important;
+    font-size: 16px;
+    padding-top: 5px !important;
+    padding-bottom: 15px !important;
+}
+
+.boxOut-titleBerita{
+    width: 25%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+
+    color: #0098DA;
+    font-size: 28px;
+    padding-top: 10px;
+}
+
+.boxOut-tabBerita{
+    width: 75%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+
+    padding-top: 11px !important;
+}
+
+
+/*-- Tab Index --*/
+/*--==================================================--*/
+
+.navbarMenu-indexBerita{
+    padding: 0px 0px;
+    //margin-bottom: -15px;
+}
+
+.navbarMenu-indexBerita > .nav-tabs{
+    //padding-left: 15px;
+    //border-bottom: 4px solid #224254;
+    float: right;
+}
+
+.nav-tabs-indexBerita > li{
+    margin-bottom: 0px;
+    //margin-right: -8px;
+
+}
+
+.navbarMenu-indexBerita > .nav-tabs > li.active > a, 
+.navbarMenu-indexBerita > .nav-tabs > li.active > a:hover{
+    color: white;
+    font-size: 14px;
+    -moz-box-sizing: border-box;
+    padding: 10px 20px 0px 20px;
+
+    width: auto;
+    margin: 0px;
+    border: none;
+    border-radius: 0px;
+    //margin-top: -4px;
+
+}
+
+
+
+.navbarMenu-indexBerita > .nav-tabs > li > a{
+    color: white;
+    font-size: 14px;
+    padding: 10px 20px 0px 20px;
+    text-align: center;
+    width: auto;
+    border-radius: 0px;
+    margin-right: 0px;
+    border: none;
+    -moz-box-sizing: border-box;
+    height: 40px;
+}
+
+.nav-tabs-indexBerita > li{
+    margin-bottom: 0px;
+    z-index: 1;
+}
+
+.nav-tabs-indexBerita {
+    border-bottom: none;
+}
+
+
+
+
+
+.tab-berita-1, .tab-berita-1 > a{
+    background-color: #047FBB !important;
+}
+
+.tab-berita-2, .tab-berita-2 > a{
+    background-color: #0098DA !important;
+}
+
+.tab-berita-3, .tab-berita-3 > a{
+    background-color: #25A8E0 !important;
+}
+
+.tab-berita-4, .tab-berita-4 > a{
+    background-color: #4ABDED !important;
+}
+
+.navbarMenu-indexBerita > .nav-tabs > li > a:hover{
+    background-color: rgba(0, 0, 0, 0.5) !important;
+
+}
+
+
+
+
+/*PAGING*/
+.tab1-pagelist, .tab2-pagelist, .tab3-pagelist, .tab4-pagelist  {
+    display: none;
+}
+.tab1-pagelist.active, .tab2-pagelist.active, .tab3-pagelist.active, .tab4-pagelist.active {
+    display: block;
+}
+
+.box-pagination {
+    margin-top: 0px;
+    color: #94D9F8;
+    text-align: center;
+}
+.box-pagination span a {
+    font-size: 22px;
+    color: #94D9F8;
+    padding: 0 3px;
+}
+.box-pagination span a:hover, .box-pagination span a:focus, .box-pagination span a.active {
+    color: #337ab7;
+}
+
+
+
+.boxOut-buttonBerita{
+    margin-top: 60px;
+}
+
+.button-berita{
+    width: 155px;
+    height: 32px;
+    margin: 0px;
+    background-color: #4ABDED;
+    color: white !important;
+    font-size: 12px;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+    transition-duration:0.1s;
+    float: right;
+    //margin-top: 30px;
+}
+
+.button-berita:hover, .button-berita:focus{
+    background-color: #3895BD !important;
+    transition-duration:0.1s;
+}
+
+.boxOut-indexBerita{
+    border-bottom: 7px solid #4ABDED;
+    margin-top: 35px;
+}
+
+.boxOut-indexBerita > img{
+    width: 100%;
+    max-height: 165px;
+}
+
+.boxOut-beritaTitle{
+    margin-top: 10px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.boxOut-beritaTitle a{
+    color: #727376;
+    font-size: 18px;
+}
+
+.boxOut-beritaTitle a:hover{
+    color: #525252;
+}
+
+.boxOut-beritaText{
+    color: #848688;
+    margin-top: 10px;
+    font-size: 16px;
+    height: 70px;
+    overflow: hidden;
+}
+
+.boxOut-beritaLeft{
+    padding-right: 40px;
+}
+
+.boxOut-beritaRight{
+    padding-left: 40px;
+}
+
+.boxOut-listIndexBerita{
+    min-height: 1050px;
+}
+
+.boxOut-tanggal{
+    height: 260px;
+    background-color: #114F94;
+}
+
+.boxOut-arrowLeftKalender img{
+    float: right;
+    width: 10px;
+    height: 20px;
+    margin-top: 6px;
+}
+
+.boxOut-arrowRightKalender img{
+    width: 10px;
+    height: 20px;
+    margin-top: 6px;
+}
+
+.box-tanggal{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+
+.boxOut-tanggalSekarang{
+    margin-top: 0px;
+}
+
+.boxOut-tanggalNomer{
+    text-align: center;
+    font-size: 120px;
+    color: #E6E7E8;
+    margin-top: 15px;
+}
+
+.boxOut-kalenderBulan{
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.boxOut-textBulan{
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+
+
+.edit-tableResponsive{
+    margin-top: 20px;
+    border: none;
+}
+
+.table > tbody > tr > td{
+    padding: 0px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.table-circle{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    padding-top: 2px;
+}
+
+.table-circle.border{
+    border: 1px solid white;
+}
+
+.table-circle.border-now{
+    border: 1px solid white;
+    background-color: white;
+    color: #4ABDED;
+}
+
+.small-font{
+    font-size: 10px;
+    padding-top: 7px;
+}
+
+.nama-event{
+    font-size: 10px;
+    padding-left: 10px;
+    color: white;
+}
+
+
+
+.box-kalenderBerita{
+    background-color: #0794D1;
+}
+
+.button-online{
+    margin: 0px;
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+    border-radius: 5px;
+    padding: 0px;
+    text-align: center;
+    border: 1px solid white;
+    float: none;
+}
+
+.button-online:hover, .button-online:focus{
+    background-color: white;
+    color: #0794D1;
+}
+
+.calendar-button{
+    width: 140px;
+    height: 30px;
+    float: none;
+    margin-top: 35px;
+}
+
+.boxOut-contentLeft-bottom{
+    background-color: white;
+    overflow: hidden;
+    height: 730px;
+}
+
+
+
+
+.boxOut-contentLeft-bottom .mCSB_outside + .mCSB_scrollTools {
+    right: 0px;
+}
+
+.boxOut-contentLeft-bottom .mCS-light-3.mCSB_scrollTools .mCSB_draggerRail, .boxOut-contentLeft-bottom .mCS-dark-3.mCSB_scrollTools .mCSB_draggerRail {
+    width: 10px;
+    background-color: #CCCCCC !important;
+    border-radius: 0px !important;
+}
+
+.boxOut-contentLeft-bottom .mCS-light-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .boxOut-contentLeft-bottom .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 10px;
+}
+
+.boxOut-contentLeft-bottom .mCSB_scrollTools {
+    width: 10px;
+}
+
+.boxOut-contentLeft-bottom .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #808080 !important;
+}
+
+.boxOut-contentLeft-bottom .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.mCS-autoHide > .mCustomScrollBox > .mCSB_scrollTools, .mCS-autoHide > .mCustomScrollBox ~ .mCSB_scrollTools {
+    opacity: 1;
+}
+
+
+
+
+.boxOut-contentRight .mCSB_outside + .mCSB_scrollTools {
+    right: 0px;
+}
+
+.boxOut-contentRight .mCS-light-3.mCSB_scrollTools .mCSB_draggerRail, .boxOut-contentRight .mCS-dark-3.mCSB_scrollTools .mCSB_draggerRail {
+    width: 10px;
+    background-color: #CCCCCC !important;
+    border-radius: 0px !important;
+}
+
+.boxOut-contentRight .mCS-light-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .boxOut-contentRight .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 10px;
+}
+
+.boxOut-contentRight .mCSB_scrollTools {
+    width: 10px;
+}
+
+.boxOut-contentRight .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #B3B3B3 !important;
+}
+
+.boxOut-contentRight .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.box-contentLeft-bottom{
+    padding: 20px 15px 0px 20px;
+}
+
+.boxOut-event-left{
+    padding-right: 10px;
+}
+
+.boxOut-event-right{
+    padding-left: 10px;
+}
+
+.boxOut-event-img{
+    width: 100%;
+    height: 170px;
+    overflow: hidden;
+}
+
+.boxOut-event-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.boxOut-event-date{
+    color: #808080;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.boxOut-event-title{
+    text-overflow: ellipsis;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    height: 45px;
+}
+
+.boxOut-event-title a{
+    color: #4c4c4c;
+    font-size: 16px;
+}
+
+.boxOut-event-title a:hover{
+    color: #747373;
+}
+
+.boxOut-event-text{
+    text-align: justify;
+    font-size: 14px;
+    height: 60px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.box-tanggal {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    margin-top: -30px;
+}
+
+.boxOut-tanggalNomer {
+    color: white;
+}
+
+.mCSB_inside > .mCSB_container {
+    margin-right: 10px;
+}
+
+.boxOut-contentLeft-bottom .mCS-light-3.mCSB_scrollTools .mCSB_draggerRail, .boxOut-contentLeft-bottom .mCS-dark-3.mCSB_scrollTools .mCSB_draggerRail {
+    width: 5px;
+    background-color: #0794D1 !important;
+    margin-right: -1px;
+}
+
+.boxOut-contentLeft-bottom .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 5px;
+    background-color: #114F94 !important;
+    margin-right: -1px;
+}
+
+
+
+
+
+
+@media (max-width:1366px) {
+
+    .background-container {
+        padding-top: 40px;
+    }
+
+}
+
+
+@media (max-width:1200px) {
+
+
+}
+
+@media (max-width:992px) {
+
+    .box-tanggal {
+        font-size: 20px;
+    }
+
+    .boxOut-tanggalNomer {
+        font-size: 100px;
+    }
+
+    .boxOut-tanggal {
+        height: 220px;
+    }
+
+    .boxOut-textBulan {
+        font-size: 16px;
+        padding-left: 5px;
+    }
+
+    .nama-event {
+        font-size: 8px;
+        padding-left: 5px;
+    }
+
+    .boxOut-kalenderBulan {
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .table-circle {
+        height: 25px;
+        width: 25px;
+    }
+
+    .table > tbody > tr > td {
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .edit-tableResponsive {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .button-online {
+        font-size: 8px;
+    }
+
+    .calendar-button {
+        width: 120px;
+        height: 25px;
+        margin-top: 30px;
+    }
+
+    .small-font {
+        font-size: 8px;
+    }
+
+    .boxOut-kalenderBerita {
+        height: 630px;
+    }
+
+    .boxOut-contentLeft-bottom {
+        height: 630px;
+    }
+
+    .boxOut-event-img {
+        height: 100px;
+    }
+
+    .boxOut-event-date {
+        font-size: 12px;
+    }
+
+    .boxOut-event-title a {
+        font-size: 12px;
+    }
+
+    .boxOut-event-text {
+        font-size: 12px;
+        height: 55px;
+    }
+
+    .box-tanggal {
+        text-align: center;
+        color: white;
+        font-size: 32px;
+        margin-top: -30px;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .background-container {
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+    }
+
+    .box-kalenderBerita {
+        height: 630px;
+    }
+
+    .boxOut-kalenderBerita {
+        height: auto;
+    }
+
+    .boxOut-contentLeft-bottom {
+        height: auto;
+    }
+
+    .boxOut-event-right {
+        padding-left: 0px;
+    }
+
+    .boxOut-event-left {
+        padding-right: 0px;
+    }
+
+    .boxOut-event-img img {
+        width: auto;
+    }
+
+    .boxOut-event-img {
+        width: 206px;
+        float: none;
+    }
+
+    .boxOut-event-text {
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .boxOut-titlePage {
+        font-size: 22px;
+    }
+
+    .background-container {
+        padding-top: 20px;
+    }
+
+
+    .boxOut-event-date {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .boxOut-event-title {
+        height: 45px;
+        text-align: center;
+    }
+    
+    .box-contentLeft-bottom {
+    padding: 20px 20px 20px 20px;
+}
+
+
+
+}
+
+

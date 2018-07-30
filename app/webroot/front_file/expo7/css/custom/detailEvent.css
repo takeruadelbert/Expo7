@@ -1,0 +1,188 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 14, 2016, 1:05:54 PM
+    Author     : Arif
+*/
+
+.backgroundContent{
+    background-color: #F5F5F5;
+}
+
+.container-padding {
+    padding-top: 80px;
+    margin-bottom: 50px;
+}
+
+.background-container{
+    background-color: white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    //background-image: url('../../img/icon/shadow-bottom.png');
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.boxOut-instruction{
+    /*    border-left: 3px solid #FFBE7E;*/
+}
+
+.circle-instruction{
+    width: 70px;
+    height: 70px;
+    background-color: #FFCC97;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: -35px;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat:no-repeat;
+    z-index: 1;
+}
+
+.img-instruction-1{
+    background-size: 24px 38px;
+}
+
+.img-instruction-2{
+    background-size: 35px 38px;
+}
+
+.img-instruction-3{
+    background-size: 35px 35px;
+}
+
+
+.box-instruction{
+    padding-left: 75px;
+    padding-bottom: 30px;
+    border-left: 3px solid #FFBE7E;
+}
+
+.boxOut-instruction > .row:last-child .box-instruction{
+    border-left: none;
+}
+
+.boxOut-instructionTitle{
+    color: #114F94;
+    padding-top: 15px;
+    font-size: 24px;
+}
+
+.boxOut-textTitle{
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.boxOut-titlePage{
+    color: #114F94;
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+.boxOut-pictureEvent{
+    max-height: 450px;
+    overflow: hidden;
+}
+
+.boxOut-pictureEvent img{
+    width: 100%;
+    height: 100%;
+}
+
+.boxOut-dateEvent{
+    color: #4d4d4d;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.boxOut-titleEvent{
+    color: #4d4d4d;
+    font-size: 24px;
+}
+
+.boxOut-textEvent{
+    color: #4d4d4d;
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.boxOut-textEvent p{
+    margin-bottom: 25px;
+}
+
+.boxOut-contentPadding{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+
+@media (max-width:1366px) {
+
+    .container-padding {
+        padding-top: 60px;
+    }
+
+}
+
+
+@media (max-width:1200px) {
+
+
+}
+
+@media (max-width:992px) {
+
+    .background-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .boxOut-dateEvent {
+        font-size: 12px;
+    }
+
+    .boxOut-titleEvent {
+        font-size: 18px;
+    }
+
+
+}
+
+@media (max-width:768px) {
+
+    .background-container {
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+    }
+
+    .boxOut-dateEvent {
+        font-size: 10px;
+    }
+
+    .boxOut-titleEvent {
+        font-size: 16px;
+    }
+
+    .boxOut-titlePage {
+        font-size: 24px;
+    }
+
+
+}
+
+

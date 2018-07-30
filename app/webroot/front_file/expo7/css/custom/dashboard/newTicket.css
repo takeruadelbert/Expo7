@@ -1,0 +1,750 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 25, 2016, 2:24:42 PM
+    Author     : Arif
+*/
+
+.boxOut-selectHeader{
+    display: none;
+}
+
+.boxOut-content{
+    margin-top: 70px;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-bottom: 60px;
+}
+
+.box-content{
+    height: 620px;
+    //border-right: 3px solid #1A64B8;
+    background-color: #E4F4FD;
+    background-image: url('../../../img/icon/message-borderRight.png');
+    background-repeat: no-repeat;
+    background-size: 5px 100%;
+    background-position: right;
+}
+
+.boxOut-subTitleDashboard{
+    font-size: 15px;
+    color: #666666;
+}
+
+.boxOut-titleDashboard {
+    padding-top: 32px;
+}
+
+
+
+
+
+
+
+.box-content{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+}
+
+.boxOut-contentRow{
+    margin-bottom: 20px;
+}
+
+.boxOut-contentRow2{
+    margin-bottom: 15px;
+}
+
+.boxOut-content-title{
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #666666;
+}
+
+.field-reveralCode, .field-reveralCode:focus{
+    height:35px;
+    padding: 0px 10px;
+    background-color: white;
+    border: none !important;
+    box-shadow: none;
+    color: #757475;
+    font-size: 14px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    width: 330px;
+}
+
+.field-reveralCode::-webkit-input-placeholder { color: #C9CACA !important; font-size: 12px; }
+.field-reveralCode:-moz-placeholder { color: #C9CACA !important; font-size: 12px; }
+.field-reveralCode::-moz-placeholder { color: #C9CACA !important; font-size: 12px; }
+.field-reveralCode:-ms-input-placeholder { color: #C9CACA !important; font-size: 12px; }
+
+
+.field-title, .field-title:focus{
+    height:35px;
+    padding: 0px 10px;
+    background-color: white;
+    border: none !important;
+    box-shadow: none;
+    color: #757475;
+    font-size: 14px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+}
+
+.field-title::-webkit-input-placeholder { color: #C9CACA !important; font-size: 12px; }
+.field-title:-moz-placeholder { color: #C9CACA !important; font-size: 12px; }
+.field-title::-moz-placeholder { color: #C9CACA !important; font-size: 12px; }
+.field-title:-ms-input-placeholder { color: #C9CACA !important; font-size: 12px; }
+
+.boxOut-textArea .fa, .boxOut-textArea a{
+    color: #114F94;
+}
+
+.boxOut-textArea a:hover .fa, .boxOut-textArea a:hover{
+    color: black;
+}
+
+.boxOut-textArea .editor-wrapper, .boxOut-textArea .editor-wrapper:focus {
+    min-height: 160px;
+    border: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: none;
+    height: 160px;
+    overflow: hidden;
+}
+
+.boxOut-textArea .x_content {
+    padding: 0 0px 0px;
+    margin-top: 0px;
+}
+
+
+
+.boxOut-textArea .editor.btn-toolbar {
+    margin: 0px 0px;
+    padding: 3px 0;
+    border: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: #E6E7E8;
+}
+
+.fa-star-o::before {
+    content: "\f005";
+    color: #CCCCCC;
+    transition: all 0.25s linear 0s;
+}
+
+.starrr a {
+    font-size: 20px;
+    color: #FF6600;
+    transition: all 0.25s linear 0s;
+}
+
+.stars .fa{
+    margin-right: 5px;
+    transition: all 0.25s linear 0s;
+}
+
+.boxOut-textArea .editor.btn-toolbar {
+    max-height: 76px;
+}
+
+.button-save{
+    margin: 0px;
+    background-color: #82D4F7;
+    color: white;
+    width: 130px;
+    font-size: 14px;
+    height: 35px;
+    border-radius: 100px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+
+    transition: all 0.25s linear 0s;
+    float: right
+}
+
+.button-save:hover, .button-save:focus{
+    background-color: #0D9CD4;
+    transition: all 0.25s linear 0s;
+}
+
+.button-send{
+    margin: 0px;
+    background-color: #00A859;
+    color: white;
+    width: 130px;
+    font-size: 14px;
+    height: 35px;
+    border-radius: 100px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 10px;
+
+    transition: all 0.25s linear 0s;
+    float: right
+}
+
+.button-send:hover, .button-send:focus{
+    transition: all 0.25s linear 0s;
+    background-color: #0E7849;
+}
+
+.button-send img{
+    margin-left: 10px;
+    height: 19px;
+}
+
+.title-content{
+    color: #1A64B8;
+    font-size: 24px;
+}
+
+.title-count{
+    font-size: 24px;
+    color: #ED3237;
+    text-align: right;
+}
+
+.dropdown-konfirmasiPembayaran, .dropdown-konfirmasiPembayaran:focus{
+    border: 1px solid #E6E7E8;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url('../../../img/icon/arrowBottom-blue.png') no-repeat;
+    background-position: 97% 50%;
+    text-indent: 0.01px;
+    text-overflow: "";
+
+    width: 100%;
+    height:35px;
+    border-radius: 10px;
+    padding: 0px 5px;
+    background-color: white;
+    border: none;
+    box-shadow: none;
+    color: #757475;
+    font-size: 14px;
+}
+
+.boxOut-divLeft{
+    padding-right: 30px;
+}
+
+.boxOut-divRight{
+    padding-left: 30px;
+}
+
+.editTextArea{
+    display: block;
+    width: 100%;
+    height: 130px !important;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #FFF;
+    background-image: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+
+    resize: none;
+}
+
+.editTextArea::-webkit-input-placeholder { color: #A9ABAE !important; }
+.editTextArea:-moz-placeholder { color: #A9ABAE !important; }
+.editTextArea::-moz-placeholder { color: #A9ABAE !important; }
+.editTextArea:-ms-input-placeholder { color: #A9ABAE !important; }
+
+
+
+
+.boxOut-attachments{
+    background-color: white;
+    padding: 15px 20px;
+}
+
+.input-fieldKomfirmasi{
+    height: 30px;
+    border-radius: 0 !important;
+    background-color: white !important;
+    border: none !important;
+    box-shadow: none !important;
+    font-size: 13px;
+    color: #332C2B !important;
+    margin-top: 0px;
+    padding: 0px;
+    padding-left: 20px;
+
+    float: left;
+}
+
+.input-form3 button {
+    margin-top: -1px;
+    height: 30px;
+    background-color: #60A437;
+    border: 0;
+    width: 64px;
+}
+
+.input-form3 .btn-file {
+    margin-top: -1px;
+    height: 25px;
+    background-color: #B3B3B3;
+    border: 0;
+    width: 100px;
+    font-size: 14px;
+    margin: 0px;
+    margin-top: 2px;
+    border-radius: 100px;
+    padding: 0px;
+    padding-top: 2px;
+
+    float: left;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    background: red;
+    cursor: inherit;
+    display: block;
+
+}
+input[readonly] {
+    background-color: white !important;
+    cursor: text !important;
+    color: #999999 !important;
+}
+
+.boxOut-button{
+    width: 100px;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.boxOut-nameFile{
+    width: 300px;
+    float: left;
+    position: relative;
+    min-height: 1px;
+
+}
+
+.boxOut-rightBrowse{
+    text-align: right;
+    color: #999999;
+    font-size: 12px;
+    padding-top: 7px;
+}
+
+.box-contentRow{
+    background-color: #F27078;
+    padding: 10px 35px;
+}
+
+.edit-checbox-agree label{
+    font-size: 12px;
+    color: white;
+    margin-top: 0px;
+    padding-left: 10px;
+}
+
+.edit-checbox-agree {
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 17px;
+}
+
+.edit-checbox-agree label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 0;
+    margin-left: -17px;
+    margin-top: 3px;
+    border: 1px solid white;
+    border-radius: 2px;
+    background-color: transparent;
+    -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    transition: border 0.15s ease-in-out, color 0.15s ease-in-out; 
+}
+
+.edit-checbox-agree label::after {
+    display: inline-block;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 0;
+    top: 0;
+    margin-left: -19px;
+    margin-top: 2px;
+    padding-left: 3px;
+    padding-top: 0px;
+    font-size: 10px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1366px) {
+
+    .boxOut-content {
+        margin-top: 30px;
+        padding-left: 35px;
+        padding-right: 35px;
+        margin-bottom: 60px;
+    }
+
+    .box-content {
+        height: 530px;
+    }
+
+
+
+
+
+    .box-content {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .boxOut-contentRow {
+        margin-bottom: 20px;
+    }
+
+    .boxOut-content-title{
+        font-size: 14px;
+    }
+
+    .field-reveralCode, .field-reveralCode:focus{
+        height:25px;
+        margin-bottom: 0px;
+    }
+
+    .field-title, .field-title:focus{
+        height:25px;
+        margin-bottom: 0px;
+        border-radius: 5px;
+    }
+
+    .boxOut-textArea .editor-wrapper, .boxOut-textArea .editor-wrapper:focus {
+        min-height: 150px;
+        height: 150px;
+    }
+
+    .boxOut-textArea .btn {
+        font-size: 10px;
+        font-weight: normal;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        cursor: pointer;
+    }
+
+    .boxOut-textArea .caret {
+        border-right: 3px solid transparent;
+        border-left: 3px solid transparent;
+    }
+
+    .field-reveralCode, .field-reveralCode:focus{
+        width: 240px;
+    }
+
+
+    .dropdown-konfirmasiPembayaran, .dropdown-konfirmasiPembayaran:focus {
+        height: 25px;
+        border-radius: 5px;
+    }
+
+    .title-content {
+        font-size: 20px;
+    }
+
+    .title-count {
+        font-size: 20px;
+    }
+
+    .boxOut-content-title {
+        font-size: 13px;
+    }
+
+    .field-title, .field-title:focus {
+        font-size: 13px;
+    }
+
+    .editTextArea {
+        height: 100px !important;
+        font-size: 13px;
+    }
+
+    .input-form3 .btn-file {
+        margin-top: -1px;
+        height: 15px;
+        width: 70px;
+        font-size: 10px;
+        margin: 0px;
+        margin-top: 2px;
+        padding: 0px;
+        padding-top: 0px;
+    }
+
+    .input-fieldKomfirmasi {
+        height: 15px;
+        font-size: 10px;
+    }
+
+    .boxOut-rightBrowse {
+        font-size: 10px;
+        padding-top: 0px;
+    }
+
+    .boxOut-attachments {
+        padding: 10px 15px;
+    }
+
+    .boxOut-divLeft {
+        padding-right: 20px;
+    }
+
+    .boxOut-divRight {
+        padding-left: 20px;
+    }
+
+    .box-contentRow {
+        padding: 10px 25px;
+    }
+
+    .edit-checbox-agree label {
+        font-size: 10px;
+    }
+
+    .dropdown-konfirmasiPembayaran, .dropdown-konfirmasiPembayaran:focus {
+        font-size: 13px;
+    }
+
+    .edit-checbox-agree label::before {
+        width: 10px;
+        height: 10px;
+        margin-top: 2px;
+    }
+
+    .edit-checbox-agree label::after {
+        width: 10px;
+        height: 10px;
+        margin-top: 1px;
+        font-size: 8px;
+    }
+
+    .button-save {
+        width: 100px;
+        font-size: 12px;
+        height: 30px;
+    }
+
+    .button-send {
+        width: 100px;
+        font-size: 12px;
+        height: 30px;
+    }
+
+    .button-send img {
+        height: 15px;
+    }
+
+    .boxOut-button {
+        width: 70px;
+    }
+
+    .boxOut-nameFile {
+        width: 160px;
+    }
+
+    .input-fieldKomfirmasi {
+        padding-left: 15px;
+    }
+
+
+
+}
+
+
+@media (max-width:992px) {
+
+
+    .box-content {
+        height: auto;
+    }
+
+
+    .box-content {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+
+    .box-content {
+        padding-bottom: 50px;
+    }
+
+    .boxOut-subTitleDashboard{
+        font-size: 13px;
+    }
+
+    .boxOut-titleDashboard {
+        padding-top: 2px;
+    }
+
+    .title-count {
+        text-align: left;
+    }
+
+
+
+
+}
+
+@media (max-width:768px) {
+
+    .boxOut-textArea .editor.btn-toolbar {
+        overflow-y: scroll;
+    }
+
+    .boxOut-titleDashboard {
+        margin-top: 20px;
+    }
+
+    .boxOut-content {
+        margin-top: 0px;
+    }
+
+    .boxOut-content {
+        margin-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 30px;
+    }
+
+    .boxOut-subTitleDashboard{
+        font-size: 10px;
+    }
+
+    .boxOut-titleDashboard {
+        margin-top: 13px;
+    }
+
+
+
+
+
+
+    .boxOut-textArea .editor.btn-toolbar {
+        overflow-y: scroll;
+    }
+
+    .boxOut-textArea .editor.btn-toolbar {
+        max-height: 60px;
+    }
+
+    .box-content {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 30px;
+        margin-bottom: 60px;
+    }
+
+    .field-reveralCode, .field-reveralCode:focus{
+        width: 100%;
+    }
+
+    .button-send, .button-save {
+        width: 120px;
+        font-size: 12px;
+        height: 30px;
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+
+    .title-content {
+        font-size: 16px;
+    }
+
+    .title-count {
+        font-size: 16px;
+    }
+
+    .boxOut-divLeft {
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .boxOut-divRight {
+        padding-left: 0px;
+    }
+
+    .input-form3 .btn-file {
+        margin-top: 0px;
+        width: 70px;
+    }
+
+    .boxOut-button {
+        width: 100%;
+    }
+
+    .boxOut-nameFile {
+        width: 100%;
+    }
+
+    .input-fieldKomfirmasi {
+        padding-left: 0px;
+    }
+
+    .boxOut-rightBrowse {
+        text-align: left;
+        padding-top: 7px;
+    }
+    
+    .box-contentRow {
+    padding: 10px 15px;
+}
+
+
+
+
+
+}

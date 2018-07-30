@@ -1,0 +1,902 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 14, 2016, 1:05:54 PM
+    Author     : Arif
+*/
+
+.backgroundContent{
+    background-color: #F5F5F5;
+}
+
+.container-padding{
+    padding-top: 60px;
+}
+
+.background-container{
+    background-color: white;
+    padding-top: 10px;
+    //padding-bottom: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    //background-image: url('../../img/icon/shadow-bottom.png');
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.boxOut-titleContent{
+    /*    padding-left: 55px;
+        padding-right: 55px;*/
+    color: #114F94;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.box-titleContent{
+    font-size: 26px;
+    color: #E62129;
+}
+
+.boxOut-textTitleContent{
+    color: #B6B6B7;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #B6B6B7;
+    font-size: 13px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.boxOut-optionLeft{
+    padding-right: 20px;
+}
+
+.nav-order-out .sideMenu-li{
+    border-top: 1px solid #C9CACA;
+    border-right: 1px solid #C9CACA;
+}
+
+.nav-order-out > .sideMenu-li:last-child{
+    border-bottom: 1px solid #C9CACA;
+}
+
+.nav-order-out a{
+    background-color: transparent !important;
+    padding: 0px !important;
+}
+
+.sideMenu-li-first img{
+    width: 77px;
+    height: 35px;
+}
+
+.sideMenu-li-last img{
+    width: 89px;
+    height: 36px;
+}
+
+
+
+
+.nav-order-out > .sideMenu-li{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+
+
+.nav-order-out > .sideMenu-li img.img-order1-active{
+    display: none;
+}
+
+.nav-order-out > .sideMenu-li.active img.img-order1{
+    display: none;
+}
+
+.nav-order-out > .sideMenu-li.active img.img-order1-active{
+    display: block;
+}
+
+
+
+.nav-order-out > .sideMenu-li img.img-order2-active{
+    display: none;
+}
+
+.nav-order-out > .sideMenu-li.active img.img-order2{
+    display: none;
+}
+
+.nav-order-out > .sideMenu-li.active img.img-order2-active{
+    display: block;
+}
+
+
+
+
+.boxOut-title-left {
+    font-size: 20px;
+    line-height: 20px;
+    text-align: left;
+    color: #00A2E9;
+}
+
+.boxOut-titleText-left{
+    font-style: italic;
+    color: #474443;
+    font-size: 12px;
+    text-align: left;
+}
+
+.nav-order-out > .sideMenu-li .boxOut-title-left{
+    color: #00A2E9;
+}
+
+.nav-order-out > .sideMenu-li.active .boxOut-title-left{
+    color: #E62129;
+}
+
+.sideMenu-li .col-md-8{
+    padding-left: 10px;
+}
+
+.boxOut-username{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-align: left;
+    padding-right: 0px;
+    color: #999999;
+    padding-left: 85px;
+}
+
+.boxOut-username > font{
+    color: #E62129;
+    font-size: 22px;
+}
+
+.boxOut-reveralCode{
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #999999;
+}
+
+
+.boxOut-reveralCode > font{
+    color: #E62129;
+    font-size: 22px;
+}
+
+.box-contentRight{
+    background-color: white;
+    //border-bottom: 1px solid #00A2E9;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 70px;
+    padding-right: 40px;
+
+    /*    -webkit-box-shadow: 0px 0px 5px 5px rgba(224,224,224,1);
+        -moz-box-shadow: 0px 0px 5px 5px rgba(224,224,224,1);
+        box-shadow: 0px 0px 5px 5px rgba(224,224,224,1);*/
+}
+
+/* Base for label styling */
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+    position: absolute;
+    left: -9999px;
+}
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+    position: relative;
+    //padding-left: 30px;
+    cursor: pointer;
+}
+
+/* checkbox aspect */
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+    content: '';
+    position: absolute;
+    left:0; top: 2px;
+    width: 13px; height: 13px;
+    border: 2px solid #aaa;
+    background: white;
+    border-radius: 3px;
+    margin-top: 1px;
+    /*  box-shadow: inset 0 1px 3px rgba(0,0,0,.3)*/
+    margin-left: -25px;
+}
+/* checked mark aspect */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+    content: '✔';
+    position: absolute;
+    top: 2px; left: 4px;
+    font-size: 16px;
+    line-height: 0.8;
+    color: #C02026;
+    transition: all .2s;
+    margin-left: -27px;
+
+}
+/* checked mark aspect changes */
+[type="checkbox"]:not(:checked) + label:after {
+    opacity: 0;
+    transform: scale(0);
+}
+[type="checkbox"]:checked + label:after {
+    opacity: 1;
+    transform: scale(1);
+}
+/* disabled checkbox */
+[type="checkbox"]:disabled:not(:checked) + label:before,
+[type="checkbox"]:disabled:checked + label:before {
+    box-shadow: none;
+    border-color: #bbb;
+    background-color: #ddd;
+}
+[type="checkbox"]:disabled:checked + label:after {
+    color: #999;
+}
+[type="checkbox"]:disabled + label {
+    color: #aaa;
+}
+/* accessibility */
+[type="checkbox"]:checked:focus + label:before,
+[type="checkbox"]:not(:checked):focus + label:before {
+    border: 1px dotted blue;
+}
+
+/* hover style just for information */
+label:hover:before {
+    border: 2px solid #4778d9!important;
+}
+
+.label-inputPrimary{
+    color: #00A2E9;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+.boxOut-primaryText{
+    //padding-left: 30px;
+    font-style: italic;
+    color: #A1A1A1;
+    font-size: 9px;
+}
+
+.nav-order-logoOut{
+    //padding-right: 20px;
+    margin-top: 10px;
+}
+
+.nav-order-logoOut > li{
+    width: auto;
+    float: right;
+}
+
+.nav-order-logoOut img{
+    height: 20px;
+}
+
+.img-sizeSmall-16{
+    height: 16px !important;
+}
+
+.img-sizeSmall{
+    height: 20px !important;
+}
+
+.nav-order-logoOut > li > a {
+    padding: 0px 3px;
+}
+
+.nav-order-logoOut > li > a:hover, .nav-order-logoOut > li > a:active, .nav-order-logoOut > li > a:focus {
+    background-color: transparent;
+}
+
+.boxOut-contentRight > .row:last-child .nav-order-logoOut{
+    margin-top: 8px;
+}
+
+
+.hide-element {
+    display: none;
+}
+
+.boxOut-paddingUsername{
+    padding-bottom: 120px;
+}
+
+.boxOut-toogle{
+    margin-top: -20px;
+    margin-bottom: 20px;
+    //border: 1px solid #DCDDDD;
+    background-color: #CCEDFF;
+}
+
+.boxOut-toggle-1{
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.field-cardNumber, .field-cardNumber:focus{
+    height:28px;
+    padding: 0px 10px;
+    border-radius: 0px;
+    background-color: white !important;
+    border: none;
+    box-shadow: none;
+    color: #757475;
+    font-size: 12px;
+    margin-bottom: 10px;
+    background-position: right 10px center !important;
+    background-size: auto 10px !important;
+}
+
+.field-cardNumber::-webkit-input-placeholder { color: #B6B6B7 !important; font-size: 12px; }
+.field-cardNumber:-moz-placeholder { color: #B6B6B7 !important; font-size: 12px; }
+.field-cardNumber::-moz-placeholder { color: #B6B6B7 !important; font-size: 12px; }
+.field-cardNumber:-ms-input-placeholder { color: #B6B6B7 !important; font-size: 12px; }
+
+
+.boxOut-leftCard{
+    padding-right: 5px;
+}
+
+
+.boxOut-rightCard{
+    padding-left: 5px;
+}
+
+.field-expired, .field-expired:focus{
+    height:28px;
+    padding: 0px 10px;
+    border-radius: 0px;
+    background-color: white;
+    border: none;
+    box-shadow: none;
+    color: #757475;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.field-expired::-webkit-input-placeholder { color: #B6B6B7 !important; font-size: 12px; }
+.field-expired:-moz-placeholder { color: #B6B6B7 !important; font-size: 12px; }
+.field-expired::-moz-placeholder { color: #B6B6B7 !important; font-size: 12px; }
+.field-expired:-ms-input-placeholder { color: #B6B6B7 !important; font-size: 12px; }
+
+.boxOut-rightCard a{
+    position: absolute;
+    right: 10px;
+    margin-top: -20px;
+    margin-top: -35px;
+}
+
+.field-cvv, .field-cvv:focus{
+    height:28px;
+    padding: 0px 20px 0px 10px;
+    border-radius: 0px;
+    background-color: white;
+    border: none;
+    box-shadow: none;
+    color: #757475;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.field-cvv::-webkit-input-placeholder { color: #B6B6B7 !important; font-size: 12px; }
+.field-cvv:-moz-placeholder { color: #B6B6B7 !important; font-size: 12px; }
+.field-cvv::-moz-placeholder { color: #B6B6B7 !important; font-size: 12px; }
+.field-cvv:-ms-input-placeholder { color: #B6B6B7 !important; font-size: 12px; }
+
+.button-continue{
+    margin: 0px;
+    background-color: #E62129;
+    color: white !important;
+    width: 80px;
+    font-size: 12px;
+    height: 22px;
+    border-radius: 4px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 20px;
+    float: right;
+}
+
+.button-continueFloatNone{
+    float: none;
+    margin-bottom: 30px;
+}
+
+.button-continue:hover, .button-continue:focus{
+    background-color: #CC1E24 !important;
+}
+
+.boxOut-bankTransfer{
+    /*    padding: 15px;
+        padding-left: 70px;
+        padding-right: 40px;*/
+    //padding-left: 70px;
+}
+
+.boxOut-optionBankTransfer{
+    //border-right: 1px dashed #B6B6B7;
+    padding: 15px;
+    padding-left: 70px;
+    background-color: #CCEDFF;
+}
+
+.box-optionBankTransfer{
+    margin-top: 10px;
+}
+
+.box-optionBankTransfer img{
+    height: 18px;
+}
+
+.bankTransfer-4 img{
+    height: 15px;
+}
+
+.bankTransfer-5 img{
+    height: 11px;
+}
+
+.boxOut-contentBankTransfer{
+    padding-left: 20px;
+    padding-top: 30px;
+    background-color: #EDF9FF;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    color: #757475;
+}
+
+.box-contentBankTransfer{
+    font-size: 10px;
+}
+
+.boxOut-debit{
+    padding: 15px;
+    padding-left: 70px;
+}
+
+.box-optionDebit{
+    margin-top: 10px;
+}
+
+.box-optionDebit [type="checkbox"]:not(:checked) + label::before, .box-optionDebit [type="checkbox"]:checked + label::before{
+    margin-top: 5px;
+}
+
+.box-optionDebit [type="checkbox"]:not(:checked) + label::after, .box-optionDebit [type="checkbox"]:checked + label::after{
+    top: 5px;
+}
+
+.debit-3-1-img{
+    padding-top: 5px;
+}
+
+
+
+.box-optionDebit img{
+    max-height: 50px;
+    max-width: 80%;
+}
+
+.field-debit, .field-debit:focus{
+    height:40px;
+    padding: 0px 10px;
+    border-radius: 0px;
+    background-color: white;
+    border: none;
+    box-shadow: none;
+    color: #757475;
+    font-size: 10px;
+    margin-bottom: 10px;
+    background-position: right 10px center !important;
+    background-size: auto 10px !important;
+}
+
+.field-debit::-webkit-input-placeholder { color: #B6B6B7 !important; font-size: 10px; }
+.field-debit:-moz-placeholder { color: #B6B6B7 !important; font-size: 10px; }
+.field-debit::-moz-placeholder { color: #B6B6B7 !important; font-size: 10px; }
+.field-debit:-ms-input-placeholder { color: #B6B6B7 !important; font-size: 10px; }
+
+
+
+
+.button-token{
+    margin: 0px;
+    background-color: #00A2E9;
+    color: white !important;
+    width: 100%;
+    font-size: 13px;
+    height: 40px;
+    border-radius: 0px;
+    padding: 0px;
+    padding-left: 10px;
+    margin-top: 0px;
+    float: none;
+    text-align: left;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.button-token:hover, .button-token:focus{
+    background-color: #0293D1 !important;
+}
+
+.boxOut-inputToken{
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+.box-inputToken{
+    border: 1px solid #C9CACA;
+    border-bottom: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #A1A1A1;
+    background-color: white;
+}
+
+.boxOut-inputToken > .row:last-child{
+    border-bottom: 1px solid #EEEEEF;;
+}
+
+.box-inputToken > .col-md-4{
+    padding-left: 20px;
+
+}
+
+.popover-content{
+    width: 200px;
+    font-size: 12px;
+}
+
+.tooltip{
+    width: 200px;
+}
+
+.tooltip-inner{
+    padding: 10px;
+    text-align: left !important;
+    font-size: 11px;
+}
+
+.boxOut-step{
+    color: #E62129;
+    text-align: center;
+}
+
+
+.field-input, .field-input:focus{
+    border-radius: 0px;
+    background-color: white;
+    border: 1px solid #C9CACA;
+    box-shadow: none;
+    color: #757475;
+    font-size: 10px;
+    height: auto;
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.field-input::-webkit-input-placeholder { color: #B6B6B7 !important; font-size: 10px; }
+.field-input:-moz-placeholder { color: #B6B6B7 !important; font-size: 10px; }
+.field-input::-moz-placeholder { color: #B6B6B7 !important; font-size: 10px; }
+.field-input:-ms-input-placeholder { color: #B6B6B7 !important; font-size: 10px; }
+
+.padding-input{
+    padding-right: 20px;
+}
+
+.box-optionEWallet{
+    padding: 10px 0px;
+}
+
+.box-optionEWallet img{
+    max-height: 30px;
+}
+
+
+
+
+
+.single-title{
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.img-order-1{
+    width: 35px;
+    height: 35px;
+
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.title-pageContent{
+    width: 180px;
+    float: none;
+
+    position: relative;
+    min-height: 1px;
+
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.backgroundContent-order{
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.boxOut-contentOrder{
+    margin-top: 30px;
+}
+
+.title-pagePayment {
+    width: 250px;
+    float: none;
+    position: relative;
+    min-height: 1px;
+
+    margin-left: 40px;
+}
+
+.boxOut-borderBottom{
+    border-bottom: 1px dashed #CCCCCC;
+    padding-bottom: 15px;
+}
+
+.backgroundContent-orderBottom {
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 70px;
+    margin-bottom: 0px;
+    //background-image: url('../../img/icon/shadow-bottom.png');
+    background-size: 100% auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.boxOut-optionBankTransfer [type="checkbox"]:not(:checked) + label:before,
+.boxOut-optionBankTransfer [type="checkbox"]:checked + label:before{
+    border: none;
+}
+
+
+.triangle-tab{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7.5px 10px 7.5px 0;
+    border-color: transparent #edf9ff transparent transparent;
+    position: absolute;
+    margin-left: -30px;
+}
+
+.option1-tab1{
+
+}
+
+.option1-tab2{
+    margin-top: 30px;
+}
+
+.option1-tab3{
+    margin-top: 65px;
+}
+
+.option1-tab4{
+    margin-top: 95px;
+}
+
+.option1-tab5{
+    margin-top: 130px;
+}
+
+.option1-tab6{
+    margin-top: 165px;
+}
+
+.boxOut-contentDebit {
+    padding-left: 20px;
+    padding-top: 30px;
+    background-color: #CCEDFF;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    color: #757475;
+}
+
+.boxOut-bankWallet{
+    padding-left: 70px;
+}
+
+
+
+@media (max-width:1366px) {
+
+    .background-container {
+        margin-top: 30px;
+    }
+
+}
+
+
+@media (max-width:1200px) {
+
+
+
+}
+
+@media (max-width:992px) {
+
+
+    .boxOut-titleContent {
+        padding-left: 40px;
+        padding-right: 0px;
+    }
+
+    .background-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .boxOut-bankTransfer {
+        padding-left: 0px;
+    }
+
+    .boxOut-eWallet{
+        padding-left: 70px;
+    }
+
+    .boxOut-reveralCode {
+        padding-left: 0px;
+    }
+
+
+
+
+}
+
+@media (max-width:768px) {
+
+    .background-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .boxOut-optionLeft {
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .background-container {
+        padding-top: 15px;
+    }
+
+    .boxOut-contentBankTransfer {
+        padding-left: 0px;
+        padding-top: 15px;
+    }
+
+    .boxOut-optionBankTransfer {
+        border-right: none;
+        border-bottom: 1px dashed #B6B6B7;
+        padding-bottom: 15px;
+    }
+
+    .box-optionDebit img {
+        max-height: 50px;
+        max-width: 100%;
+        height: 30px;
+    }
+
+    .debit-mandiri{
+        height: 50px !important;
+    }
+
+    .boxOut-titleContent {
+        font-size: 18px;
+    }
+
+    .boxOut-username {
+        text-align: center;
+        font-size: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .boxOut-reveralCode {
+        text-align: center;
+        font-size: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .boxOut-username > font {
+        font-size: 18px;
+    }
+
+    .boxOut-reveralCode > font {
+        font-size: 18px;
+    }
+
+    .boxOut-toggle-1 {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .boxOut-contentBankTransfer {
+        padding-left: 45px;
+    }
+
+    .boxOut-contentDebit {
+        padding-left: 0px;
+    }
+
+    .boxOut-bankWallet{
+        padding-left: 0px;
+    }
+
+
+
+
+    .title-pagePayment {
+        margin-left: 0px;
+
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .title-pageContent {
+        margin-bottom: 0px;
+
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .box-contentRight {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .boxOut-titleContent {
+        font-size: 24px;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .background-container {
+        margin-top: 0px;
+    }
+
+
+}
+
+

@@ -1,0 +1,322 @@
+.dncalendar-inactive {
+    opacity: 0.2;
+}
+
+.dncalendar-header {
+    margin: 0px 0;
+    position: relative;
+    background-color: #0794D1;
+}
+
+.dncalendar-header h2 {
+    color: white;
+    font-size: 20px;
+    line-height: 1;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.dncalendar-header .dncalendar-links {
+    width: 100%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.dncalendar-header .dncalendar-links div {
+    -webkit-user-select: none;
+    touch-action: pan-y;
+    -webkit-user-drag: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.dncalendar-header .dncalendar-links .dncalendar-next-month {
+    position: inherit;
+    background: url('../../img/download/arrow.png') no-repeat -111px 0px;
+    background-size: 148px 31px;
+    background-color: white;
+}
+
+.dncalendar-header .dncalendar-links .dncalendar-prev-month {
+    position: inherit;
+    background: url('../../img/download/arrow.png') no-repeat 0px 0px;
+    background-size: 148px 31px;
+    background-color: white;
+}
+
+.dncalendar-body {
+    margin: 0 0 10px;
+    background-color: #0794D1;
+}
+
+.dncalendar-body table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+
+.dncalendar-body table th, td {
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.dncalendar-body thead td {
+    color: white !important;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.dncalendar-body tbody tr td {
+    width: 13%;
+    //border-top: 1px solid #ddd;
+    color: #7dcef3;
+    background: #0794D1;
+    text-decoration: none;
+    vertical-align: middle;
+    font-size: 8px;
+}
+
+.dncalendar-body tbody td#calendarClick {
+    cursor: pointer;
+}
+
+.dncalendar-body tbody td.calendarClick a{
+    color: white;
+    background: #0794D1 ;
+    font-size: 14px;
+}
+
+.dncalendar-body tbody td.today-date a{
+    color: #0794D1 !important;
+    background: white!important;
+    font-size: 14px;
+}
+
+.dncalendar-body tbody td .entry {
+    padding: 7px 0 7px;
+    position: relative
+}
+
+.dncalendar-body tbody td.calendarClick:active {
+    background: #ddd
+}
+
+.dncalendar-body tbody td .entry:after
+{
+    content:attr(data-title);
+    left:0;
+    position:absolute;
+    font-size:10px;
+    bottom:1px;
+    text-align:center;
+    width:100%
+}
+
+.dncalendar-body table td.holiday {
+    color: #7dcef3;
+}
+
+.dncalendar-body table td.calendarClick.holiday {
+    color: white !important;
+}
+
+.dncalendar-body table td.default-date {
+    border: 1px solid #96D4FD;
+    color: #96D4FD !important;
+    background: #e6f2fa;
+}
+
+.dncalendar-body table td.calendarClick.default-date {
+    border: none;
+    color: white !important;
+    background: #4ABDED;
+}
+
+.dncalendar-body table td.today-date {
+    //border: 1px solid #7EE699;
+    color: #4ABDED !important;
+    //border-radius: 100%;
+    //background: #4ABDED; /*custom*/
+}
+
+.dncalendar-body table td.calendarClick.today-date {
+    //border: 1px solid #0DCC3F;
+    color: white !important;
+    //border-radius: 100%;
+    //background: #4ABDED; /*custom*/
+}
+
+
+
+
+
+.dncalendar-note-list {
+    list-style: none;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    padding: 0;
+    color: #999;
+}
+
+.dncalendar-note-list .date {
+    color: white;
+}
+
+.today-date .entry{
+    background-color: white;
+    color: #4ABDED;
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+    padding: 0px !important;
+    padding-top: 3px !important;
+
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.note .entry{
+    border-radius: 100%;
+    border: 1px solid white;
+    height: 25px;
+    width: 25px;
+    padding: 0px !important;
+
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -moz-box;
+    display: flex;
+
+    -webkit-box-align: center;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.today-date a{
+    color: #4ABDED;
+    text-decoration: none;
+
+}
+
+.note a{
+    color: white;
+    text-decoration: none;
+}
+
+.dncalendar-note-list a{
+    color: white;
+}
+
+.dncalendar-note-list a:hover{
+    color: #D6D6D6;
+}
+
+.circle-link-left{
+    width: 13px;
+    //height: 85px;
+    float: left;
+    //margin-right: 10px;
+    //background-color: white;
+    //border-radius: 100%;
+    cursor: pointer;
+    //padding-top: 25px;
+    margin-top: 130px;
+}
+
+.circle-link-right{
+    width: 13px;
+    //height: 85px;
+    float: right;
+    //margin-left: 10px;
+    //background-color: white;
+    //border-radius: 100%;
+    cursor: pointer;
+    //padding-top: 25px;
+    margin-top: 130px;
+}
+
+.boxOut-kalenderEvent{
+    //min-height: 600px;
+    min-height: 430px;
+}
+
+
+.dncalendar-note-list {
+    font-size: 10px;
+}
+
+
+@media (max-width:1366px) {
+
+
+
+
+
+}
+
+@media (max-width:992px) {
+
+    .dncalendar-body tbody td.calendarClick {
+        font-size: 11px;
+    }
+
+    .note .entry {
+        height: 20px;
+        width: 20px;
+
+    }
+
+    .dncalendar-body thead td {
+        font-size: 12px;
+    }
+
+    .boxOut-kalenderBulan {
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .dncalendar-note-list {
+        margin-left: 7px;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+
+    .dncalendar-note-list {
+        font-size: 9px;
+    }
+
+    .circle-link-left {
+        width: 10px;
+    }
+    
+    .circle-link-right {
+        width: 10px;
+    }
+
+}
+
+@media (max-width:768px) {
+
+}

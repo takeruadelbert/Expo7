@@ -1,0 +1,357 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 14, 2016, 1:05:54 PM
+    Author     : Arif
+*/
+
+.backgroundContent{
+    background-color: #F5F5F5;
+}
+
+.container-padding{
+    padding-top: 40px;
+}
+
+.background-container{
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-image: url('../../img/icon/shadow-bottom.png');
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.boxOut-titlePrimary{
+    color: #114F94;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.boxOut-titleSecond{
+    font-size: 12px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 40px;
+}
+
+.boxOut-rewardImg{
+    //height: 175px;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: 160px 175px;
+}
+
+.boxOut-rewardImg img{
+    width: 160px;
+    height: 175px;
+}
+
+.boxOut-rewardText{
+    color: #8B8B8C;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.boxOut-easyAcces{
+    margin-top: 50px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.boxOut-easyAccesTitle{
+    color: #114F94;
+    font-size: 18px;
+    border-bottom: 3px solid #E62129;
+    padding-bottom: 5px;
+}
+
+.boxOut-easyAccesText{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.boxOut-keteranganLevel{
+    margin-bottom: 35px;
+}
+
+.boxOut-arrow{
+    z-index: 2 !important;
+}
+
+.reward-arrow{
+    width: 40px;
+    height: 35px;
+    //margin-left: 90px;
+    margin-bottom: -2px !important;
+    z-index: 5 !important;
+}
+
+.reward-arrow img{
+    width: 40px;
+    height: 35px;
+    margin-bottom: -2px !important;;
+    z-index: 5 !important;
+    position: absolute;
+}
+
+.tab-pane{
+    z-index: 5 !important;
+}
+
+.boxOut-keteranganLevel-text{
+    background: url(../../img/icon/reward-backgroundKeterangan-noLine.png);
+    background-size: 100% auto;
+    background-repeat:no-repeat;
+    border-top: 1px solid #C9CACA;
+    margin-top: -1px;
+    z-index: 2 !important;
+
+    padding-top: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 40px;
+}
+
+.box-keteranganLevel-text{
+    font-size: 12px;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+.boxOut-view{
+    width: 175px;
+    height: 30px;
+    float: none;
+}
+
+.button-view{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: #00A2E9;
+    color: white !important;
+    font-size: 13px;
+    border-radius: 5px;
+    padding: 0px;
+    text-align: center;
+
+}
+
+.button-view:hover, .button-view:focus{
+    background-color: #008DC9 !important;
+}
+
+.edit-reward-tabs > li > a {
+    padding: 0px 0px;
+}
+
+.edit-reward-tabs{
+    width: 100%;
+}
+
+.edit-reward-tabs > li{
+    width: 25%;
+}
+
+.edit-reward-tabs > li.active > a, .edit-reward-tabs > li.active > a:hover, .edit-reward-tabs > li.active > a:focus {
+    cursor: default;
+    background-color: transparent;
+    border: none;
+}
+
+.edit-reward-tabs > li > a:hover{
+    background-color: transparent;
+    border: none !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.nav-tabs > li > a {
+    margin-right: 0px;
+    line-height: 1.42857143;
+    border: none;
+    border-radius: 0px 0px 0 0;
+}
+
+.reward-triangle{
+    height: 35px;
+}
+
+.edit-reward-tabs > li .reward-arrow img{
+    display: none;
+}
+
+.edit-reward-tabs > li.active .reward-arrow img{
+    display: block;
+}
+
+.panel-default > .panel-heading {
+    color: #333;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.panel-heading {
+    padding: 0px 0px;
+    border-bottom: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.panel-group .panel-heading + .panel-collapse > .panel-body, .panel-group .panel-heading + .panel-collapse > .list-group {
+    border-top: none;
+}
+
+.panel-body {
+    padding: 0px;
+    padding-bottom: 50px;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.boxOut-keteranganLevel-textBottom {
+    background: url(../../img/icon/reward-backgroundKeterangan-noLineBottom.png);
+    background-position: bottom;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #C9CACA;
+    margin-bottom: -1px;
+    z-index: 2 !important;
+    padding-top: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 40px;
+}
+
+.box-keteranganLevel-textBottom {
+    font-size: 12px;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+@media (max-width:1366px) {
+
+
+
+}
+
+@media (max-width:1200px) {
+
+
+}
+
+@media (max-width:992px) {
+
+    .boxOut-rewardImg{
+        background-size: 116px 127px;
+    }
+
+    .boxOut-rewardImg img{
+        width: 116px;
+        height: 127px;
+    }
+
+    .boxOut-titleSecond {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .boxOut-easyAcces {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .boxOut-keteranganLevel-text {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .boxOut-keteranganLevel-textBottom {
+        padding-left: 40px;
+        padding-right: 40px;
+        background-repeat: no-repeat;
+    }
+
+
+}
+
+@media (max-width:768px) {
+
+    .background-container {
+        padding-top: 50px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .boxOut-keteranganLevel-text {
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
+    .reward-arrow {
+        margin-left: auto;
+        margin-bottom: -1px;
+    }
+
+    .reward-arrow{
+        float: none !important;
+
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .reward-arrow img{
+        display: none;
+    }
+
+    .boxOut-keteranganLevel-textBottom {
+        background: url(../../img/icon/reward-backgroundKeterangan-noLine.png);
+        background-repeat: no-repeat;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        margin-top: 20px;
+        border-bottom: none;
+        border-top: 1px solid #C9CACA;
+    }
+
+    .reward-triangle {
+        height: 0px;
+    }
+
+    .boxOut-rewardText {
+        margin-bottom: 20px;
+    }
+
+
+}
+
+

@@ -1,0 +1,340 @@
+.boxOut-selectHeader{
+    display: none;
+}
+
+.button-maximize{
+    margin: 0px;
+    background-color: #97DAF8;
+    color: white;
+    width: 41px;
+    height: 41px;
+    font-size: 20px;
+    padding: 0px;
+    padding-top: 0px;
+    position: absolute;
+    left: 0;
+    margin-left: 120px;
+    margin-top: 20px;
+    z-index: 1;
+
+    border-radius: 100%;
+    text-align: center;
+
+    transition: all 0.25s linear 0s;
+    float: none;
+}
+
+.button-maximize:hover, .button-maximize:focus{
+    transition: all 0.25s linear 0s;
+    background-color: #7FB6CF;
+}
+
+.button-minimize{
+    margin: 0px;
+    background-color: #97DAF8;
+    color: white;
+    width: 41px !important;
+    height: 41px !important;
+    font-size: 20px;
+    padding: 0px;
+    padding-top: 0px;
+    position: absolute;
+    left: 0;
+    margin-left: 170px;
+    margin-top: 20px !important;
+    z-index: 1;
+
+    border-radius: 100%;
+    text-align: center;
+
+    transition: all 0.25s linear 0s;
+    float: none;
+}
+
+.button-minimize:hover, .button-minimize:focus{
+    transition: all 0.25s linear 0s;
+    background-color: #7FB6CF;
+}
+
+.button-maximize img{
+    width: 23px;
+    height: 19px;
+    margin-top: -4px;
+}
+
+.button-minimize img{
+    width: 23px;
+    height: 19px;
+    margin-top: -4px;
+}
+
+.boxOut-person{
+    width: 115px;
+    border-radius: 5px;
+    background-color: white;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.boxOut-treeTop{
+    padding-bottom: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 2px solid #E6E6E6;
+    height: 66px;
+}
+
+.boxOut-treeName{
+    color: #ED3237;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.boxOut-treeId{
+    font-size: 11px;
+    color: #999999;
+}
+
+.boxOut-treeFoto{
+    margin-top: -10px;
+    z-index: 2;
+}
+
+.boxOut-treeFoto-blank{
+    margin-top: -10px;
+    z-index: 2;
+}
+
+.boxOut-blank:hover .boxOut-treeBottom{
+    display: block;
+}
+
+.box-treeFoto{
+    height: 115px;
+    background-size: 100% 100%;
+}
+
+.boxOut-treeBottom{
+    height: 101px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 2px solid #B3B3B3;
+    background-color: #E6E6E6;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+    display: none;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -90px;
+    z-index: 1;
+}
+
+.boxOut-treeBottomTitle{
+    color: #999999;
+    text-align: center;
+    font-size: 10px;
+}
+
+.boxOut-treeBottomDate{
+    color: #4D4D4D;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.boxOut-treeCount{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    z-index: 3;
+    background-color: #0D9CD4;
+    position: absolute;
+    font-size: 20px;
+    border-radius: 100%;
+    padding-top: 10px;
+    bottom: 0;
+    right: 0;
+    margin-right: -25px;
+    margin-bottom: -25px;
+}
+
+.hv-item-2 .hv-item-parent:after{
+    display: none;
+}
+
+.hv-item-2 .hv-item-parent.active:after{
+    display: block;
+}
+
+.boxOut-blank:after{
+    display: none !important;
+}
+
+.boxOut-buttonInvite{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.button-invite{
+    margin: 0px;
+    background-color: #6BACF7;
+    color: white;
+    width: 100%;
+    font-size: 14px;
+    height: 30px;
+    border-radius: 100px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 10px;
+
+    transition: all 0.25s linear 0s;
+}
+
+.button-invite:hover, .button-invite:focus{
+    background-color: #6197D6;
+    transition: all 0.25s linear 0s;
+}
+
+.boxOut-content{
+    margin-top: 70px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.box-content{
+    height: 623px; 
+    background-color: #FAFAFA; 
+    border-left: 3px solid #1A64B8; 
+    padding-top: 50px; 
+    overflow: scroll;
+}
+
+.hv-item-2 > .hv-item-children{
+    //position: absolute;
+    position: absolute;
+    margin-left: -160px;
+}
+
+
+
+
+.hv-item-2 .hv-item-parent.active::after{
+   //display: none; 
+}
+
+
+
+
+
+@media (max-width:1366px) {
+
+    .box-treeFoto {
+        height: 85px;
+    }
+
+    .boxOut-person {
+        width: 85px;
+    }
+
+    .boxOut-treeCount {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+        padding-top: 7px;
+        margin-right: -15px;
+        margin-bottom: -15px;
+    }
+
+    .boxOut-treeName {
+        font-size: 9px;
+    }
+
+    .boxOut-treeId {
+        font-size: 9px;
+    }
+
+    .boxOut-treeTop {
+        height: 55px;
+    }
+
+    .boxOut-treeBottomTitle {
+        font-size: 9px;
+    }
+
+    .boxOut-treeBottomDate {
+        font-size: 9px;
+    }
+
+    .boxOut-treeBottom {
+        height: 80px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        margin-bottom: -75px;
+    }
+
+    .button-invite {
+        font-size: 11px;
+        height: 20px;
+    }
+
+    .boxOut-content{
+        padding-left: 35px; 
+        padding-right: 35px; 
+        padding-top: 30px;
+        margin-bottom: 60px;
+        margin-top: 0px;
+    }
+
+    .box-content{
+        height: 623px; 
+        background-color: #FAFAFA; 
+        border-left: 3px solid #1A64B8; 
+        padding-top: 50px; 
+        overflow: scroll;
+    }
+
+    .box-content {
+        height: 530px;
+    }
+
+}
+
+
+@media (max-width:992px) {
+
+
+
+
+}
+
+@media (max-width:768px) {
+
+    .boxOut-titleDashboard {
+        margin-top: 20px;
+    }
+
+    .boxOut-content {
+        margin-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 30px;
+    }
+
+    .boxOut-content {
+        padding-top: 0px;
+    }
+
+
+
+}

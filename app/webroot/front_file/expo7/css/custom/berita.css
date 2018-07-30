@@ -1,0 +1,483 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 14, 2016, 1:05:54 PM
+    Author     : Arif
+*/
+
+.backgroundContent{
+    background-color: #F5F5F5;
+}
+
+.container-padding {
+    padding-top: 80px;
+}
+
+.background-container{
+    background-color: transparent;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    //background-image: url('../../img/icon/shadow-bottom.png');
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.boxOut-instruction{
+    /*    border-left: 3px solid #FFBE7E;*/
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.boxOut-topContent{
+    height: 500px;
+}
+
+.boxOut-topLeftContent{
+    height: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.boxOut-topRightContent{
+    height: inherit;
+}
+
+
+.boxOut-topRightTopContent{
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.boxOut-topRightBottomContent{
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.boxOut-topTitleNews{
+    width: 648px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.boxOut-berita-title{
+    text-overflow: ellipsis;
+    margin-bottom: 0px;
+    overflow: hidden;
+    height: 90px;
+    padding-right: 20px;
+}
+
+.boxOut-berita-title a{
+    color: white;
+    font-size: 32px;
+}
+
+.boxOut-berita-title a:hover{
+    color: #d4d4d4;
+}
+
+
+
+.boxOut-berita-date{
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.boxOut-topRightTitleNews{
+    width: 332px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-left: 20px;
+}
+
+.boxOut-topRight-title{
+    text-overflow: ellipsis;
+    margin-bottom: 0px;
+    overflow: hidden;
+    height: 52px;
+    margin-bottom: 38px;
+}
+
+.boxOut-topRight-title a{
+    color: white;
+    font-size: 19px;
+}
+
+.boxOut-topRight-title a:hover{
+    color: #d4d4d4;
+}
+
+.boxOut-bottomLeft{
+    padding-right: 10px;
+}
+
+.boxOut-bottomRight{
+    padding-left: 10px;
+}
+
+.boxOut-imgBerita{
+    height: 239px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.boxOut-imgBerita a{
+    width: 100%;
+    height: 100%;
+
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.boxOut-imgBerita img{
+    width: 100%;
+    height: 100%;
+}
+
+.boxOut-titleBerita{
+    margin-bottom: 10px;
+}
+
+.boxOut-titleBerita a{
+    color: #4d4d4d;
+    font-size: 20px;
+}
+
+.boxOut-titleBerita a:hover{
+    color: #777777;
+}
+
+.boxOut-dateBerita{
+    color: #4d4d4d;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.boxOut-textBerita{
+    color: #4d4d4d;
+    text-align: justify;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.button-berita{
+    width: 120px;
+    height: 30px;
+    margin: 0px;
+    background-color: #0794D1;
+    color: white !important;
+    font-size: 12px;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+    transition-duration:0.1s;
+    float: right;
+    //margin-top: 30px;
+}
+
+.button-berita:hover, .button-berita:focus{
+    background-color: #0778A8 !important;
+    transition-duration:0.1s;
+}
+
+
+
+
+
+
+
+.boxOut-pagination{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.box-pagination span{
+
+    background-color: #94D9F8;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+span a:hover, span a:focus, span a.active {
+    color: white;
+    background-color: #0098DA;
+    border-radius: 4px;
+
+}
+
+span a {
+    height: 27px;
+    width: 27px;
+    font-size: 14px;
+    color: white !important;
+    padding: 0 0px;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-top: 3px;
+}
+
+.boxOut-page{
+    width: 100%;
+    float: none;
+    position: relative;
+    min-height: 1px;
+
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.box-pagination {
+    text-align: center;
+    color: #94D9F8;
+}
+
+
+
+.pagelist{
+    min-height: 170px;
+}
+
+
+
+
+/*PAGING*/
+.pagelist {
+    display: none;
+}
+
+.pagelist.active {
+    display: block;
+}
+
+
+
+
+
+
+
+@media (max-width:1643px) {
+
+    .boxOut-topTitleNews{
+        width: 625px;
+    }
+
+    .boxOut-topRightTitleNews {
+        width: 355px;
+    }
+
+}
+
+
+
+@media (max-width:1366px) {
+
+    .container-padding {
+        padding-top: 60px;
+    }
+
+    .boxOut-topContent{
+        height: 440px;
+    }
+
+    .boxOut-topTitleNews{
+        width: 601px;
+    }
+
+    .boxOut-topRightTitleNews {
+        width: 378px;
+    }
+
+
+}
+
+
+@media (max-width:1200px) {
+
+    .boxOut-topTitleNews{
+        width: 582px;
+    }
+
+    .boxOut-topRightTitleNews {
+        width: 388px;
+    }
+
+
+
+}
+
+@media (max-width:992px) {
+
+    .boxOut-topTitleNews{
+        width: 435px;
+    }
+
+    .boxOut-topRightTitleNews {
+        width: 295px;
+    }
+
+    .boxOut-berita-title {
+        height: 62px;
+    }
+
+    .boxOut-berita-title a {
+        font-size: 22px;
+    }
+
+    .boxOut-topRight-title {
+        height: 47px;
+        margin-bottom: 20px;
+    }
+
+    .boxOut-berita-date {
+        font-size: 12px;
+    }
+
+    .boxOut-topRight-title a {
+        font-size: 16px;
+    }
+
+
+    .boxOut-imgBerita {
+        height: 180px;
+    }
+
+    .boxOut-titleBerita a {
+        font-size: 16px;
+    }
+
+    .boxOut-dateBerita {
+        font-size: 12px;
+    }
+
+    .boxOut-textBerita {
+        font-size: 12px;
+    }
+
+
+}
+
+@media (max-width:768px) {
+
+    .boxOut-topTitleNews{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .boxOut-topRightTitleNews {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .boxOut-topContent {
+        height: auto;
+    }
+
+    .boxOut-topLeftContent{
+        height: 200px;
+        margin-bottom: 5px;
+    }
+
+    .boxOut-topRightContent{
+        height: auto;
+    }
+
+    .boxOut-topRightTopContent{
+        height: 200px;
+        margin-bottom: 5px;
+    }
+
+    .boxOut-topRightBottomContent{
+        height: 200px;
+        margin-bottom: 5px;
+    }
+
+    .boxOut-topRight-title {
+        height: 45px;
+        margin-bottom: 0px;
+    }
+
+    .boxOut-berita-title {
+        height: 45px;
+        margin-bottom: 0px;
+    }
+
+
+    .boxOut-topRight-title a {
+        font-size: 16px;
+    }
+
+    .boxOut-berita-title a {
+        font-size: 16px;
+    }
+
+    .boxOut-berita-date {
+        font-size: 12px;
+    }
+
+    .boxOut-imgBerita a {
+        text-align: center;
+    }
+
+    .boxOut-imgBerita {
+        height: 124px;
+    }
+
+    .boxOut-imgBerita img {
+        width: auto;
+        max-width: 100%;
+    }
+
+    .boxOut-textBerita {
+        margin-bottom: 50px;
+    }
+
+    .boxOut-page{
+        width: 230px;
+        float: none;
+        position: relative;
+        min-height: 1px;
+
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .button-berita {
+        margin-top: 30px;
+        float: none;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    
+
+
+}
+
+

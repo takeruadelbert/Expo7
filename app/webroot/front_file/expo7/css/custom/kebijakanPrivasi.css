@@ -1,0 +1,522 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 14, 2016, 1:05:54 PM
+    Author     : Arif
+*/
+
+.backgroundContent{
+
+    background-color: #F5F5F5;
+
+}
+
+
+
+.container-padding{
+    padding-top: 0px;
+}
+
+.background-container{
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 90px;
+    padding-left: 50px;
+    padding-right: 110px;
+    background-image: url('../../img/icon/shadow-bottom.png');
+    background-size: 100% auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-top: 110px;
+}
+
+
+.boxOut-titlePage{
+    padding-left: 55px;
+}
+
+.box-titlePage{
+    color: #114F94;
+    font-size: 19px;
+    padding-bottom: 10px;
+}
+
+.box-subTitlePage{
+    color: #B6B6B7;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #B6B6B7;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+/*.boxOut-isiContent{
+    padding-left: 80px;
+}*/
+
+.boxOut-sideMenu{
+    background-image: url('../../img/icon/sideIndicator-menu.png');
+    background-size: 100px 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+    /*    padding-left: 40px;*/
+}
+
+
+.boxFlex{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+}
+
+.arrow-indicator img{
+    margin-top: -7px;
+    position: absolute;
+    display: none;
+}
+
+.arrow-indicator img.active{
+    display: block;
+}
+
+
+.boxBackground-sideMenu{
+    background-image: url('../../img/icon/sidebarBackground-menu2.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.sideMenu-li > a > .col-md-12{
+    padding-top: 3px;
+    padding-bottom: 2px;
+
+}
+
+.sideMenu-li a{
+    color: #123482;
+}
+
+.sideMenu-li a:hover{
+    color: #1C4EC4;
+}
+
+.border-text{
+    //border-bottom: 1px dotted #B3B3B3;
+}
+.border-text:first-child{
+    //border-bottom: 1px solid #CFCE85;
+    padding-left: 10px;
+}
+
+#side-menu-jarakAtas {
+    height:320px;
+    display: none;
+}
+
+#nav-side.affix {
+    position: fixed;
+    width: 150px;
+    top: 110px;
+    z-index: 2000;
+}
+
+.navbar-edit-profil{
+    margin-bottom: 0px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-edit-profil{
+    min-height: 0px;
+    background-color: white;
+    //border: 1px dotted #DCDDDD;
+    margin-bottom: 10px !important;
+    border-radius: 0px;
+    position: absolute;
+    width: 200px;
+    margin-left: -180px;
+    margin-top: 50px;
+
+
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(196,194,196,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(196,194,196,1);
+    box-shadow: 0px 0px 10px 0px rgba(196,194,196,1);
+}
+
+.profil-navbar-li{
+    padding: 0px 0px 0px 0px !important;
+    font-size: 11px;
+}
+
+.navbar-nav-kebijakan > li:last-child{
+    border-right: 0px none;
+}
+
+.profil-navbar-li > a > .col-md-12{
+    padding: 5px 0px 5px 0px;
+}
+
+/*.nav-profil > .profil-navbar-li:first-child{
+    text-align: center;
+    font-size: 18px;
+    background-color: #E62129;
+    color: white;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}*/
+
+.nav-profil > .profil-navbar-li:first-child:hover {
+    color: white;
+}
+
+.li-1{
+    padding-top: 10px !important;
+}
+
+.nav-profil > .profil-navbar-li:last-child >   a > .col-md-12{
+    margin-bottom: 20px;
+}
+
+.nav-profil > .profil-navbar-li:last-child >  a > .col-md-12{
+    //border-bottom: 1px solid #F4F5F6;
+}
+
+.nav-profil > .profil-navbar-li:hover{
+    color: #00A2E9;
+
+}
+
+.nav-profil > .profil-navbar-li:hover >  a > .col-md-12{
+    /*    border-bottom:  1px solid #C81F6E;*/
+}
+
+.nav-profil > .profil-navbar-li:hover >  a{
+    color: #00A2E9 !important;
+}
+
+.nav-profil > .profil-navbar-li:hover >  a .border-text {
+    //border-bottom: 1px dotted #00A2E9;
+}
+
+.nav-profil > .profil-navbar-li:hover.active >  a .border-text {
+    border-bottom: none;
+}
+
+/*.nav-profil > .profil-navbar-li:first-child img {
+    margin-left: 100px;
+}*/
+
+.navbar-edit-profil .navbar-nav > li > a:hover, .navbar-edit-profil .navbar-nav > li > a:focus {
+    background-color: transparent !important;
+    margin-top: 0px !important;
+    height: 0px !important;
+    border-right: 0px none !important;
+}
+
+.profil-navbar-li a{
+    padding: 0px !important;
+    color: #B3B3B3 !important;
+
+}
+
+.profil-navbar-li a:hover{
+}
+
+.profil-toggle-edit, .profil-toggle-edit:hover, .profil-toggle-edit:focus{
+    margin: 0px;
+    background-color: #00A3E9 !important;
+    padding: 5px 5px;
+    border: 0px none;
+    color: white !important;
+}
+
+.profil-toggle-edit .icon-bar {
+    background-color: white !important;
+}
+
+.profil-navbar-li .arrow-indicator{
+    position: absolute !important;
+    width: 15px;
+    height: 20px;
+    right: 0;
+    margin-top: 3px;
+}
+
+.profil-navbar-li img{
+    display: none;
+    margin-left: 35px;
+}
+
+.profil-navbar-li img.active{
+    display: block;
+}
+
+.navbar-default .navbar-offcanvas {
+    z-index: 20;
+}
+
+.sidebar-z{
+    z-index: 1000;
+}
+
+
+
+.titleKebijakanPrivasi{
+    font-size: 17px;
+    color: #00A2E9;
+    padding-bottom: 5px;
+}
+
+.textKebijakan{
+    color: #A1A1A1;
+    font-size: 15px;
+    text-align: justify;
+    padding-bottom: 30px;
+}
+
+.subBab-textKebijakan{
+    color: #A1A1A1;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.subBab-title{
+    padding-left: 30px;
+}
+
+.subBab-text{
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.textSyarat{
+    color: #A1A1A1;
+    font-size: 14px;
+    text-align: justify;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+#nav-side.affix {
+    position: fixed;
+    width: 150px;
+    top: 110px;
+    z-index: 1000;
+}
+
+.sidebar-canvas, .affix .sidebar-canvas{
+    z-index: 1001 !important;
+}
+
+.profil-navbar-li > a > .col-md-12{
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.profil-navbar-li.active > a > .col-md-12{
+    background-color: red;
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+    color: white;
+    font-weight: bold;
+    //font-weight: bold;
+}
+
+.profil-navbar-li.active .col-md-11, .profil-navbar-li.active .col-md-11:hover{
+    border-bottom: none;
+}
+
+
+
+
+@media (max-width:1366px) {
+
+    .background-container {
+        margin-top: 90px;
+    }
+
+}
+
+
+@media (max-width:1200px) {
+
+
+}
+
+@media (max-width:992px) {
+
+    /*    .background-container {
+            padding-left: 100px;
+            padding-right: 100px;
+        }*/
+
+    .background-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .navbar-edit-profil{
+        margin-left: -190px;
+    }
+
+    .boxOut-titlePage {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .boxOut-isiContent{
+        padding-left: 200px;
+        padding-right: 100px;
+    }
+
+
+}
+
+@media (max-width:768px) {
+
+    .background-container {
+        //padding-top: 210px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .boxOut-titlePage {
+        padding-left: 0px;
+    }
+
+    .navbar-edit-profil{
+        margin-left: 0px;
+    }
+
+    .boxOut-sideMenu {
+        padding: 20px;
+    }
+
+    .box-sideMenu{
+        padding: 0px;
+    }
+
+    .boxOut-isiContent{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .navbar-edit-profil {
+        width: 35px;
+        border-radius: 0px;
+        border: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .nav-profil > .profil-navbar-li:last-child > a > .col-md-12 {
+        border-bottom: none;
+    }
+
+    .nav-profil > .profil-navbar-li:hover:first-child {
+        border-top-left-radius: 0px;
+    }
+
+    .nav-profil > .profil-navbar-li:hover >  a{
+        color: white !important;
+    }
+    .nav-profil > .profil-navbar-li:hover >  a .border-text {
+        border-bottom: 1px dotted white;
+    }
+
+    .affix .navbar-edit-profil {
+        margin-top: 100px;
+
+    }
+
+    .sidebar-canvas{
+        padding-top: 80px;
+    }
+
+
+
+
+    .navbar-edit-profil {
+        margin-top: -15px;
+    }
+
+    #nav-side.affix {
+        top: 100px;
+    }
+
+    .profil-navbar-li.active > a > .col-md-12 {
+        margin-left: 0px;
+        padding-left: 15px;
+        padding-right: 10px;
+        padding-bottom: 2px;
+        padding-top: 2px;
+        color: white;
+    }
+
+    .profil-navbar-li a {
+        color: white !important;
+    }
+
+    .background-container {
+        padding-top: 40px;
+    }
+
+    .border-text {
+        border-bottom: 1px dotted white;
+    }
+
+    .background-container {
+        margin-top: 20px;
+    }
+
+    .background-container {
+        margin-top: 50px;
+    }
+
+    .affix .navbar-edit-profil {
+        margin-top: 70px;
+    }
+
+    .navbar-edit-profil {
+        margin-top: -10px;
+        margin-left: -25px;
+    }
+
+    .background-container {
+        padding-top: 100px;
+    }
+
+    .nav-profil > .profil-navbar-li:hover > a .border-text {
+        border-bottom: none;
+    }
+
+    .border-text {
+        border-bottom: none;
+    }
+
+    .sidebar-canvas {
+        padding-top: 35px;
+    }
+
+
+
+
+}
+
+

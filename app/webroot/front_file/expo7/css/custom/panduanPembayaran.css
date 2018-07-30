@@ -1,0 +1,112 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 14, 2016, 1:05:54 PM
+    Author     : Arif
+*/
+
+.backgroundContent{
+    background-color: #F5F5F5;
+}
+
+.container-padding{
+    padding-top: 40px;
+}
+
+.background-container{
+    background-color: white;
+    padding-top: 117px;
+    padding-bottom: 60px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-image: url('../../img/icon/shadow-bottom.png');
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+
+.boxOut-titlePage{
+
+}
+
+.box-titlePage{
+    color: #C02026;
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+
+.box-subTitlePage{
+    color: #B6B6B7;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #B6B6B7;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+.button-pesan{
+    width: 205px;
+    height: 40px;
+    margin: 0px;
+    background-color: #E62129;
+    color: white !important;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 20px;
+    float: none;
+
+}
+
+.button-pesan:hover, .button-pesan:focus{
+    background-color: #C41C21 !important;
+}
+
+.boxOut-buttonPesan{
+    padding-top: 350px;
+}
+
+
+@media (max-width:1366px) {
+
+    container-padding{
+        padding-top: 0px;
+    }
+
+    .background-container {
+        padding-top: 100px;
+    }
+
+}
+
+
+@media (max-width:1200px) {
+
+
+}
+
+@media (max-width:992px) {
+
+    .background-container {
+        padding-top: 80px;
+        padding-bottom: 60px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .background-container {
+        padding-top: 80px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+

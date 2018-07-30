@@ -1,0 +1,191 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 14, 2016, 1:05:54 PM
+    Author     : Arif
+*/
+
+.backgroundContent{
+    background-image: url('../../img/icon/about-background3.png');
+    background-size: 42% 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: #e1e1e1;
+}
+
+.container-padding{
+    padding-top: 85px;
+}
+
+.boxOut-aboutLeft{
+    padding-right: 20px;
+    padding-top: 50px;
+}
+
+.boxOut-aboutTitle{
+    color: white;
+    //text-align: right;
+    font-size: 24px;
+}
+
+
+.boxOut-aboutText{
+    color: white;
+    text-align: justify;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+
+
+
+.box-homeVideo{
+    width: 100%;
+    float: left;
+    min-height: 1px;
+}
+
+.box-homeVideo > .col-md-12{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.box-homeVideo > .col-md-12 > iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.boxOut-aboutRight{
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.boxOut-visiMisiLeftPadding{
+    padding-right: 45px;
+    //margin-top: 80px;
+}
+
+.boxOut-visiMisiTitle{
+    color: #ff0000;
+    font-size: 25px;
+}
+
+.boxOut-visiMisiBorder{
+    padding-top: 25px;
+    border-bottom: 1px solid #E62129;
+}
+
+.boxOut-visiMisiRightPadding{
+    padding-left: 45px;
+    //margin-top: 80px;
+}
+
+.boxOut-visiMisiText{
+    margin-top: 10px;
+    color: #808080;
+    font-size: 12px;
+}
+
+.boxOut-shadow{
+    height: 76px;
+    background-image: url('../../img/icon/shadow-bottom.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+.boxOut-visiMisi{
+    background-color: white;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+
+@media (max-width:1366px) {
+
+
+
+}
+
+@media (max-width:1200px) {
+
+
+
+}
+
+@media (max-width:992px) {
+
+    .boxOut-aboutTitle {
+        font-size: 26px;
+    }
+
+    .boxOut-aboutText {
+        font-size: 12px;
+    }
+
+
+
+}
+
+@media (max-width:768px) {
+
+    .backgroundContent{
+        background-image: none;
+    }
+
+    .boxOut-aboutLeft {
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-bottom: 40px;
+        padding-top: 40px;
+
+        background-image: url('../../img/icon/about-background2.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .boxOut-aboutRight {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .boxOut-visiMisiLeftPadding {
+        padding-right: 0px;
+        margin-top: 50px;
+    }
+
+
+    .boxOut-visiMisiBorder {
+        padding-top: 0px;
+    }
+
+    .boxOut-visiMisiRightPadding {
+        padding-left: 0px;
+        margin-top: 50px;
+
+    }
+
+
+
+
+
+}

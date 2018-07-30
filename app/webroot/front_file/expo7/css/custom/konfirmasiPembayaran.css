@@ -1,0 +1,294 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 14, 2016, 1:05:54 PM
+    Author     : Arif
+*/
+
+.backgroundContent{
+    background-color: #F5F5F5;
+}
+
+.container-padding {
+    padding-top: 60px;
+}
+
+.background-container{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    //background-image: url('../../img/icon/shadow-bottom.png');
+    background-size: 100% auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+
+.boxOut-titlePage{
+
+}
+
+.row-paddingPrimary{
+    //padding-left: 60px;
+    //padding-right: 60px;
+}
+
+.row-padding{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.box-titlePage{
+    color: #00A2E9;
+    font-size: 24px;
+    padding-bottom: 60px;
+}
+
+.box-subTitlePage{
+    color: #B6B6B7;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #B6B6B7;
+    font-size: 12.5px;
+    margin-bottom: 50px;
+}
+
+.boxOut-borderPayment{
+    border: 1px solid #EEEEEF;
+    background-color: #EEEEEF;
+    padding-left: 30px;
+    padding-right: 30px;
+    //padding-top: 20px;
+    padding-bottom: 35px;
+    margin-bottom: 60px;
+}
+
+.boxOut-numberPayment img{
+    width: 63px;
+    height: 63px;
+    margin-top: -35px;
+}
+
+.boxOut-titleRed{
+    color: #E62129;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.boxOut-field > .col-md-6:first-child{
+    padding-right: 15px;
+
+}
+
+.boxOut-field > .col-md-6:last-child{
+    padding-left: 15px;
+}
+
+.field-konfirmasiPembayaran, .field-konfirmasiPembayaran:focus{
+    height:33px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #EEEEEF;
+    box-shadow: none;
+    color: #757475;
+    font-size: 12px;
+}
+
+.field-konfirmasiPembayaran::-webkit-input-placeholder { color: #C9CACA !important; font-size: 10px; font-style: italic;}
+.field-konfirmasiPembayaran:-moz-placeholder { color: #C9CACA !important; font-size: 10px; font-style: italic;}
+.field-konfirmasiPembayaran::-moz-placeholder { color: #C9CACA !important; font-size: 10px; font-style: italic;}
+.field-konfirmasiPembayaran:-ms-input-placeholder { color: #C9CACA !important; font-size: 10px; font-style: italic;}
+
+
+.boxOut-titleField{
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.button-pesan{
+    width: 260px;
+    height: 40px;
+    margin: 0px;
+    background-color: #E62129;
+    color: white !important;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 0px;
+    text-align: center;
+    float: none;
+
+}
+
+.button-pesan:hover, .button-pesan:focus{
+    background-color: #C41C21 !important;
+}
+
+.button-pesan img{
+    width: 13px;
+    height: 17px;
+    margin-top: -3px;
+    margin-left: 15px;
+}
+
+.input-group-addon.input-group-content {
+    padding: 0;
+    border-radius: 0;
+    background-color: #24D6D0;
+    border: 0 !important;
+    background-color: #DCDDDD;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px
+}
+
+.lbl-input {
+    display: inline-block;
+    width: 35px;
+    padding: 0 0;
+}
+
+.lbl-input img{
+    width: 18px;
+}
+
+.input-form, .input-form:focus  {
+    height:33px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #EEEEEF;
+    box-shadow: none;
+    color: #757475;
+    font-size: 12px;
+}
+.input-form::-webkit-input-placeholder { 
+    color: #332C2B !important; 
+    font-style: italic !important; 
+    font-size: 16px !important;
+}
+.input-form:-moz-placeholder { 
+    color: #332C2B !important; 
+    font-style: italic !important;
+    font-size: 16px !important;
+}
+.input-form::-moz-placeholder { 
+    color:#332C2B !important;
+    font-style: italic !important;
+    font-size: 16px !important;
+}
+.input-form:-ms-input-placeholder { 
+    color: #332C2B !important;
+    font-style: italic !important;
+    font-size: 16px !important;
+}
+
+.custom-kode{
+    //border:1px solid #B6B6B7;
+    background-color:#DCDDDD;
+    color:#114F94;
+    font-size:14px;
+    padding-bottom:0px;	
+    height:33px;
+    width:60px;
+    margin-right:27px;
+    border-radius: 5px;
+    padding-top: 6px;
+    cursor:not-allowed
+}
+
+.custom-input-kode, .custom-input-kode:focus{
+    width:145px;
+    height:33px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #EEEEEF;
+    box-shadow: none;
+    color: #757475;
+    font-size: 12px;
+}
+
+
+.field-inputBox::-webkit-input-placeholder { 
+    color: #C9CACA !important; font-size: 11px; font-style: italic;
+}
+.field-inputBox:-moz-placeholder { 
+    color: #C9CACA !important; font-size: 11px; font-style: italic;
+}
+.field-inputBox::-moz-placeholder { 
+    color: #C9CACA !important; font-size: 11px; font-style: italic;
+}
+.field-inputBox:-ms-input-placeholder { 
+    color: #C9CACA !important; font-size: 11px; font-style: italic;
+}
+
+
+
+
+@media (max-width:1366px) {
+
+    .container-padding {
+        padding-top: 40px;
+    }
+
+}
+
+
+@media (max-width:1200px) {
+
+
+
+}
+
+@media (max-width:992px) {
+
+    .background-container {
+        //padding-top: 80px;
+    }
+
+    .row-padding {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .background-container {
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .boxOut-field > .col-md-6:first-child {
+        padding-right: 0px;
+    }
+
+    .boxOut-field > .col-md-6:last-child {
+        padding-left: 0px;
+    }
+
+    .boxOut-field > .col-md-6:first-child .field-konfirmasiPembayaran{
+        margin-bottom: 20px;
+    }
+
+    .custom-input-kode, .custom-input-kode:focus{
+        width:110px;
+    }
+
+    .background-container {
+        margin-top: 0px;
+    }
+
+}
+
+

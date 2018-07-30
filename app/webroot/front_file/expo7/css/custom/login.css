@@ -1,0 +1,745 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 18, 2016, 11:01:25 PM
+    Author     : Arif
+*/
+
+
+.flex{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -moz-box;
+    display: flex;
+
+    -webkit-box-align: center;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.center{
+    text-align: center;
+}
+
+
+.fit-screen{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background-size: 100% 100%;
+}
+
+.boxOut-topLogin{
+    height: 65px;
+    background-image: url('../../img/icon/background-topLogin.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat !important;
+}
+
+.boxOut-middleLogin{
+    height: 100%;
+    height: -webkit-calc 100%;
+    min-height: 600px;
+    background-image: url('../../img/icon/background-middleLogin.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat !important;
+}
+
+.boxOut-bottomLogin{
+    height: 68px;
+    /*background-image: url('../../img/icon/background-bottomLogin.png');*/
+    background-size: 100% 100%;
+    background-repeat: no-repeat !important;
+    color: white;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12px;
+}
+
+.boxOut-titleUp{
+    margin-bottom: 35px;
+}
+
+.boxOut-bottomLogin > .col-md-12{
+    height: 100%;
+}
+
+.box-topShadow{
+    //height: 20px;
+    //background-image: url('../../img/icon/shadow-top.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat !important;
+}
+
+.box-middleContent{
+    /*    height: calc(100% - 80px);
+        min-height: calc(100% - 80px);*/
+
+    height: 100%;
+    min-height: 100%;
+}
+
+.box-middleContent{
+    /*    height: calc(100% - 80px);
+        min-height: calc(100% - 80px);*/
+
+    height: 100%;
+    min-height: 100%;
+}
+
+.box-bottomShadow{
+    height: 80px;
+    //background-image: url('../../img/icon/shadow-bottom.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat !important;
+    color: white;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.boxOut-loginContent{
+    width: 640px;
+    height: 310px;
+    background-image: url('../../img/icon/login-contentBackground.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat !important;
+    /*    padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 150px;*/
+    border-radius: 5px;
+
+    -webkit-box-shadow: 3px 3px 13px 0px rgba(122,122,122,1);
+    -moz-box-shadow: 3px 3px 13px 0px rgba(122,122,122,1);
+    box-shadow: 3px 3px 13px 0px rgba(122,122,122,1);
+
+
+    float: none;
+    position: relative;
+    min-height: 1px;
+}
+
+.box-textTitle{
+    color: #0B66A9;
+    font-size: 17px;
+    line-height: 17px;
+    margin-bottom: 5px;
+}
+
+.box-littleTitle{
+    color: #606062;
+    font-size: 10px;
+}
+
+.boxOut-user {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
+
+.input-group-addon {
+    padding: 10px 8px 0px 6px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px !important;
+}
+
+
+
+.box-email{
+    display: none;
+}
+
+
+.label-edit{
+    color: #96989A !important;
+    font-size: 12px !important;
+    padding-bottom: 15px;
+}
+
+.box-imgUsername img{
+    width: 13px;
+    height: 14px;
+}
+
+.box-imgPassword img{
+    width: 12px;
+    height: 14px;
+}
+
+.box-imgEmail img{
+    width: 15px;
+    height: 12px;
+}
+
+.form-group .form-control {
+    margin-bottom: 0px !important;
+}
+
+.label-floating{
+    margin: 10px 0 0 0 !important;
+}
+
+.boxCheckBox{
+    //margin-top: 5px;
+}
+
+.edit-checbox{
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    //margin-left: 12%;
+    padding-top: 5px;
+}
+
+.boxCheckBox label{
+    font-size: 9px;
+    color: #96989A;
+    margin-top: 0px;
+    padding-left: 5px;
+}
+
+.checkbox label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    left: 0;
+    margin-left: -10px;
+    margin-top: 3px;
+    border: 1px solid #96989A;
+    border-radius: 2px;
+    background-color: transparent;
+    -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    transition: border 0.15s ease-in-out, color 0.15s ease-in-out; 
+}
+
+.checkbox label::after {
+    display: inline-block;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    left: 0;
+    top: 0;
+    margin-left: -13px;
+    margin-top: 1px;
+    padding-left: 3px;
+    padding-top: 0px;
+    font-size: 8px;
+    color: #96989A;
+}
+
+.box-lupaPassword{
+    font-size: 9px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.box-lupaPassword a{
+    color: #96989A;
+}
+
+.box-lupaPassword a:hover{
+    color: #505152;
+    transition: all .2s ease;
+}
+
+.box-login{
+    font-size: 9px;
+    text-align: right;
+    padding-right: 5px;
+    display: none;
+}
+
+.box-login a{
+    color: #96989A;
+}
+
+.box-login a:hover{
+    color: #505152;
+    transition: all .2s ease;
+}
+
+.boxOut-checkBox{
+    margin-bottom: 15px;
+}
+
+.box-peringatan img{
+    width: 23px;
+    height: 23px;
+}
+
+.box-textPeringatan{
+    text-align: justify;
+    color: #ED3237;
+    font-size: 9px;
+}
+
+.box-textSukses {
+    color: #39B166;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.box-buttonReset{
+    display: none;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.button-login{
+    margin: 0px;
+    background-color: #00bff3;
+    color: white !important;
+    width: 100%;
+    font-size: 14px;
+    height: 40px;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 20px;
+    transition: all .2s ease;
+}
+
+.button-login:hover, .button-login:focus{
+    background-color: #029bc5 !important;
+    transition: all .2s ease;
+}
+
+.boxOut-buttonReset{
+    display: none;
+}
+
+.button-resetPassword {
+    margin: 0px;
+    background-color: #00bff3;
+    color: white !important;
+    width: 100%;
+    font-size: 14px;
+    height: 40px;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 90px;
+    transition: all .2s ease;
+}
+
+.button-resetPassword:hover, .button-resetPassword:focus{
+    background-color: #029bc5 !important;
+    transition: all .2s ease;
+}
+
+.boxOut-loginFooter{
+    /*    position: absolute;
+        bottom: 0;*/
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 20%;
+}
+
+.login-upFooter img{
+    width: 100%;
+}
+
+.login-downFooter img{
+    width: 100%;
+}
+
+.box-textLoginFooter{
+    color: white;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.body-background{
+    max-width: 100% !important;
+
+}
+
+html,body{
+    height:100%;
+}
+
+.carousel{
+    height: 100%;
+}
+
+.edit-carousel{
+    height: 100%;
+}
+
+.box-bottomFooter{
+    font-size: 11px;
+}
+
+.box-support{
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+
+.button-support{
+    margin: 0px;
+    background-color: transparent;
+    color: white;
+    width: 45px;
+    height: 20px;
+    font-size: 9px;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+    //margin-top: 20px;
+    border-radius: 3px;
+    border: 1px solid white;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 10px;
+    transition: all .2s ease;
+}
+
+.button-support:hover, .button-support:focus{
+    background-color: white !important;
+    color: blue;
+    transition: all .2s ease;
+}
+
+.box-buttonLupa{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+
+.button-lupa {
+    margin: 0px;
+    background-color: transparent;
+    color: #757575;
+    width: 100%;
+    font-size: 11px;
+    height: auto;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 20px;
+    transition: all .2s ease;
+}
+
+.button-lupa:hover, .button-lupa:focus{
+    background-color: transparent !important;
+    color: #484747;
+    transition: all .2s ease;
+}
+
+.button-reset{
+    margin: 0px;
+    background-color: transparent;
+    color: #757575;
+    width: 100%;
+    font-size: 11px;
+    height: auto;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 20px;
+    transition: all .2s ease;
+}
+
+.button-reset:hover, .button-reset:focus{
+    background-color: transparent !important;
+    color: #484747;
+    transition: all .2s ease;
+}
+
+
+
+.width-nameFile{
+    width: 100%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.input-group {
+    width: 100%;
+}
+
+
+.input-fieldKomfirmasi{
+    width: 100%;
+    height: 30px;
+    background-color: transparent !important;
+    border: none;
+    border-bottom: 1px solid #e6e6e6;
+    box-shadow: none !important;
+    font-size: 12px;
+    color: #332C2B !important;
+    margin: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    padding-left: 12px;
+    padding-top: 2px;
+    border-radius: 0px;
+
+    float: left;
+    margin-bottom: 20px;
+}
+
+.input-fieldKomfirmasi::-webkit-input-placeholder { 
+    color: #B3B3B3 !important; 
+}
+.input-fieldKomfirmasi:-moz-placeholder { 
+    color: #B3B3B3 !important; 
+}
+.input-fieldKomfirmasi::-moz-placeholder { 
+    color: #B3B3B3 !important; 
+}
+.input-fieldKomfirmasi:-ms-input-placeholder { 
+    color: #B3B3B3 !important; 
+}
+
+
+.input-fieldPassword{
+    width: 100%;
+    height: 30px;
+    background-color: transparent !important;
+    border: none;
+    border-bottom: 1px solid #e6e6e6;
+    box-shadow: none !important;
+    font-size: 12px;
+    color: #332C2B !important;
+    margin: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    padding-left: 12px;
+    padding-top: 2px;
+    border-radius: 0px;
+
+    float: left;
+    margin-bottom: 20px;
+}
+
+.input-fieldPassword::-webkit-input-placeholder { 
+    color: #B3B3B3 !important; 
+}
+.input-fieldPassword:-moz-placeholder { 
+    color: #B3B3B3 !important; 
+}
+.input-fieldPassword::-moz-placeholder { 
+    color: #B3B3B3 !important; 
+}
+.input-fieldPassword:-ms-input-placeholder { 
+    color: #B3B3B3 !important; 
+}
+
+.input-logo{
+    width: 40px;
+    height: 30px;
+    background-color: white;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+
+
+
+.input-img{
+    background-size: 15px 15px;
+}
+
+.boxOut-lampir-file{
+    margin-top: 5px;
+}
+
+.input-username{
+    background-image: url('../../img/icon/login-username.png');
+    background-size: 8px 13px;
+}
+
+.boxOut-username:hover .input-username, .input-fieldKomfirmasi:focus:hover + .input-group-btn .input-group-btn {
+    background-image: url('../../img/icon/login-username-hover.png');
+}
+
+.input-password{
+    background-image: url('../../img/icon/login-password.png');
+    background-size: 9px 13px;
+}
+
+.boxOut-password:hover .input-password, .input-fieldKomfirmasi:focus:hover + .input-group-btn .input-group-btn {
+    background-image: url('../../img/icon/login-password-hover.png');
+}
+
+
+
+
+.boxOut-loginContent > .col-md-12{
+    height: 100%;
+}
+
+.boxOut-loginLeft{
+    background-image: url('../../img/icon/background-middleLogin.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat !important;
+    height: 100%;
+    padding: 20px 30px 20px 30px;
+    overflow: hidden;
+}
+
+.boxOut-loginRight{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: white;
+    height: 100%;
+    overflow: hidden;
+}
+
+.boxOut-titleLogin{
+    color: #00bff3;
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.box-buttonLogin, .boxOut-buttonReset{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.boxOut-loginLeft-title{
+    color: white;
+    font-size: 24px;
+}
+
+.boxOut-loginLeft-text{
+    color: white;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.img-logoLogin{
+    margin-top: -250px;
+    width: 140px;
+    height: 140px;
+}
+
+
+
+
+
+
+
+@media (max-width:1200px) {
+
+}
+
+@media (max-width:992px) {
+    .boxOut-bottomLogin{
+        font-size: 11px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .input-username{
+        color: #96989A !important;
+    }
+}
+
+
+@media (max-width:767px) {
+    body {
+        margin: auto;
+        max-width: none;
+        min-width: 0px;
+        position: relative;
+    }  
+
+    .boxOut-loginCanvas {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+    }
+    .box-loginCanvas {
+        width: 100%;
+        float: none;
+        height: 100%;
+        background-color: rgba(47, 49, 139, 0.92);
+        position: relative;
+    }
+
+    .box-support{
+        float: left;
+        right: inherit;
+        position: relative;
+        min-height: 1px;
+        width: 100%;
+    }
+
+    .box-bottomShadow{
+        height: 150px;
+    }
+
+    .button-support{
+        margin-right: 0px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        float: none !important;
+        display: block !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        padding-top: 5px;
+        width: 80px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+    .footer-top{
+        font-size: 10px;
+    }
+
+    .box-bottomFooter {
+        font-size: 9px;
+    }
+
+
+    .boxOut-loginContent{
+        width: 100%;
+        height: auto;
+    }
+
+    .img-logoLogin{
+        position: inherit;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        width: 110px;
+        height: 110px;
+    }
+
+
+
+
+
+}

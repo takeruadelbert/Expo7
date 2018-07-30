@@ -1,0 +1,601 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 25, 2016, 2:24:42 PM
+    Author     : Arif
+*/
+
+.boxOut-selectHeader{
+    display: none;
+}
+
+.boxOut-content{
+    margin-top: 70px;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-bottom: 60px;
+}
+
+.box-content{
+    height: 620px;
+    //border-right: 3px solid #1A64B8;
+    background-color: #E4F4FD;
+    background-image: url('../../../img/icon/message-borderRight.png');
+    background-repeat: no-repeat;
+    background-size: 5px 100%;
+    background-position: right;
+}
+
+.boxOut-subTitleDashboard{
+    font-size: 15px;
+    color: #666666;
+}
+
+.boxOut-titleDashboard {
+    padding-top: 32px;
+}
+
+.box-content{
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-top: 45px;
+}
+
+
+
+
+
+
+
+
+.checkbox-custom, .radio-custom {
+    opacity: 0;
+    position: absolute;   
+}
+
+.checkbox-custom, .checkbox-custom-label, .radio-custom, .radio-custom-label {
+    display: inline-block;
+    vertical-align: middle;
+    //margin: 5px;
+    cursor: pointer;
+}
+
+.checkbox-custom-label, .radio-custom-label {
+    position: relative;
+
+}
+
+.checkbox-custom + .checkbox-custom-label:before, .radio-custom + .radio-custom-label:before {
+    content: '';
+    background: transparent;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    //padding: 2px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: -5px;
+
+
+}
+
+.checkbox-custom:checked + .checkbox-custom-label:before {
+    background: red;
+    border: 1px solid red;
+    box-shadow: inset 0px 0px 0px 0px red;
+    border-radius: 3px;
+
+}
+
+
+.checkbox-custom:focus + .checkbox-custom-label, .radio-custom:focus + .radio-custom-label {
+    outline: 0px none; /* focus style */
+}
+
+.checkbox-custom-label{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 0px;
+    font-weight: normal !important;
+    font-size: 10px;
+    margin-left: 0px;
+    color: #848688 !important;
+}
+
+
+
+
+.boxOut-checkbox{
+    width: 7%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.boxOut-checkbox-field{
+    width: 93%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+
+    font-size: 14px;
+}
+
+.boxOut-check {
+    margin-bottom: 25px;
+}
+
+.boxOut-checkbox-left{
+    padding-left: 10%;
+}
+
+.boxOut-checkbox-right{
+    padding-right: 10%;
+}
+
+.input-group-addon.input-group-content {
+    padding: 0;
+    border-radius: 0;
+    background-color: #48C5F3;
+    border: none;
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+
+}
+.lbl-input {
+    display: inline-block;
+    width: 37px;
+    padding: 0 0;
+}
+
+
+
+
+
+
+.dropdown-konfirmasiPembayaran, .dropdown-konfirmasiPembayaran:focus{
+    border: 1px solid #E6E7E8;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url('../../../img/icon/arrowBottom-blue.png') no-repeat;
+    background-position: 97% 50%;
+    text-indent: 0.01px;
+    text-overflow: "";
+
+    width: 200px;
+    height:30px;
+    border-radius: 5px;
+    padding: 0px 5px;
+    background-color: white;
+    border: none;
+    box-shadow: none;
+    color: #757475;
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+
+
+
+.field-tanggal, .field-tanggal:focus{
+    height: 30px;
+    border: none;
+    box-shadow: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.boxOut-tanggal{
+    width: 240px;
+    float: left;
+    margin-top: -5px;
+}
+
+.boxOut-left{
+    width: 320px;
+    float: left;
+}
+
+.boxOut-right{
+    width: 390px;
+    float: right;
+}
+
+.box-tanggal{
+    margin-bottom: 10px;
+}
+
+
+.table-history{
+    font-size: 16px;
+}
+
+.title-table{
+    font-size: 18px;
+    height: 65px;
+    text-align: center;
+    padding-top: 20px !important;
+    color: #114F94;
+}
+
+.title-table-1{
+    background-color: #97DAF8;
+    height: 45px !important;
+}
+
+.title-table-2{
+    background-color: #B5E4FA;
+}
+
+.tr-1-td-1{
+    background-color: #F7F7F7;
+    height: 45px !important;
+    vertical-align: middle;
+    padding-top: 13px !important;
+}
+
+.tr-1-td-2{
+    background-color: white;
+    height: 45px !important;
+    padding-top: 13px !important;
+}
+
+.tr-2-td-1{
+    background-color: #F0F0F0;
+    height: 45px !important;
+    padding-top: 13px !important;
+}
+
+.tr-2-td-2{
+    background-color: #F7F7F7;
+    height: 45px !important;
+    padding-top: 13px !important;
+}
+
+.title-1{
+    width: 172px;
+}
+
+.title-2{
+    width: 190px;
+}
+
+.title-3{
+    width: 150px;
+}
+
+.title-4{
+}
+
+.title-5{
+    width: 150px;
+}
+
+.table > tbody > tr > td.text-right{
+    padding-right: 30px;
+}
+
+.table > tbody > tr > td.lorem{
+    padding-left: 30px;
+}
+
+.box-content {
+    min-height: 620px !important;
+    height: auto !important;
+}
+
+
+
+
+
+
+
+
+@media (max-width:1640px) {
+
+    .boxOut-checkbox-left{
+        padding-left: 5%;
+    }
+
+    .boxOut-checkbox-right{
+        padding-right: 5%;
+    }
+
+    .boxOut-tanggal{
+        width: 210px;
+        float: left;
+    }
+
+    .boxOut-left{
+        width: 290px;
+        float: left;
+    }
+
+    .boxOut-right{
+        width: 340px;
+        float: right;
+    }
+
+    .box-content {
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+
+    .title-table{
+        height: 47px;
+        padding-top: 13px !important;
+        font-size: 14px;
+    }
+
+    .title-1{
+        width: 125px;
+    }
+
+    .title-2{
+        width: 138px;
+    }
+
+    .title-3{
+        width: 138px;
+    }
+
+    .title-4{
+    }
+
+    .title-5{
+        width: 125px;
+    }
+
+    .table-history {
+        font-size: 12px;
+    }
+
+
+    .tr-1-td-1{
+        height: 32px !important;
+        padding-top: 10px !important;
+    }
+
+    .tr-1-td-2{
+        height: 32px !important;
+        padding-top: 10px !important;
+    }
+
+    .tr-2-td-1{
+        height: 32px !important;
+        padding-top: 10px !important;
+    }
+
+    .tr-2-td-2{
+        height: 32px !important;
+        padding-top: 10px !important;
+    }
+
+    .table > tbody > tr > td.text-right{
+        padding-right: 22px;
+    }
+
+    .table > tbody > tr > td.lorem{
+        padding-left: 22px;
+    }
+
+
+
+    .checkbox-custom + .checkbox-custom-label:before, .radio-custom + .radio-custom-label:before {
+        width: 11px;
+        height: 11px;
+    }
+
+    /*    .dropdown-konfirmasiPembayaran, .dropdown-konfirmasiPembayaran:focus {
+            height: 20px;
+            font-size: 12px;
+            margin-top: 0px;
+            border-radius: 3px;
+            padding: 0px 10px;
+        }*/
+
+
+
+
+
+}
+
+
+
+
+
+@media (max-width:1366px) {
+
+    .boxOut-content {
+        margin-top: 30px;
+        padding-left: 35px;
+        padding-right: 35px;
+        margin-bottom: 60px;
+    }
+
+    .box-content {
+        height: 530px;
+    }
+
+
+
+
+
+    .box-content {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .boxOut-checkbox-field {
+        font-size: 12px;
+    }
+
+    .box-content {
+        min-height: 530px !important;
+        height: auto !important;
+    }
+
+
+
+
+
+}
+
+
+@media (max-width:992px) {
+
+
+    .box-content {
+        height: auto;
+    }
+
+
+    .box-content {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+
+    .box-content {
+        padding-bottom: 50px;
+    }
+
+    .boxOut-subTitleDashboard{
+        font-size: 13px;
+    }
+
+    .boxOut-titleDashboard {
+        padding-top: 2px;
+    }
+
+
+    .boxOut-checkbox-left {
+        padding-left: 0px;
+    }
+
+    .boxOut-checkbox-right {
+        padding-right: 0px;
+    }
+
+    .boxOut-right {
+        float: left;
+    }
+
+
+
+
+    .box-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .boxOut-left {
+        width: 340px;
+    }
+
+    .boxOut-left {
+        width: 340px;
+    }
+
+    .title-1 {
+        width: 100px;
+    }
+
+    .title-2 {
+        width: 90px;
+    }
+
+    .title-4 {
+        width: 110px;
+    }
+
+    .title-5 {
+        width: 110px;
+    }
+
+
+}
+
+@media (max-width:768px) {
+
+    .boxOut-textArea .editor.btn-toolbar {
+        overflow-y: scroll;
+    }
+
+    .boxOut-titleDashboard {
+        margin-top: 20px;
+    }
+
+    .boxOut-content {
+        margin-top: 0px;
+    }
+
+    .boxOut-content {
+        margin-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 30px;
+    }
+
+    .boxOut-subTitleDashboard{
+        font-size: 10px;
+    }
+
+    .boxOut-titleDashboard {
+        margin-top: 13px;
+    }
+
+
+
+
+
+    .dropdown-konfirmasiPembayaran, .dropdown-konfirmasiPembayaran:focus {
+        margin-top: 5px;
+    }
+
+    .boxOut-tanggal {
+        margin-top: 5px;
+    }
+
+    .dropdown-konfirmasiPembayaran, .dropdown-konfirmasiPembayaran:focus {
+        max-width: 210px;
+        width: 100%;
+    }
+
+    .boxOut-tanggal {
+        max-width: 210px;
+        width: 100%;
+    }
+
+    .boxOut-left {
+        width: 100%;
+    }
+
+    .boxOut-right {
+        width: 100%;
+    }
+
+    .boxOut-left {
+        width: 100%;
+    }
+
+    .boxOut-checkbox{
+        width: 10%;
+    }
+
+    .boxOut-checkbox-field{
+        width: 90%;
+    }
+
+
+
+
+
+
+}

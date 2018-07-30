@@ -1,0 +1,125 @@
+msgid "Keluar"
+msgstr "Logout"
+
+msgid "Ubah"
+msgstr "Edit"
+
+msgid "Hapus"
+msgstr "Delete"
+
+msgid "Simpan"
+msgstr "Save"
+
+msgid "Kembali"
+msgstr "Back"
+
+msgid "Tambah"
+msgstr "Add"
+
+msgid "Aksi"
+msgstr "Action"
+
+msgid "Cari"
+msgstr "Search"
+
+msgid "Profil Perusahaan"
+msgstr "Company Profile"
+
+msgid "Pengguna"
+msgstr "User"
+
+msgid "Nama Akun"
+msgstr "Username"
+
+msgid "Nama Depan"
+msgstr "First Name"
+
+msgid "Nama Belakang"
+msgstr "Last Name"
+
+msgid "Alamat"
+msgstr "Address"
+
+msgid "Posisi"
+msgstr "Position"
+
+msgid "Tambah Data"
+msgstr "Add Data"
+
+msgid "Hapus Data"
+msgstr "Delete Data"
+
+msgid "Cetak"
+msgstr "Print"
+
+msgid "Menampilkan"
+msgstr "Showing"
+
+msgid "Profil"
+msgstr "Profile"
+
+msgid "Senin"
+msgstr "Monday"
+
+msgid "Selasa"
+msgstr "Tuesday"
+
+msgid "Rabu"
+msgstr "Wednesday"
+
+msgid "Kamis"
+msgstr "Thrusday"
+
+msgid "Jumat"
+msgstr "Friday"
+
+msgid "Sabtu"
+msgstr "Saturday"
+
+msgid "Minggu"
+msgstr "Monday"
+
+msgid "Januari"
+msgstr "January"
+
+msgid "Febuari"
+msgstr "Febuary"
+
+msgid "Maret"
+msgstr "March"
+
+msgid "April"
+msgstr "April"
+
+msgid "Mei"
+msgstr "May"
+
+msgid "Juni"
+msgstr "June"
+
+msgid "Juli"
+msgstr "July"
+
+msgid "Agustus"
+msgstr "August"
+
+msgid "September"
+msgstr "September"
+
+msgid "Oktober"
+msgstr "October"
+
+msgid "November"
+msgstr "November"
+
+msgid "Desember"
+msgstr "December"
+
+msgid "locale0001"
+msgstr "Showing {:start} to {:end} of {:count} entries. Page {:page} from {:pages} pages."
+
+msgid "locale0002"
+msgstr "Please fill this form correctly"
+
+msgid "locale0003"
+msgstr "Please recheck the field."

@@ -1,0 +1,159 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 14, 2016, 1:05:54 PM
+    Author     : Arif
+*/
+
+.backgroundContent{
+    background-color: #f0f0f0;
+}
+
+.container-padding{
+    padding-top: 80px;
+}
+
+.background-container{
+    background-color: #f0f0f0;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-image: url('../../img/icon/shadow-bottom.png');
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.boxOut-instruction{
+    /*    border-left: 3px solid #FFBE7E;*/
+}
+
+.circle-instruction{
+    width: 95px;
+    height: 95px;
+    background-color: #FFCC97;
+    border-radius: 100%;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat:no-repeat;
+    z-index: 1;
+    border: 8px solid white;
+    margin-bottom: 40px;
+
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.img-instruction-1{
+    background-size: 24px 38px;
+}
+
+.img-instruction-2{
+    background-size: 35px 38px;
+}
+
+.img-instruction-3{
+    background-size: 35px 35px;
+}
+
+
+.box-instruction{
+    padding-left: 75px;
+    padding-bottom: 30px;
+    border-left: 3px solid #FFBE7E;
+}
+
+.boxOut-instruction > .row:last-child .box-instruction{
+    border-left: none;
+}
+
+.boxOut-instructionTitle{
+    color: #114F94;
+    padding-top: 15px;
+    font-size: 24px;
+}
+
+.boxOut-textTitle{
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+
+.boxOut-listStep{
+    margin-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 13px;
+}
+
+
+
+
+@media (max-width:1366px) {
+
+    .background-container{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+}
+
+
+@media (max-width:1200px) {
+
+    .container-padding{
+        padding-top: 60px;
+    }
+
+}
+
+@media (max-width:992px) {
+
+    .background-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .boxOut-listStep {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+}
+
+@media (max-width:768px) {
+
+    .background-container {
+        padding-top: 50px;
+        padding-left: 60px;
+        padding-right: 20px;
+    }
+
+    .background-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .boxOut-listStep {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .box-listStep{
+        margin-bottom: 70px;
+    }
+
+    .circle-instruction {
+        margin-bottom: 30px;
+    }
+
+
+}
+
+

@@ -1,0 +1,331 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 25, 2016, 2:24:42 PM
+    Author     : Arif
+*/
+
+.boxOut-selectHeader{
+    display: none;
+}
+
+.boxOut-content{
+    margin-top: 70px;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-bottom: 60px;
+}
+
+.box-content{
+    height: 620px;
+    border-left: 3px solid #1A64B8;
+    background-color: #FAFAFA;
+    //background-image: url('../../../img/icon/message-borderRight.png');
+    background-repeat: no-repeat;
+    background-size: 5px 100%;
+    background-position: right;
+}
+
+.boxOut-subTitleDashboard{
+    font-size: 15px;
+    color: #666666;
+}
+
+.boxOut-titleDashboard {
+    padding-top: 32px;
+}
+
+.box-content{
+    padding-left: 0px;
+    padding-right: 0px;
+    //padding-top: 100px;
+}
+
+
+
+.boxOut-gameImg{
+    width: 300px;
+    height: 350px;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    float: none !important;
+
+    margin-top: 100px;
+
+    //padding: 25px;
+}
+
+.box-gameImg{
+    padding: 25px;
+}
+
+.boxOut-img img{
+    width: 250px;
+    height: 250px;
+}
+
+.title-img{
+    text-align: center;
+    color: #666666;
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+.div-hover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    display: none;
+    transition: all 0.25s linear 0s;
+}
+
+
+
+.button-circle{
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    width: 155px;
+    height: 155px;
+    font-size: 20px;
+    padding: 0px;
+    padding-top: 4px;
+    border-radius: 100%;
+    text-align: center;
+
+    transition: all 0.25s linear 0s;
+    float: none;
+
+    margin-left: 70px;
+    margin-top: 65px;
+}
+
+.button-circle:hover, .button-circle:focus{
+    transition: all 0.25s linear 0s;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.boxOut-gameImg:hover > .div-hover{
+    display: block;
+    transition: all 0.25s linear 0s;
+}
+
+
+
+.boxOut-content .mCSB_outside + .mCSB_scrollTools {
+    right: 0px;
+}
+
+.boxOut-content .mCS-light-3.mCSB_scrollTools .mCSB_draggerRail, .tab-pane .mCS-dark-3.mCSB_scrollTools .mCSB_draggerRail {
+    width: 7px;
+    background-color: #97DAF8!important;
+    border-radius: 0px !important;
+}
+
+.boxOut-content .mCS-light-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .tab-pane .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 7px;
+}
+
+.boxOut-content .mCSB_scrollTools {
+    width: 7px;
+}
+
+.boxOut-content .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #0D9CD4 !important;
+}
+
+.boxOut-content .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1366px) {
+
+    .boxOut-content {
+        margin-top: 30px;
+        padding-left: 35px;
+        padding-right: 35px;
+        margin-bottom: 60px;
+    }
+
+    .box-content {
+        height: 530px;
+    }
+
+
+
+
+
+    .box-content {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .box-gameImg {
+        padding: 15px;
+    }
+
+    .boxOut-gameImg {
+        width: 215px;
+        height: 265px;
+    }
+
+    .boxOut-img img{
+        width: 183px;
+        height: 183px;
+    }
+
+    .title-img {
+        font-size: 18px;
+    }
+
+    .button-circle {
+        width: 110px;
+        height: 110px;
+    }
+
+    .button-circle {
+        width: 110px;
+        height: 110px;
+        margin-left: 55px;
+        margin-top: 55px;
+        font-size: 14px;
+        padding-top: 4px;
+    }
+
+
+
+
+
+}
+
+
+@media (max-width:992px) {
+
+
+    .box-content {
+        height: auto;
+    }
+
+
+    .box-content {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+
+    .box-content {
+        padding-bottom: 50px;
+    }
+
+    .boxOut-subTitleDashboard{
+        font-size: 13px;
+    }
+
+    .boxOut-titleDashboard {
+        padding-top: 2px;
+    }
+
+
+
+    .box-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .box-gameImg {
+        padding: 10px;
+    }
+
+    .boxOut-gameImg {
+        width: 155px;
+        height: 195px;
+        margin-top: 50px;
+    }
+
+    .boxOut-img img{
+        width: 132px;
+        height: 132px;
+    }
+
+    .title-img {
+        font-size: 14px;
+    }
+
+    .button-circle {
+        width: 110px;
+        height: 110px;
+    }
+
+    .button-circle {
+        width: 80px;
+        height: 80px;
+        margin-left: 37px;
+        margin-top: 37px;
+        font-size: 10px;
+        padding-top: 5px;
+    }
+
+
+}
+
+@media (max-width:768px) {
+
+    .boxOut-textArea .editor.btn-toolbar {
+        overflow-y: scroll;
+    }
+
+    .boxOut-titleDashboard {
+        margin-top: 20px;
+    }
+
+    .boxOut-content {
+        margin-top: 0px;
+    }
+
+    .boxOut-content {
+        margin-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 30px;
+    }
+
+    .boxOut-subTitleDashboard{
+        font-size: 10px;
+    }
+
+    .boxOut-titleDashboard {
+        margin-top: 13px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,517 @@
+.boxOut-selectHeader{
+    display: none;
+}
+
+.boxOut-content{
+    margin-top: 70px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.box-content{
+    height: 620px;
+    border-left: 3px solid #1A64B8;
+}
+
+.boxOut-contentLeft{
+    background-color: #E4F4FD;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.boxOut-contentRight{
+    background-color: #FAFAFA;
+    border-right: 5px solid #0D9CD4;
+    /*    background-image: url('../../../img/icon/testimonial-background.png');
+        background-size:  auto 100%;
+        background-position: center center;
+        background-repeat: no-repeat;*/
+    overflow: hidden;
+
+    padding: 30px;
+}
+
+.boxOut-subTitleDashboard{
+    font-size: 15px;
+    color: #666666;
+}
+
+.boxOut-titleDashboard {
+    padding-top: 32px;
+}
+
+.boxOut-contentLeft-left{
+    padding-right: 15px;
+}
+
+.boxOut-contentLeft-Right{
+    padding-left: 15px;
+}
+
+.boxOut-titleContent{
+    color: #0D9CD4;
+    font-size: 20px;
+}
+
+.boxOut-titleContent-border{
+    color: #0D9CD4;
+    font-size: 20px;
+    border-top: 1px solid #82D4F7;
+    margin-top: 20px;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+
+
+.field-title, .field-title:focus{
+    height:35px;
+    padding: 0px 10px;
+    background-color: white;
+    border: none;
+    box-shadow: none;
+    color: #757475;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border-radius: 0px;
+    font-style: italic;
+}
+
+.field-title::-webkit-input-placeholder { color: #757475 !important; font-size: 14px; font-style: italic; }
+.field-title:-moz-placeholder { color: #757475 !important; font-size: 14px; font-style: italic; }
+.field-title::-moz-placeholder { color: #757475 !important; font-size: 14px; font-style: italic; }
+.field-title:-ms-input-placeholder { color: #757475 !important; font-size: 14px; font-style: italic; }
+
+
+.dropdown-konfirmasiPembayaran, .dropdown-konfirmasiPembayaran:focus{
+    border: 1px solid #E6E7E8;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url('../../../img/icon/agree-arrowBottom.png') no-repeat;
+    background-position: 97% 50%;
+    text-indent: 0.01px;
+    text-overflow: "";
+
+    width: 100%;
+    height:35px;
+    border-radius: 0px;
+    padding: 0px 10px;
+    background-color: white;
+    border: none;
+    box-shadow: none;
+    color: #757475;
+    font-size: 14px;
+    font-style: italic;
+}
+
+
+
+.boxOut-thumbail{
+    height: 205px;
+    overflow: hidden;
+    background-size: auto 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+
+.input-form3 button {
+    margin-top: -1px;
+    height: 30px;
+    background-color: #60A437;
+    border: 0;
+    width: 64px;
+}
+
+.input-form3 .btn-file {
+    margin-top: -1px;
+    height: 25px;
+    background-color: #1A64B8;
+    border: 0;
+    width: 115px;
+    font-size: 12px;
+    margin: 0px;
+    margin-top: 15px;
+    border-radius: 100px;
+    padding: 0px;
+    padding-top: 4px;
+
+    float: left;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    background: red;
+    cursor: inherit;
+    display: block;
+
+}
+input[readonly] {
+    background-color: white !important;
+    cursor: text !important;
+    color: #999999 !important;
+}
+
+.btn-file-2{
+    margin-top: 8px !important;
+    margin-left: 10px !important;
+}
+
+
+
+
+.width-nameFile{
+    width: 60%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.width-fileButton{
+    width: 40%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+
+.input-fieldKomfirmasi{
+    height: 40px;
+    border-radius: 0 !important;
+    background-color: white !important;
+    border: none !important;
+    box-shadow: none !important;
+    font-size: 13px;
+    color: #332C2B !important;
+    margin: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    padding-left: 20px;
+
+    float: left;
+}
+
+.input-logo{
+    width: 40px;
+    height: 40px;
+    background-color: #E6E6E6;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.input-html{
+    background-size: 19px 13px;
+}
+
+.input-img{
+    background-size: 15px 15px;
+}
+
+.boxOut-lampir-file{
+    margin-top: 5px;
+}
+
+
+
+
+.editTextArea{
+    display: block;
+    width: 100%;
+    height: 145px !important;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #FFF;
+    background-image: none;
+    border: none;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+
+    resize: none;
+}
+
+.editTextArea::-webkit-input-placeholder { color: #A9ABAE !important; }
+.editTextArea:-moz-placeholder { color: #A9ABAE !important; }
+.editTextArea::-moz-placeholder { color: #A9ABAE !important; }
+.editTextArea:-ms-input-placeholder { color: #A9ABAE !important; }
+
+
+.editTextArea-2{
+    display: block;
+    width: 100%;
+    height: 335px !important;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: white;
+    background-image: none;
+    border: none;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+
+    resize: none;
+}
+
+.editTextArea-2::-webkit-input-placeholder { color: #A9ABAE !important; font-style: italic; }
+.editTextArea-2:-moz-placeholder { color: #A9ABAE !important; font-style: italic; }
+.editTextArea-2::-moz-placeholder { color: #A9ABAE !important; font-style: italic; }
+.editTextArea-2:-ms-input-placeholder { color: #A9ABAE !important; font-style: italic; }
+
+
+
+.boxOut-keteranganTitle{
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.table-keterangan{
+    margin-top: 10px;
+}
+
+.table-keterangan > tbody > tr > td{
+    padding: 0px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    font-style: italic;
+}
+
+
+.td-strip{
+    width: 5px !important;
+    padding-top: 0px !important;
+    padding-right: 5px !important;
+}
+
+
+.button-save{
+    margin: 0px;
+    background-color: #00A859;
+    color: white;
+    width: 180px;
+    font-size: 16px;
+    height: 40px;
+    border-radius: 100px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+
+    transition: all 0.25s linear 0s;
+    float: right
+}
+
+.button-save:hover, .button-save:focus{
+    transition: all 0.25s linear 0s;
+    background-color: #0E7849;
+}
+
+
+
+
+
+
+
+@media (max-width:1366px) {
+
+    .boxOut-content {
+        margin-top: 30px;
+        padding-left: 35px;
+        padding-right: 35px;
+        margin-bottom: 60px;
+    }
+
+    .box-content {
+        height: 530px;
+    }
+
+    .boxOut-thumbail{
+        height: 145px;
+    }
+
+
+
+
+
+    .input-form3 .btn-file {
+        height: 20px;
+        width: 90px;
+        font-size: 10px;
+        padding-top: 3px;
+    }
+
+
+
+    .input-fieldKomfirmasi{
+        height: 30px;
+        font-size: 12px;
+        padding-left: 20px;
+    }
+
+    .input-logo{
+        width: 30px;
+        height: 30px;
+    }
+
+    .input-html{
+        background-size: 14px 9px;
+    }
+
+    .input-img{
+        background-size: 10px 10px;
+    }
+
+    .btn-file-2{
+        margin-top: 5px !important;
+        margin-left: 10px !important;
+    }
+
+    .editTextArea {
+        display: block;
+        width: 100%;
+        height: 125px !important;
+    }
+
+    .field-title, .field-title:focus {
+        height: 25px;
+        font-size: 12px;
+    }
+
+    .field-title::-webkit-input-placeholder { color: #757475 !important; font-size: 12px; font-style: italic; }
+    .field-title:-moz-placeholder { color: #757475 !important; font-size: 12px; font-style: italic; }
+    .field-title::-moz-placeholder { color: #757475 !important; font-size: 12px; font-style: italic; }
+    .field-title:-ms-input-placeholder { color: #757475 !important; font-size: 12px; font-style: italic; }
+
+    .boxOut-titleContent {
+        color: #0D9CD4;
+        font-size: 16px;
+    }
+
+    .dropdown-konfirmasiPembayaran, .dropdown-konfirmasiPembayaran:focus {
+        height: 25px;
+        font-size: 12px;
+    }
+
+    .boxOut-thumbail {
+        margin-top: 10px;
+    }
+
+    .boxOut-titleContent-border {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+
+    .editTextArea-2{
+        height: 235px !important;
+        font-size: 12px;
+    }
+
+    .boxOut-keteranganTitle {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .table-keterangan > tbody > tr > td {
+        font-size: 10px;
+    }
+
+    .button-save {
+        width: 130px;
+        font-size: 12px;
+        height: 30px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+
+}
+
+
+@media (max-width:992px) {
+
+    .box-content {
+        height: auto;
+    }
+
+    .boxOut-subTitleDashboard{
+        font-size: 13px;
+    }
+
+    .boxOut-titleDashboard {
+        padding-top: 2px;
+    }
+
+    .boxOut-thumbail{
+        height: 105px;
+    }
+
+    .boxOut-thumbail{
+        background-position: center left;
+    }
+
+
+
+}
+
+@media (max-width:768px) {
+
+    .boxOut-contentLeft-left {
+        padding-right: 0px;
+    }
+
+    .boxOut-contentLeft-Right {
+        padding-left: 0px;
+    }
+
+    .boxOut-content {
+        margin-top: 0px;
+    }
+
+    .boxOut-content {
+        margin-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 30px;
+    }
+
+    .boxOut-subTitleDashboard{
+        font-size: 10px;
+    }
+
+    .boxOut-titleDashboard {
+        margin-top: 13px;
+    }
+
+    .boxOut-thumbail{
+        background-position: center left;
+    }
+
+    .table-responsive {
+        border: none;
+    }
+
+
+
+
+
+}

@@ -1,0 +1,498 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 14, 2016, 1:05:54 PM
+    Author     : Arif
+*/
+
+.backgroundContent{
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #f0f0f0;
+}
+
+.container-padding{
+    padding-top: 100px;
+}
+
+.boxOut-step{
+    //background-color: #E62129;
+    color: white;
+    /*    padding-top: 10px;
+        padding-bottom: 10px;*/
+    font-size: 70px;
+    margin-top: 61px;
+    margin-bottom: 16px;
+}
+
+.triangle-step{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 15px 0 15px;
+    border-color: #e62128 transparent transparent transparent;
+}
+
+.box-step{
+    margin-top: 15px;
+}
+
+.boxOut-step1{
+    padding-right: 16px;
+}
+
+.boxOut-step2{
+    padding-left: 136px;
+    padding-right: 244px;
+	padding-top: 107px
+}
+
+.boxOut-step3{
+    padding-left: 332px;
+}
+
+.box-step > .col-md-4 > .col-md-12{
+    //border-top: 18px solid #114F94;
+    background-color: white;
+    //padding-top: 10px;
+    padding-bottom: 70px;
+    min-height: 800px;
+
+    /*    -webkit-box-shadow: 0px 0px 15px 0px rgba(161,161,161,1);
+        -moz-box-shadow: 0px 0px 15px 0px rgba(161,161,161,1);
+        box-shadow: 0px 0px 15px 0px rgba(161,161,161,1);*/
+}
+
+.step-title{
+    color: #E62129;
+    font-size: 20px;
+}
+
+.box-step > .col-md-4{
+    margin-bottom: 20px;
+}
+
+.step-img{
+    height: 140px;
+    overflow: hidden;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.imgStep1{
+    height: 124px;
+}
+
+.imgStep2{
+    height: 126px;
+}
+
+.imgStep3{
+    height: 139px;
+}
+
+.step-text{
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 13px;
+    margin-top: 50px;
+    color: #808080;
+}
+
+.step-text p{
+    margin-bottom: 20px;
+}
+
+.pStep-padding{
+    padding-left: 20px;
+}
+
+.boxOut-stepVideo{
+    margin-top: 30px;
+    background-color: white;
+    margin-bottom: 50px;
+
+    /*    -webkit-box-shadow: 0px 0px 15px 0px rgba(161,161,161,1);
+        -moz-box-shadow: 0px 0px 15px 0px rgba(161,161,161,1);
+        box-shadow: 0px 0px 15px 0px rgba(161,161,161,1);*/
+}
+
+.box-stepVideo{
+    width: 68%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.boxOut-stepKeteranganVideo{
+    width: 32%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+
+    padding: 40px 0px 0px 40px;
+}
+
+.box-stepVideo > .col-md-12{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.box-stepVideo > .col-md-12 > iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.div-1{
+    border-top: 100px solid red; 
+    border-right: 50px solid transparent; 
+    height: 0; 
+    width: 200px;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    border: none;
+    background-color: #EEEEEF !important;
+}
+
+.nav-step-edit{
+    border: none;
+    padding-right: 40px;
+}
+
+.nav-step-edit > li > a {
+    padding: 0px 0px;
+    border: none;
+}
+
+.nav-tabs > li {
+    margin-bottom: 0px;
+}
+
+.nav-step-edit > li.active a, .nav-step-edit > li.active a:hover, .nav-step-edit > li.active a:focus {
+    color: white !important;
+}
+
+.nav-step-edit > li a, .nav-step-edit > li a:hover, .nav-step-edit > li a:focus {
+    color: black !important;
+}
+
+.nav-step-edit > li .boxOut-titleTab{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /*    width: -webkit-calc(100% - 30px);
+        width: -moz-calc(100% - 30px);
+        width: -o-calc(100% - 30px);
+        width: calc(100% - 30px);*/
+    width: 100%;
+    background-color: #EEEEEF;
+    color: #807e7e;
+    font-size: 12px;
+}
+
+.nav-step-edit > li.active .boxOut-titleTab{
+    background-color: #00bff3 !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: left;
+    color: white;
+}
+
+.nav-step-edit > li:first-child .boxOut-titleTab{
+    float: left;
+}
+
+.nav-step-edit > li:first-child a{
+    //margin-left: 40px !important;
+
+}
+
+.nav-step-edit > li:last-child a{
+    //margin-left: -15px !important;
+}
+
+.nav-step-edit > li:last-child .boxOut-titleTab{
+    float: right;
+}
+
+.nav-step-edit > li.active .boxOut-titleTriangle-1{
+    float: left;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 30px 30px 0 0;
+    border-color: #e62128 transparent transparent transparent;
+    background-color: #EEEEEF !important;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
+.nav-step-edit > li.active .boxOut-titleTriangle-2{
+    float: left;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 30px 30px;
+    border-color: transparent transparent #e62128 transparent;
+    background-color: #EEEEEF !important;
+    position: absolute;
+    z-index: 1;
+}
+
+.boxOut-textTab{
+    padding-left: 0px;
+    padding-top: 30px;
+}
+
+.box-textTab{
+    height: 260px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-size: 12px;
+    color: #807e7e;
+}
+
+
+
+.mCSB_scrollTools .mCSB_draggerRail {
+    width: 6px;
+    height: 100%;
+    margin: 0 auto;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    border: none;
+}
+
+.mCS-rounded-dark.mCSB_scrollTools .mCSB_draggerRail, .mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #00bff3 !important;
+    border: none !important;
+    border-radius: 0px;
+    margin-right: 0px;
+}
+
+.mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #E62129 !important;
+}
+
+
+
+
+
+.circle-step{
+    width: 135px;
+    height: 135px;
+    border-radius: 100%;
+    background-color: white;
+    color: gray;
+    font-size: 50px;
+    text-align: center;
+    float: none;
+    margin-top: -175px;
+    padding-top: 35px;
+}
+
+.mCSB_inside > .mCSB_container {
+    margin-right: 40px;
+}
+
+.mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #52daff !important;
+    border-radius: 0px;
+    width: 6px;
+    margin-right: 0px;
+}
+
+.mCSB_scrollTools .mCSB_dragger {
+    height: 30px !important;
+}
+
+
+@media (max-width:1366px) {
+
+    .boxOut-step {
+        margin-top: 160px;
+    }
+
+}
+
+
+@media (max-width:1200px) {
+
+
+}
+
+@media (max-width:992px) {
+
+    .step-title{
+        color: #E62129;
+        font-size: 16px;
+    }
+
+    .box-step > .col-md-4 > .col-md-12{
+        min-height: 650px;
+        padding-bottom: 20px;
+    }
+
+    .box-textTab{
+        height: 225px;
+    }
+
+    .boxOut-step {
+        font-size: 54px;
+        margin-top: 0px;
+    }
+
+    .step-text {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 11px;
+        margin-top: 35px;
+    }
+
+    .box-step > .col-md-4 > .col-md-12 {
+        min-height: 700px;
+    }
+
+    .circle-step {
+        width: 80px;
+        height: 80px;
+        font-size: 40px;
+        margin-top: -40px;
+        padding-top: 10px;
+    }
+
+    .box-textTab {
+        height: 205px;
+        font-size: 11px;
+    }
+
+    .boxOut-stepKeteranganVideo {
+        padding: 20px 0px 0px 20px;
+    }
+
+    .nav-step-edit {
+        padding-right: 20px;
+    }
+
+    .mCSB_inside > .mCSB_container {
+        margin-right: 20px;
+    }
+
+    .boxOut-textTab {
+        padding-top: 20px;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .container-padding{
+        padding-top: 180px !important;
+    }
+
+    .container-padding{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .boxOut-step1{
+        padding-right: 0px;
+    }
+
+    .boxOut-step2{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .boxOut-step3{
+        padding-left: 0px;
+    }
+
+    .box-step > .col-md-4 > .col-md-12{
+        min-height: 0px;
+        padding-bottom: 30px;
+    }
+
+    .step-text {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .box-stepVideo{
+        width: 100%;
+    }
+
+    .boxOut-stepKeteranganVideo{
+        width: 100%;
+    }
+
+    .backgroundContent {
+        background-size: auto auto;
+        background-position: top center;
+    }
+
+    .boxOut-step {
+        font-size: 32px;
+        margin-bottom: 50px;
+    }
+
+    .box-step > .col-md-4 {
+        margin-bottom: 70px;
+    }
+
+    .box-textTab {
+        //height: inherit;
+    }
+
+    .boxOut-textTab {
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
+}
+
+.div-hover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    display: none;
+    transition: all 0.25s linear 0s;
+}
+
+
+
+.button-circle{
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    width: 125px;
+    height: 125px;
+    font-size: 14px;
+    padding: 0px;
+    padding-top: 4px;
+    border-radius: 100%;
+    text-align: center;
+
+    transition: all 0.25s linear 0s;
+    float: none;
+
+    margin-left: 56px;
+    margin-top: 65px;
+}
+
+.button-circle:hover, .button-circle:focus{
+    transition: all 0.25s linear 0s;
+    background-color: rgba(0, 0, 0, 1);
+}

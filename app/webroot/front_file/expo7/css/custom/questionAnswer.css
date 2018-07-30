@@ -1,0 +1,211 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 14, 2016, 1:05:54 PM
+    Author     : Arif
+*/
+
+.backgroundContent{
+    background-color: #F5F5F5;
+}
+
+.container-padding{
+    padding-top: 40px;
+}
+
+.background-container{
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    padding-left: 110px;
+    padding-right: 110px;
+    background-image: url('../../img/icon/shadow-bottom.png');
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.boxOut-questionList{
+    margin-bottom: 40px;
+}
+
+.boxOut-question{
+    width: 5%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.boxOut-answer{
+    width: 5%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    font-size: 20px;
+
+    margin-top: 25px;
+}
+
+.boxOut-questionText{
+    width: 95%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.box-question{
+    color: #114F94;
+    font-size: 20px;
+}
+
+.box-answer{
+    color: #8B8B8C;
+}
+
+.triangle-question{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 0 0 20px;
+    border-color: transparent transparent transparent #f8f7f8;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.boxOut-answerText{
+    background-color: #f8f7f8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 12px;
+
+    color: #332C2B;
+}
+
+.boxOut-answerText p{
+    text-indent: 40px;
+}
+
+.table td{
+    border:1px solid white;
+    color: #332C2B;
+    text-align: center;
+    height: 30px;
+}
+
+.table-fontUp{
+    font-size: 7px; 
+    float: none; 
+    margin-top: -18px; 
+    margin-left: 11px;
+}
+
+.title-right{
+    font-size: 11px;
+    font-weight: bold;
+    height: 65px;
+    text-align: center;
+    padding-top: 25px !important;
+}
+
+.title-table{
+    background-color: #A1D9F6;
+}
+
+.blue-tableTr{
+    background-color: #E0FBFF;
+}
+
+.grey-tableTr{
+    background-color: #D4F3F7;
+}
+
+.paragraph-title{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:1366px) {
+
+    .container-padding{
+        padding-top: 0px;
+    }
+
+}
+
+
+@media (max-width:1200px) {
+
+
+}
+
+@media (max-width:992px) {
+
+    .background-container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .boxOut-answerText {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+
+}
+
+@media (max-width:768px) {
+
+    .background-container{
+        padding-top: 50px;
+    }
+
+    .background-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .boxOut-question{
+        width: 10%;
+    }
+
+    .boxOut-answer{
+        width: 10%;
+    }
+
+    .boxOut-questionText{
+        width: 90%;
+    }
+
+    .box-question{
+        font-size: 16px;
+    }
+
+    .boxOut-answer {
+        font-size: 16px;
+    }
+
+    .boxOut-answerText {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .paragraph-title{
+        font-size: 16px;
+        text-align: left !important;
+    }
+
+}
+
+

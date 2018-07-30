@@ -1,0 +1,24 @@
+.button-header{
+    margin: 0px;
+    background-color: transparent;
+    color: white !important;
+    font-size: 10px;
+    padding: 0px 5px;
+    text-align: center;
+
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+
+    float: right;
+    position: relative;
+    min-height: 1px;
+}
+
+.box-menuText,.button-sideMenu{
+    text-transform: uppercase;
+}
+
+.progress-bar{
+    min-width:0 !important;
+}

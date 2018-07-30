@@ -1,0 +1,1010 @@
+.boxOut-content{
+    margin-top: 70px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.box-content{
+    height: 472px;
+    ##border-left: 3px solid #1A64B8;
+}
+
+
+.title-moneyEarned{
+    text-align: center;
+    color: #333333;
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding-top: 30px;
+}
+
+.circle-earn{
+    width: 155px;
+    height: 155px;
+    float: none;
+    background-color: #E4F4FD;
+    border-radius: 100%;
+    overflow: hidden;
+    text-align: center;
+    font-size: 30px;
+    color: #2F7CD4;
+    padding-top: 50px;
+	padding-left:10px;
+}
+
+.font-dollar{
+    font-size: 25px;
+    margin-top: 4px;
+    margin-left: -10px;
+    position: absolute;
+}
+
+.boxOut-contentLeft{
+    height: inherit;
+}
+
+.boxOut-contentRight{
+    background-color: #E4F4FD;
+    height: inherit;
+}
+
+.boxOut-contentLeft-top{
+    height: 60%;
+    background-color: #FAFAFA;
+    padding-bottom: 20px;
+}
+
+.boxOut-contentLeft-bottom{
+    height: 40%;
+}
+
+.border-batas{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100px;
+    border-right: 1px solid #CCCCCC;
+    margin-top: 100px;
+}
+
+
+
+
+.boxOut-contentLeft-bottom .mCSB_outside + .mCSB_scrollTools {
+    right: 0px;
+}
+
+.boxOut-contentLeft-bottom .mCS-light-3.mCSB_scrollTools .mCSB_draggerRail, .boxOut-contentLeft-bottom .mCS-dark-3.mCSB_scrollTools .mCSB_draggerRail {
+    width: 7px;
+    background-color: #CCCCCC !important;
+    border-radius: 0px !important;
+}
+
+.boxOut-contentLeft-bottom .mCS-light-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .boxOut-contentLeft-bottom .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 7px;
+}
+
+.boxOut-contentLeft-bottom .mCSB_scrollTools {
+    width: 7px;
+}
+
+.boxOut-contentLeft-bottom .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #437fd1 !important;
+}
+
+.boxOut-contentLeft-bottom .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.mCS-autoHide > .mCustomScrollBox > .mCSB_scrollTools, .mCS-autoHide > .mCustomScrollBox ~ .mCSB_scrollTools {
+    opacity: 1;
+}
+
+
+
+
+.boxOut-contentRight .mCSB_outside + .mCSB_scrollTools {
+    right: 0px;
+}
+
+.boxOut-contentRight .mCS-light-3.mCSB_scrollTools .mCSB_draggerRail, .boxOut-contentRight .mCS-dark-3.mCSB_scrollTools .mCSB_draggerRail {
+    width: 7px;
+    background-color: #CCCCCC !important;
+    border-radius: 0px !important;
+}
+
+.boxOut-contentRight .mCS-light-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .boxOut-contentRight .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 7px;
+}
+
+.boxOut-contentRight .mCSB_scrollTools {
+    width: 7px;
+}
+
+.boxOut-contentRight .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #B3B3B3 !important;
+}
+
+.boxOut-contentRight .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+
+
+
+.tableTr-1{
+    background-color: #F2F2F2;
+    height: 40px;
+}
+
+.tableTr-2{
+    background-color: #FAFAFA;
+    height: 40px;
+}
+
+.table-title{
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 13px;
+    padding-left: 20px !important;
+}
+
+.icon-1{
+    background-color: #56C9F4;
+    width: 46px !important;
+}
+
+.icon-2{
+    background-color: #40BEEE;
+    width: 46px !important;
+}
+
+.close-td{
+    width: 75px;
+}
+
+.td-mail{
+    width: 17px;
+    height: 11px;
+}
+
+.td-ticket{
+    width: 20px;
+    height: 16px;
+}
+
+.edit-tableMail{
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.button-closed{
+    margin: 0px;
+    background-color: #ED3237;
+    color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 0px;
+    background-position: center center;
+    background-size: 7px 7px;
+    background-repeat: no-repeat;
+
+    margin-right: 25px;
+
+
+
+    transition: all 0.25s linear 0s;
+    float: right !important;
+}
+
+.button-closed:hover, .button-closed:focus{
+    transition: all 0.25s linear 0s;
+    background-color: #BA252A;
+}
+
+
+
+
+
+.boxOut-contentRight{
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.title-Accumulated{
+    font-size: 18px;
+}
+
+.title-people{
+    font-size: 26px;
+	color: #0f51ab;
+}
+
+.countNumber{
+    font-size: 50px;
+    line-height: 58px !important;
+    padding-right: 10px !important;
+	color: red;
+}
+
+.boxOut-table-people{
+    margin-bottom: 0px;
+    border: none;
+}
+
+.table-people{
+    margin-bottom: 0px;
+    border: none;
+    color: #4D4D4D;
+}
+
+.minimum-td{
+    width:1%;
+    white-space:nowrap;
+}
+
+.table-people > tbody > tr > td{
+    padding: 0px;
+}
+
+.title-level{
+    font-size: 10px;
+    padding-right: 5px !important;
+	color:#ff0000;
+}
+
+.medal-level{
+    width: 25px;
+    height: 28px;
+}
+
+.boxOut-table-progress{
+    margin-bottom: 0px;
+    border: none;
+}
+
+.table-progress{
+    margin-bottom: 0px;
+    border: none;
+    color: #4D4D4D;
+}
+
+.table-progress > tbody > tr > td{
+    padding: 0px;
+}
+
+.boxOut-title-chart{
+    color: #373435;
+    font-size: 30px;
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    margin-right: 50px;
+    padding-top: 25px;
+}
+
+.title-chart{
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.percent-chart{
+    font-size: 12px;
+    text-align: center;
+    line-height: 14px;
+}
+
+.title-progress{
+    font-size: 18px;
+    vertical-align:bottom !important;
+    line-height: 20px !important;
+    padding-bottom: 5px !important;
+}
+
+.title-ofPeople{
+    font-size: 10px;
+}
+
+.boxOut-progress{
+    width: 115px;
+    float: right;
+    position: relative;
+    min-height: 1px;
+    margin-bottom: 25px;
+}
+
+.chart-percentage{
+    margin-right: 20px;
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.chart-progress{
+
+}
+
+.boxOut-rightBottom{
+    margin-top: 20px;
+}
+
+
+
+
+.circle-member{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    overflow: hidden !important;
+}
+
+.circle-member img{
+    width: 100%;
+    height: 100%;
+}
+
+.member-medal-level{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+.boxOut-rightBottom-left{
+    padding-right: 10px;
+    border: none;
+    margin-bottom: 0px;
+}
+
+.boxOut-rightBottom-right{
+    padding-left: 20px;
+    border: none;
+    margin-bottom: 0px;
+}
+
+
+
+.title-name{
+    font-size: 14px;
+    color: rgb(17,79,148);
+    white-space: nowrap;
+    overflow: hidden;
+    width: 120px;
+}
+
+.subTitle-name{
+    color: #7a7a7a;
+    font-style: italic;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.title-peoplePercent{
+    color: #7a7a7a;
+    font-size: 10px;
+    text-align: right;
+    padding-left: 15px;
+    padding-top: 3px;
+}
+
+.subTitle-peoplePercent{
+    color: #7a7a7a;
+    font-size: 11px;
+    text-align: right;
+}
+
+.boxOut-title-name{
+    width: 120px;
+    padding-left: 10px !important;
+}
+
+.progress {
+    height: 12px;
+    margin-bottom: 0px;
+    margin-top: 16px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 100px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+}
+
+.progress-bar {
+
+    font-size: 12px;
+    line-height: 20px;
+    color: transparent;
+    text-align: center;
+    background-color: #00A859;
+}
+
+.progress-bar-striped, .progress-striped .progress-bar {
+    background-image: linear-gradient(45deg,rgba(255,255,255,0.4) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.4) 50%,rgba(255,255,255,0.4) 75%,transparent 75%,transparent);
+    background-size: 5px 5px;
+}
+
+.circle-number{
+    font-size: 22px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+
+    z-index: 1;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: -40px;
+
+    display: none;
+    transition: all 0.25s linear 0s;
+}
+
+.circle-member:hover > .circle-number{
+    display: block;
+    transition: all 0.25s linear 0s;
+}
+
+.tr-padding > td{
+    padding-bottom: 20px !important;
+}
+
+.boxOut-referral{
+    margin-top: 30px;
+}
+
+.button-play{
+    margin: 0px;
+    background-color: #0D9CD4;
+    color: white;
+    width: 72px;
+    font-size: 14px;
+    height: 35px;
+    border-radius: 5px;
+    padding: 0px;
+    text-align: center;
+    //margin-top: 10px;
+    //margin-left: 20px;
+
+    transition: all 0.25s linear 0s;
+    float: left;
+}
+
+.button-play:hover, .button-play:focus{
+    transition: all 0.25s linear 0s;
+    background-color: #0984B5;
+}
+
+.input-fieldKomfirmasi, input-fieldKomfirmasi:focus {
+    height: 35px;
+    border-radius: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: white !important;
+    border: 2px solid #0D9CD4 !important;
+    box-shadow: none !important;
+    font-size: 10px;
+    color: #332C2B !important;
+    margin: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    padding-left: 10px;
+
+    float: left;
+}
+
+.boxOut-titleReferral{
+    color: #ED3237;
+    font-size: 14px;
+    padding-top: 7px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.boxOut-code{
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+@media (max-width:1366px) {
+
+    .boxOut-content {
+        margin-top: 30px;
+        padding-left: 35px;
+        padding-right: 35px;
+        margin-bottom: 60px;
+    }
+
+    .box-content {
+        height: 360px;
+    }
+
+
+    .title-moneyEarned {
+        font-size: 18px;
+        margin-bottom: 10px;
+        padding-top: 20px;
+    }
+
+    .circle-earn {
+        width: 110px;
+        height: 110px;
+        font-size: 54px;
+        padding-top: 15px;
+    }
+
+    .font-dollar {
+        font-size: 16px;
+        margin-top: 16px;
+        margin-left: -8px;
+        position: absolute;
+    }
+
+    .border-batas {
+        height: 75px;
+        margin-top: 70px;
+    }
+
+
+
+
+
+
+    .tableTr-1{
+        height: 30px;
+    }
+
+    .tableTr-2{
+        height: 30px;
+    }
+
+    .table-title{
+        font-size: 10px;
+        padding-left: 15px !important;
+        max-width: 365px;
+        padding-top: 10px !important;
+    }
+
+    .icon-1{
+        width: 33px !important;
+    }
+
+    .icon-2{
+        width: 33px !important;
+    }
+
+    .close-td{
+        width: 75px;
+    }
+
+    .td-mail{
+        width: 17px;
+        height: 11px;
+    }
+
+    .td-ticket{
+        width: 20px;
+        height: 16px;
+    }
+
+    .edit-tableMail{
+        margin-bottom: 0px;
+    }
+
+    .button-closed {
+        margin-top: 2px;
+    }
+
+
+
+
+    .boxOut-contentRight {
+        padding-left: 40px;
+        padding-right: 20px;
+        padding-top: 35px;
+    }
+
+    .chart-percentage {
+        margin-right: 20px;
+    }
+
+    .title-Accumulated {
+        font-size: 16px;
+    }
+
+    .countNumber {
+        font-size: 48px;
+        line-height: 48px !important;
+        padding-right: 10px !important;
+    }
+
+    .title-people {
+        font-size: 22px;
+    }
+
+    .title-level {
+        font-size: 8px;
+        padding-right: 5px !important;
+    }
+
+    .medal-level{
+        width: 19px;
+        height: 19px;
+    }
+
+
+    .chart-percentage{
+        margin-right: 20px;
+        width: 75px !important;
+        height: 75px !important;
+    }
+
+    .title-progress {
+        font-size: 16px;
+        line-height: 15px !important;
+        padding-bottom: 5px !important;
+    }
+
+    .title-ofPeople {
+        font-size: 9px;
+    }
+
+    .title-chart {
+        font-size: 30px;
+        line-height: 26px;
+    }
+
+    .boxOut-title-chart {
+        font-size: 30px;
+        margin-right: 42px;
+        padding-top: 18px;
+    }
+
+    .percent-chart {
+        font-size: 10px;
+        text-align: center;
+        line-height: 14px;
+    }
+
+    .boxOut-progress {
+        width: 100px;
+        margin-bottom: 16px;
+    }
+
+
+
+
+    .circle-member{
+        width: 30px;
+        height: 30px;
+    }
+
+    .circle-number {
+        font-size: 16px;
+        width: 30px;
+        height: 30px;
+        padding-top: 3px;
+        margin-top: -30px;
+    }
+
+    .boxOut-title-name{
+        width: 100px;
+    }
+
+    .title-name {
+        font-size: 12px;
+        width: 125px;
+        width: 100px;
+    }
+
+    .subTitle-name {
+        color: #999999;
+        font-style: italic;
+        font-size: 8px;
+        font-weight: bold;
+        width: 100px;
+    }
+
+    .boxOut-rightBottom-left {
+        padding-right: 10px;
+    }
+
+    .boxOut-rightBottom-right {
+        padding-left: 10px;
+    }
+
+    .title-peoplePercent {
+        font-size: 8px;
+        padding-left: 15px;
+        padding-top: 3px;
+    }
+
+    .subTitle-peoplePercent {
+        font-size: 9px;
+    }
+
+    .title-peoplePercent {
+        padding-left: 10px;
+        padding-top: 3px;
+    }
+
+
+    .button-play{
+        margin: 0px;
+        background-color: #0D9CD4;
+        color: white;
+        width: 50px;
+        font-size: 11px;
+        height: 25px;
+        border-radius: 5px;
+        padding: 0px;
+        text-align: center;
+        //margin-top: 10px;
+        //margin-left: 20px;
+
+        transition: all 0.25s linear 0s;
+        float: left;
+    }
+
+    .button-play:hover, .button-play:focus{
+        transition: all 0.25s linear 0s;
+        background-color: #0984B5;
+    }
+
+    .input-fieldKomfirmasi, input-fieldKomfirmasi:focus {
+        height: 25px;
+        border-radius: 0px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        background-color: white !important;
+        border: 1px solid #0D9CD4 !important;
+        box-shadow: none !important;
+        font-size: 9px;
+        color: #332C2B !important;
+        margin: 0px;
+        margin-top: 0px;
+        padding: 0px;
+        padding-left: 5px;
+
+        float: left;
+    }
+
+    .boxOut-titleReferral {
+        color: #ED3237;
+        font-size: 10px;
+        padding-top: 4px;
+        padding-right: 10px;
+        text-align: right;
+    }
+
+    .boxOut-code{
+        padding-left: 20px;
+    }
+
+
+
+}
+
+
+@media (max-width:1200px) {
+
+}
+
+
+@media (max-width:992px) {
+
+
+    .box-content {
+        height: auto;
+    }
+
+    .boxOut-contentLeft-bottom{
+        max-height: 180px;
+        margin-top: 20px;
+    }
+
+    .boxOut-contentLeft-bottom{
+        border: none;
+    }
+
+    .box-content {
+        border-left: none;
+    }
+
+    .boxOut-rightBottom-left{
+        padding-right: 0px;
+    }
+
+    .boxOut-rightBottom-right{
+        padding-left: 0px;
+    }
+
+    .boxOut-contentRight {
+        margin-top: 20px;
+    }
+
+
+}
+
+
+@media (max-width:767px) {
+
+    .tile_count-edit .tile_stats_count::before {
+        height: 55px;
+        margin-top: 0px;
+    }
+
+    .tile_count-edit .tile_stats_count{
+        margin-bottom: 10px;
+    }
+
+    .boxOut-content {
+        margin-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 30px;
+    }
+
+    .circle-earn {
+        width: 80px;
+        height: 80px;
+        font-size: 16px;
+        padding-top: 25px;
+    }
+
+    .font-dollar {
+        font-size: 15px;
+        margin-top: 2px;
+        margin-left: -8px;
+        position: absolute;
+    }
+
+    .border-batas {
+        height: 60px;
+        margin-top: 55px;
+    }
+
+    .title-moneyEarned {
+        font-size: 14px;
+        margin-bottom: 10px;
+        padding-top: 15px;
+    }
+
+    .boxOut-progress{
+        width: 100%;
+        float: left;
+        margin-bottom: 25px;
+    }
+
+
+    .title-progress{
+        width:1%;
+        white-space:nowrap;
+        margin-right: 20px;
+    }
+
+    .chart-progress{
+        width:100%;
+        white-space: normal;
+    }
+
+    .boxOut-title-chart{
+        font-size: 30px;
+        top: 0;
+        right: auto;
+        left: 0;
+        margin-right: 0px;
+        margin-left: 150px;
+        padding-top: 25px;
+    }
+
+    .boxOut-title-chart {
+        margin-left: 132px;
+        padding-top: 20px;
+    }
+
+    .boxOut-table-progress {
+        margin-top: 20px;
+        border-bottom: 1px dotted #B3B3B3;
+        padding-bottom: 0px;
+    }
+
+    .boxOut-contentRight {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+
+    .title-Accumulated {
+        font-size: 14px;
+    }
+
+    .title-progress {
+        font-size: 14px;
+        padding-top: 7px;
+    }
+
+    .countNumber {
+        font-size: 40px;
+        line-height: 34px !important;
+        padding-right: 10px !important;
+    }
+
+    .title-people {
+        font-size: 18px;
+    }
+
+    .chart-percentage {
+        margin-right: 20px;
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .boxOut-title-chart {
+        margin-left: 112px;
+        padding-top: 14px;
+    }
+
+    .title-chart {
+        font-size: 20px;
+        line-height: 16px;
+    }
+
+    .percent-chart {
+        font-size: 8px;
+        text-align: center;
+        line-height: 10px;
+    }
+
+
+    .boxOut-title-name{
+        width: 70px;
+    }
+
+    .title-name {
+        font-size: 10px;
+        width: 70px;
+    }
+
+    .subTitle-name {
+        font-size: 8px;
+        width: 80px;
+    }
+
+    .boxOut-contentRight {
+        margin-top: 0px;
+    }
+
+    .boxOut-titleReferral {
+        padding-top: 0px;
+        padding-bottom: 10px;
+        text-align: left;
+    }
+
+    .boxOut-code {
+        padding-left: 0px;
+    }
+
+    .boxOut-referral {
+        margin-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+}

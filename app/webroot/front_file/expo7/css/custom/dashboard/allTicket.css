@@ -1,0 +1,1060 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 25, 2016, 2:24:42 PM
+    Author     : Arif
+*/
+
+.boxOut-selectHeader{
+    display: none;
+}
+
+.boxOut-content{
+    margin-top: 70px;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-bottom: 60px;
+}
+
+.box-content{
+    height: 620px;
+    background-color: #E4F4FD;
+}
+
+
+
+
+
+
+
+.box-content-left{
+    width: 35%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+
+    background-color: #FAFAFA;
+    border-left: 3px solid #1A64B8;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+.box-content-right{
+    width: 65%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    overflow: hidden;
+
+    background-color: #E4F4FD;
+    //background-image: url('../../../img/icon/message-borderRight.png');
+    background-repeat: no-repeat;
+    background-size: 7px 100%;
+    background-position: right;
+}
+
+
+.box-content-left .mCSB_outside + .mCSB_scrollTools {
+    right: 0px;
+}
+
+.mCS-autoHide > .mCustomScrollBox > .mCSB_scrollTools, .mCS-autoHide > .mCustomScrollBox ~ .mCSB_scrollTools {
+    opacity: 1 !important;
+    filter: "alpha(opacity=1)";
+    -ms-filter: "alpha(opacity=1)";
+}
+
+
+.box-content-left .mCS-light-3.mCSB_scrollTools .mCSB_draggerRail, .box-content-left .mCS-dark-3.mCSB_scrollTools .mCSB_draggerRail {
+    width: 7px;
+    background-color: #E6E6E6!important;
+    border-radius: 0px !important;
+}
+
+.box-content-left .mCS-light-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .box-content-left .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 7px;
+}
+.box-content-left .mCSB_scrollTools {
+    width: 7px;
+}
+
+.box-content-left .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #808080!important;
+}
+
+.box-content-left .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.nav-tabs > li > a:hover {
+    border-color: transparent;
+    border: none;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #E6E6E6;
+    border: none;
+}
+
+.tabs-left > li > a {
+    border-radius: 0px 0 0 0px;
+    background: transparent;
+    border: none;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background-color: #E6E6E6;
+    border: none;
+}
+
+.tabs-left > li, .tabs-right > li {
+    margin-bottom: 0px;
+}
+
+.tabs-left, .tabs-right {
+    padding-top: 0px;
+}
+
+.boxOut-tabBlank{
+    height: 620px;
+    font-size: 60px;
+    color: #97DAF8;
+    padding-top: 25%;
+}
+
+.nav > li > a {
+    padding: 20px 35px 0px 35px;
+}
+
+.boxOut-foto-img{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.boxOut-foto-img img{
+    width: 55px;
+    height: 55px;
+}
+
+.boxOut-borderMessage{
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #CCCCCC;
+}
+
+.boxOut-messageTitle{
+    color: #4D4D4D;
+}
+
+.boxOut-messageText{
+    color: #999999;
+    font-size: 12px;
+    height: 35px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 3px;
+}
+
+.boxOut-messageTanggal{
+    color: #999999;
+    font-size: 11px;
+    padding-top: 7px;
+}
+
+.tabs-left > li:first-child{
+    margin-top: 40px;
+}
+
+.tabs-left > li:last-child{
+    margin-bottom: 40px;
+}
+
+
+
+
+.tab-pane .mCSB_outside + .mCSB_scrollTools {
+    right: 0px;
+}
+
+.tab-pane .mCS-light-3.mCSB_scrollTools .mCSB_draggerRail, .tab-pane .mCS-dark-3.mCSB_scrollTools .mCSB_draggerRail {
+    width: 7px;
+    background-color: #97DAF8!important;
+    border-radius: 0px !important;
+}
+
+.tab-pane .mCS-light-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .tab-pane .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 7px;
+}
+
+.tab-pane .mCSB_scrollTools {
+    width: 7px;
+}
+
+.tab-pane .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #0D9CD4 !important;
+}
+
+.tab-pane .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+
+
+
+.boxOut-messageContent-1 > .x_panel {
+    margin-bottom: 0px;
+    padding: 0px 0px;
+    background-color: #E4F4FD;
+    border: none;
+    opacity: 1;
+    transition: all .2s ease;
+}
+
+.boxOut-messageContent-2 > .x_panel {
+    margin-bottom: 0px;
+    padding: 0px 0px;
+    background-color: #B5E4FA;
+    border: none;
+    opacity: 1;
+    transition: all .2s ease;
+}
+
+.boxOut-messageContent-3 > .x_panel {
+    margin-bottom: 0px;
+    padding: 0px 0px;
+    background-color: #E4F4FD;
+    border: none;
+    opacity: 1;
+    transition: all .2s ease;
+}
+
+.boxOut-background-ganjil > .x_panel {
+    margin-bottom: 0px;
+    padding: 0px 0px;
+    background-color: #E4F4FD;
+    border: none;
+    opacity: 1;
+    transition: all .2s ease;
+}
+
+.boxOut-background-genap > .x_panel {
+    margin-bottom: 0px;
+    padding: 0px 0px;
+    background-color: #E4F4FD;
+    border: none;
+    opacity: 1;
+    transition: all .2s ease;
+}
+
+.boxOut-messageContent-1 .x_title, .boxOut-messageContent-2 .x_title, .boxOut-messageContent-3 .x_title, .boxOut-background-ganjil .x_title, .boxOut-background-genap .x_title {
+    border-bottom: none;
+    padding: 0px 0px 0px;
+    margin-bottom: 0px;
+}
+
+.boxOut-messageContent-1 .x_content, .boxOut-messageContent-2 .x_content, .boxOut-messageContent-3 .x_content, .boxOut-background-ganjil .x_content, .boxOut-background-genap .x_content {
+    padding: 0 0px 0px;
+    margin-top: 0px;
+}
+
+.fa-chevron-up::before {
+    content: "";
+}
+
+.fa-chevron-down::before {
+    content: "";
+}
+
+.button-title.fa-chevron-up > .box-button-title{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background-image: url('../../../img/icon/minimize-message.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    float: right;
+    margin-top: 3px;
+}
+
+.button-title.fa-chevron-down > .box-button-title{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background-image: url('../../../img/icon/maximize-message.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    float: right;
+    margin-top: 3px;
+}
+
+.boxOut-button-title{
+    float: right;
+}
+
+.boxOut-message-top{
+    padding-left: 75px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.boxOut-message-foto{
+    width: 30px;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.boxOut-message-name{
+    width: auto;
+    float: left;
+    position: relative;
+    min-height: 1px;
+
+    color: #1A64B8;
+    font-size: 16px;
+    padding-top: 3px;
+    padding-left: 15px;
+}
+
+.box-message-foto{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.box-message-foto img{
+    width: 30px;
+    height: 30px;
+}
+
+.boxOut-textMessage{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+.box-textMessage{
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-top-left-radius: 0px;
+}
+
+.textMessage{
+    font-size: 13px;
+    color: #999999;
+}
+
+.textMessage p {
+    margin: 0 0 15px;
+}
+
+.boxOut-buttonMessage{
+    padding-left: 70px;
+}
+
+.button-forward{
+    margin: 0px;
+    background-color: #82D4F7;
+    color: white;
+    width: 130px;
+    font-size: 16px;
+    height: 35px;
+    border-radius: 100px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+
+    transition: all 0.25s linear 0s;
+}
+
+.button-forward:hover, .button-forward:focus{
+    background-color: #0D9CD4;
+    transition: all 0.25s linear 0s;
+}
+
+.button-reply{
+    margin: 0px;
+    background-color: #CCCCCC;
+    color: white;
+    width: 130px;
+    font-size: 16px;
+    height: 35px;
+    border-radius: 100px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+
+    transition: all 0.25s linear 0s;
+}
+
+.button-reply:hover, .button-reply:focus{
+    transition: all 0.25s linear 0s;
+    background-color: #B0B0B0;
+}
+
+.box-triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 0 0 20px;
+    border-color: transparent transparent transparent #ffffff;
+}
+
+.boxOut-messageContent-2{
+    padding-left: 70px;
+    background-color: #B5E4FA;
+}
+
+.boxOut-textMessage-2 {
+    margin-bottom: 50px;
+}
+
+.boxOut-messageContent-3{
+    padding-left: 70px;
+    background-color: #E4F4FD;
+}
+
+.boxOut-subTitleDashboard{
+    font-size: 15px;
+    color: #666666;
+}
+
+.boxOut-titleDashboard {
+    padding-top: 32px;
+}
+
+.status-message{
+    float: right;
+    position: relative;
+    min-height: 1px;
+    font-size: 12px;
+    color: #00A859;
+    text-align: right;
+}
+
+.name-sales{
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.status-message{
+    font-size: 11px;
+    text-align: right;
+}
+
+.number-message{
+    float: right;
+    position: relative;
+    min-height: 1px;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.status-answered{
+    color: #00A859;
+}
+
+.status-inProgres{
+    color: #9900CC;
+}
+
+.status-solved{
+    color: #3F8CE3;
+}
+
+.status-waitingOnMember{
+    color: #FF0000;
+}
+
+.boxOut-background-ganjil{
+    background-color: #E4F4FD;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.boxOut-background-genap{
+    background-color: #B5E4FA;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.boxOut-Attachments{
+    padding-left: 0px;
+}
+
+.title-attach{
+    padding-top: 15px;
+    padding-bottom: 5px;
+    color: #999999;
+}
+
+.boxOut-attachments{
+    background-color: white;
+    padding: 15px 20px;
+}
+
+.input-fieldKomfirmasi{
+    height: 30px;
+    border-radius: 0 !important;
+    background-color: white !important;
+    border: none !important;
+    box-shadow: none !important;
+    font-size: 13px;
+    color: #332C2B !important;
+    margin-top: 0px;
+    padding: 0px;
+    padding-left: 20px;
+
+    float: left;
+}
+
+.input-form3 button {
+    margin-top: -1px;
+    height: 30px;
+    background-color: #60A437;
+    border: 0;
+    width: 64px;
+}
+
+.input-form3 .btn-file {
+    margin-top: -1px;
+    height: 25px;
+    background-color: #B3B3B3;
+    border: 0;
+    width: 100px;
+    font-size: 14px;
+    margin: 0px;
+    margin-top: 2px;
+    border-radius: 100px;
+    padding: 0px;
+    padding-top: 2px;
+
+    float: left;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    background: red;
+    cursor: inherit;
+    display: block;
+
+}
+input[readonly] {
+    background-color: white !important;
+    cursor: text !important;
+    color: #999999 !important;
+}
+
+.boxOut-button{
+    width: 100px;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.boxOut-nameFile{
+    width: 300px;
+    float: left;
+    position: relative;
+    min-height: 1px;
+
+}
+
+.boxOut-rightBrowse{
+    text-align: right;
+    color: #999999;
+    font-size: 12px;
+    padding-top: 7px;
+}
+
+.button-save{
+    margin: 0px;
+    background-color: #82D4F7;
+    color: white;
+    width: 280px;
+    font-size: 14px;
+    height: 35px;
+    border-radius: 100px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 10px;
+    
+
+    transition: all 0.25s linear 0s;
+    /*float: right*/
+}
+
+.button-save:hover, .button-save:focus{
+    background-color: #0D9CD4;
+    transition: all 0.25s linear 0s;
+}
+
+.button-send{
+    margin: 0px;
+    background-color: #00A859;
+    color: white;
+    width: 130px;
+    font-size: 14px;
+    height: 35px;
+    border-radius: 100px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+
+    transition: all 0.25s linear 0s;
+    float: right
+}
+
+.button-send:hover, .button-send:focus{
+    transition: all 0.25s linear 0s;
+    background-color: #0E7849;
+}
+
+.button-send img{
+    margin-left: 10px;
+    height: 19px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:1366px) {
+
+    .boxOut-content {
+        margin-top: 30px;
+        padding-left: 35px;
+        padding-right: 35px;
+        margin-bottom: 60px;
+    }
+
+    .box-content {
+        height: 530px;
+    }
+
+
+
+
+
+    .boxOut-tabBlank{
+        height: 530px;
+        font-size: 60px;
+        padding-top: 25%;
+    }
+
+    .box-content-left{
+        width: 30%;
+    }
+
+
+    .box-content-right{
+        width: 70%;
+    }
+
+    .box-content-left .mCS-light-3.mCSB_scrollTools .mCSB_draggerRail, .box-content-left .mCS-dark-3.mCSB_scrollTools .mCSB_draggerRail {
+        width: 5px;
+    }
+
+    .box-content-left .mCS-light-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .box-content-left .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+        width: 5px;
+    }
+    .box-content-left .mCSB_scrollTools {
+        width: 5px;
+    }
+
+    .tab-pane .mCS-light-3.mCSB_scrollTools .mCSB_draggerRail, .tab-pane .mCS-dark-3.mCSB_scrollTools .mCSB_draggerRail {
+        width: 5px;
+    }
+
+    .tab-pane .mCS-light-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .tab-pane .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+        width: 5px;
+    }
+
+    .tab-pane .mCSB_scrollTools {
+        width: 5px;
+    }
+
+    .nav > li > a {
+        padding: 20px 15px 0px 15px;
+    }
+
+    .boxOut-foto-img img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .boxOut-tabBlank {
+        font-size: 40px;
+        padding-top: 220px !important;
+    }
+
+    .boxOut-messageTitle {
+        font-size: 13px;
+    }
+    .boxOut-messageText {
+        font-size: 11px;
+    }
+
+    .textMessage {
+        font-size: 11px;
+    }
+
+    .button-title.fa-chevron-up > .box-button-title {
+        width: 15px;
+        height: 15px;
+        background-size: 15px 15px;
+    }
+
+    .boxOut-message-top {
+        padding-left: 50px;
+        padding-right: 15px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .boxOut-textMessage {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .boxOut-buttonMessage {
+        padding-left: 50px;
+    }
+
+    .button-reply {
+        width: 95px;
+        font-size: 14px;
+        height: 30px;
+        margin-top: 20px;
+        margin-right: 25px;
+        margin-bottom: 10px;
+    }
+
+    .button-forward {
+        width: 95px;
+        font-size: 14px;
+        height: 30px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+
+    .boxOut-messageContent-2{
+        padding-left: 50px;
+    }
+
+    .boxOut-messageContent-3{
+        padding-left: 50px;
+    }
+
+    .boxOut-foto-img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .button-save {
+        width: 210px;
+        font-size: 12px;
+        height: 30px;
+    }
+
+    .button-send {
+        width: 100px;
+        font-size: 12px;
+        height: 30px;
+    }
+
+    .button-send img {
+        height: 15px;
+    }
+
+    .input-form3 .btn-file {
+        margin-top: -1px;
+        height: 15px;
+        width: 70px;
+        font-size: 10px;
+        margin: 0px;
+        margin-top: 2px;
+        padding: 0px;
+        padding-top: 0px;
+    }
+
+    .boxOut-button {
+        width: 70px;
+    }
+
+    .boxOut-nameFile {
+        width: 160px;
+    }
+
+    .input-fieldKomfirmasi {
+        padding-left: 15px;
+        height: 15px;
+        font-size: 10px;
+    }
+
+    .boxOut-rightBrowse {
+        font-size: 10px;
+        padding-top: 0px;
+    }
+
+    .button-title.fa-chevron-down > .box-button-title {
+        width: 15px;
+        height: 15px;
+        background-size: 15px 15px;
+    }
+
+    .boxOut-nameFile {
+        width: 200px;
+    }
+
+    .boxOut-background-ganjil {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .boxOut-background-genap {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+
+
+
+}
+
+
+@media (max-width:992px) {
+
+
+    .box-content {
+        height: 530px;
+    }
+
+    .box-content {
+        padding-bottom: 0px;
+    }
+
+
+
+    .boxOut-messageContent-2{
+        padding-left: 40px;
+    }
+
+    .boxOut-messageContent-3{
+        padding-left: 40px;
+    }
+
+    .boxOut-subTitleDashboard{
+        font-size: 13px;
+    }
+
+    .boxOut-titleDashboard {
+        padding-top: 2px;
+    }
+
+
+    .name-sales{
+        width: 100%;
+        float: left;
+
+    }
+
+    .status-message{
+        width: 100%;
+        float: left;
+        text-align: right;
+    }
+
+    .boxOut-background-ganjil {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .boxOut-background-genap {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .number-message {
+        width: 100%;
+        text-align: left;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .boxOut-textArea .editor.btn-toolbar {
+        overflow-y: scroll;
+    }
+
+    .boxOut-titleDashboard {
+        margin-top: 20px;
+    }
+
+    .boxOut-content {
+        margin-top: 0px;
+    }
+
+    .boxOut-content {
+        margin-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 30px;
+    }
+
+
+
+
+
+    .box-content-left{
+        width: 100%;
+    }
+
+
+    .box-content-right{
+        width: 100%;
+    }
+
+
+    .tabs-left > li:first-child {
+        margin-top: 5px;
+    }
+
+    .boxOut-tabBlank {
+        font-size: 20px;
+        padding-top: 100px !important;
+    }
+
+    .boxOut-tabBlank {
+        /* height: 530px; */
+    }
+
+    .box-content {
+        height: auto;
+    }
+
+    .box-content-left {
+        height: 225px;
+    }
+
+    .boxOut-message-top {
+        padding-left: 10px;
+        padding-right: 15px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .boxOut-textMessage {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .box-textMessage {
+        background-color: white;
+        border-radius: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: justify;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .boxOut-tabBlank {
+        height: 370px;
+        padding-top: 160px !important;
+    }
+
+    .box-content-right {
+        height: 370px;
+    }
+
+    .boxOut-buttonMessage {
+        padding-left: 10px;
+    }
+
+    .button-reply {
+        margin-right: 10px;
+    }
+
+    .boxOut-subTitleDashboard{
+        font-size: 10px;
+    }
+
+    .boxOut-titleDashboard {
+        margin-top: 13px;
+    }
+
+    .boxOut-button {
+        width: 100%;
+    }
+
+    .boxOut-nameFile {
+        width: 100%;
+        padding-top: 5px;
+    }
+
+    .input-fieldKomfirmasi {
+        padding-left: 0px;
+    }
+
+    .boxOut-rightBrowse {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .boxOut-background-ganjil {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .boxOut-background-genap {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+
+
+}

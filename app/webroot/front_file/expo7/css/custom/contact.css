@@ -1,0 +1,497 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 14, 2016, 1:05:54 PM
+    Author     : Arif
+*/
+
+.backgroundContent{
+    background-image: url('../../img/icon/content-background-5.png');
+    //background-size: 100% auto;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.container-padding {
+    margin-top: 80px;
+}
+
+.background-container{
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-image: url('../../img/icon/shadow-bottom.png');
+    background-size: 100% auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+}
+
+.boxOut-map{
+    height: 420px;
+    background-color: #e5e3df;
+}
+
+.arrow-map {
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+    border-width: 50px 80px 0 80px;
+    border-color: transparent #ffffff transparent #ffffff;
+}
+
+.boxOut-triangle{
+    height: 50px;
+}
+
+.boxOut-triangle > .col-md-5{
+    background-color: white;
+    height: inherit;
+}
+
+.gm-bundled-control-on-bottom{
+    bottom: 150px !important;
+}
+
+.boxOut-contactTitle{
+    padding-left: 155px;
+    padding-right: 155px;
+}
+
+.boxOut-contactTitle > .row:first-child > .col-md-12{
+    //border-bottom: 2px solid #114F94;
+    padding-bottom: 5px;
+    font-size: 20px;
+    color: #0096bf;
+}
+
+.boxOut-contactTitle > .row:last-child > .col-md-12{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    color: black;
+}
+
+.boxOut-listLeft{
+    padding-right: 20px;
+}
+
+.boxOut-listLeftContact{
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.imgContact-1{
+    width: 17px;
+    height: 22px;
+}
+
+.imgContact-2{
+    width: 17px;
+    height: 18px;
+}
+
+.imgContact-3{
+    width: 21px;
+    height: 14px;
+}
+
+.imgContact-4{
+    width: 15px;
+    height: 22px;
+}
+
+.imgContact-5{
+    width: 21px;
+    height: 14px;
+}
+
+.boxOut-titleContact-Red{
+    //color: #E62129;
+    margin-bottom: 0px;
+}
+
+.boxOut-titleContact-black{
+    margin-bottom: 0px;
+}
+
+.boxOut-contactLeft-button{
+    margin-bottom: 15px;
+}
+
+.boxOut-contactLeft-button > .col-md-6:first-child{
+    padding-right: 6px;
+}
+
+.boxOut-contactLeft-button > .col-md-6:last-child{
+    padding-left: 6px;
+}
+
+.button-online{
+    margin: 0px;
+    background-color: #33CC33;
+    color: white !important;
+    width: 80px;
+    font-size: 12px;
+    height: 30px;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 10px;
+    float: left;
+    margin-right: 10px;
+    transition-duration: 0.5s;
+}
+
+.button-online:hover, .button-online:focus{
+    background-color: #2BAD2B !important;
+    transition-duration: 0.5s;
+}
+
+.button-offline{
+    margin: 0px;
+    background-color: #b7b7b7;
+    color: white !important;
+    width: 80px;
+    font-size: 12px;
+    height: 30px;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+    cursor: auto;
+    margin-top: 10px;
+    float: left;
+    transition-duration: 0.5s;
+}
+
+.button-offline:hover, .button-offline:focus{
+    background-color: #b7b7b7 !important;
+    transition-duration: 0.5s;
+}
+
+.button-contact-Social{
+    margin: 0px;
+    background-color: #114F94;
+    color: black !important;
+    width: 28px;
+    font-size: 13px;
+    height: 28px;
+    border-radius: 0px;
+    padding: 0px;
+    padding-bottom: 4px;
+    text-align: center;
+    margin-right: 5px;
+    transition-duration: 0.5s;
+}
+
+.button-contact-Social:hover, .button-contact-Social:focus{
+    background-color: #0E3E75 !important;
+    transition-duration: 0.5s;
+}
+
+.imgContact-facebook{
+    width: 7px;
+    height: 14px;
+}
+
+.imgContact-twitter{
+    width: 15px;
+    height: 12px;
+}
+
+
+
+
+.boxOut-listRight{
+    padding-left: 20px;
+    //border-left: 2px solid #DCDDDD;
+}
+
+.boxOut-listRightContact{
+    font-size: 13px;
+}
+
+.boxOut-rightTitle{
+    color: white;
+    margin-bottom: 5px;
+}
+
+.field-contact-right, .field-contact-right:focus{
+    height: 30px;
+    border-radius: 0px;
+    padding: 0px 10px;
+    background-color: white;
+    border: none;
+    box-shadow: none;
+    color: #757475;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.editTextArea{
+    display: block;
+    width: 100%;
+    height: 139px !important;
+    padding: 6px 10px;
+    font-size: 13px;
+    line-height: 1.42857;
+    color: #757475;
+    background-color: #FFF;
+    background-image: none;
+    border: none;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    resize: none;
+    margin-bottom: 30px;
+}
+
+.boxOut-buttonRight-Red{
+    color: #E62129;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+.button-kirim{
+    margin: 0px;
+    background-color: #0794d1;
+    color: white !important;
+    width: 100%;
+    font-size: 16px;
+    height: 37px;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: left;
+    border: 2px solid white;
+    float: left;
+    padding-left: 45px;
+    transition-duration: 0.5s;
+}
+
+.button-kirim:hover, .button-kirim:focus{
+    background-color: #056c98 !important;
+    color: white !important;
+    transition-duration: 0.5s;
+}
+
+.button-kirim div{
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.imgContact-arrow{
+    width: 18px;
+    float: left;
+    position: relative;
+    min-height: 1px;
+
+    margin-left: 25px;
+}
+
+.boxOut-bottomContact{
+    background-color: #0794d1;
+    padding-left: 135px;
+    padding-right: 135px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.boxOut-listLeftContact > .col-md-11{
+    padding-left: 10px;
+}
+
+.boxOut-jarakMarginFirst{
+    margin-bottom: 19px;
+}
+
+.boxOut-jarakMargin{
+    margin-bottom: 30px;
+}
+
+.boxOut-jarakContent{
+    padding-left: 135px;
+    padding-right: 135px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.boxOut-listLeftBottom {
+    padding-right: 40px;
+}
+
+.boxOut-listRightBottom{
+    padding-left: 40px;
+}
+
+
+
+
+@media (max-width:1366px) {
+
+    .container-padding {
+        margin-top: 60px;
+    }
+
+    .boxOut-listRight {
+        padding-left: 18px;
+    }
+
+    .boxOut-listLeft {
+        padding-right: 18px;
+    }
+
+}
+
+
+@media (max-width:1200px) {
+
+
+}
+
+@media (max-width:992px) {
+
+    .boxOut-triangle {
+        height: 65px;
+    }
+
+    .arrow-map {
+        border-width: 50px 60px 0 60px;
+    }
+
+    .boxOut-contactTitle {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .background-container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #rc-imageselect, .g-recaptcha {
+        transform:scale(0.45) !important;
+        -webkit-transform:scale(0.45) !important;
+    }
+
+    .boxOut-listLeftContact {
+        font-size: 12px;
+    }
+
+    .boxOut-contactTitle > .row:last-child > .col-md-12 {
+        font-size: 12px;
+    }
+
+    .boxOut-jarakMargin {
+        margin-bottom: 27px;
+    }
+
+    .background-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .boxOut-jarakContent {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .boxOut-bottomContact {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .boxOut-contactTitle {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .button-kirim {
+        font-size: 14px;
+        padding-left: 35px;
+    }
+
+    .imgContact-arrow {
+        width: 15px;
+        margin-left: 20px;
+        margin-top: 1px;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .boxOut-triangle {
+        display: none;
+    }
+
+    .boxOut-listLeft {
+        padding-right: 0px;
+    }
+
+    .boxOut-listRight {
+        padding-left: 0px;
+        border-left: none;
+        border-top: 2px solid #DCDDDD;
+        margin-top: 20px;
+        padding-top: 35px;
+    }
+
+    .boxOut-buttonRight-Red {
+        padding-left: 0px;
+    }
+
+    #rc-imageselect, .g-recaptcha {
+        transform:scale(0.77) !important;
+        -webkit-transform:scale(0.77) !important;
+        transform-origin:0 0 !important;
+        -webkit-transform-origin:0 0 !important;
+    }
+
+    .container-padding {
+        padding-top: 75px !important;
+    }
+
+    .boxOut-contactTitle {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .boxOut-jarakContent {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .boxOut-bottomContact {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .boxOut-listLeftBottom {
+        padding-right: 0px;
+    }
+
+    .boxOut-listRightBottom {
+        padding-left: 0px;
+    }
+
+    .imgContact-arrow {
+        margin-left: 0px;
+        float: right;
+        margin-right: 20px;
+    }
+
+    .button-kirim {
+        width: 130px;
+    }
+
+
+
+}
+
+
